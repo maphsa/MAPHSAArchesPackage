@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/62414512-b33e-4f19-917a-99d07b4ec8dc">
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+        <skos:scopeNote xml:lang="en">{"id": "0e43b366-013f-4cb3-b930-ed0835db8fdf", "value": "Photographs of the earth taken from the air"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "aa1af227-effb-42cd-8435-5b3ffcb62ae5", "value": "Aerial Photograph"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "42536c94-6306-4339-9091-04f23f0ddd0f", "value": "http://localhost:8000/62414512-b33e-4f19-917a-99d07b4ec8dc"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/c534786f-0cac-405a-abe0-ba4355f3c3a5">
+        <skos:prefLabel xml:lang="en">{"id": "2ef6b9b9-d1cb-4275-a069-221c97b7a112", "value": "Estimated/Paced"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+        <dcterms:identifier xml:lang="en">{"id": "a5017df5-ee43-4222-bb32-364524fe37c8", "value": "http://localhost:8000/c534786f-0cac-405a-abe0-ba4355f3c3a5"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "15d24c03-faf2-40ac-a0f1-b27cde3f08f7", "value": "Approximately estimated by eye or paced"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0b52dc44-f680-48c6-add6-97abbf7505a2">
+        <skos:scopeNote xml:lang="en">{"id": "94cdf48f-0508-429c-9453-9be73f59f121", "value": "A tape measure or measuring tape is a flexible ruler and used to measure distance. A surveyor's wheel is a device for measuring distance"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+        <dcterms:identifier xml:lang="en">{"id": "51982142-220f-4f91-ab08-6e3bc672f41a", "value": "http://localhost:8000/0b52dc44-f680-48c6-add6-97abbf7505a2"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "a396b4fb-6436-405d-9e72-d4445476d4ad", "value": "Tape Measure/Surveyor's Wheel"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/3b5699b0-1aa3-43f5-97f5-0bb517b6fc40">
+        <skos:scopeNote xml:lang="en">{"id": "0e88254b-f2a8-4fc6-8203-141d5eab2bff", "value": "A non-electronic optical instrument used for surveying and measuring levels."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+        <skos:prefLabel xml:lang="en">{"id": "5f95187a-0ab3-48ad-84b0-ba5364e43a37", "value": "Theodolite/Dumpy Level"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "9eaec02a-4743-46b6-bbda-48931c55c38b", "value": "http://localhost:8000/3b5699b0-1aa3-43f5-97f5-0bb517b6fc40"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/2bf90371-b5d6-4141-9ed7-d1262484e027">
+        <skos:scopeNote xml:lang="en">{"id": "2e83d189-c598-4266-b3a4-ab0fb1e9600c", "value": "Digital imaging via satellite"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "7bd4538a-e10b-4642-bae6-94233c3f5a00", "value": "http://localhost:8000/2bf90371-b5d6-4141-9ed7-d1262484e027"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "b74829a6-2b6b-454b-bd79-e547d02e322d", "value": "Satellite Imagery"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0b56df3f-ba6d-4091-8bf8-b2f6403fab72">
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+        <skos:prefLabel xml:lang="en">{"id": "8e90a30a-75a2-4429-a5e3-7c95e167b346", "value": "Total Station"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "ce9dad7e-28a6-438a-abda-5ddaa122d7cc", "value": "A total station (TS) or total station theodolite (TST) is an electronic/optical instrument used for surveying and building construction. The total station is an electronic theodolite (transit) integrated with an electronic distance measurement (EDM) to read slope distances from the instrument to a particular point, and an on-board computer to collect data and perform advanced coordinate based calculations."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "1de458b8-b851-4dad-bf5c-9b644fa140a4", "value": "http://localhost:8000/0b56df3f-ba6d-4091-8bf8-b2f6403fab72"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/c87c900d-a770-4aa6-8926-bba9ca0ad96d">
+        <dcterms:identifier xml:lang="en">{"id": "894b4247-09d9-42a7-aca5-186d396738a9", "value": "http://localhost:8000/c87c900d-a770-4aa6-8926-bba9ca0ad96d"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "ed13a723-6e52-40d9-bd2e-fd912e5907f0", "value": "Handheld GPS device capable of receiving information from Global Positioning System (GPS) satellites and then calculate the device's geographical position."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "813f6358-19f5-4d46-a9b1-08dfeb95148b", "value": "Handheld GPS"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/640f2a19-852a-4849-8e3c-2b6c2e5be6e5">
+        <dcterms:identifier xml:lang="en">{"id": "bfa85e5a-f21d-4996-89bc-a84d9a333ae7", "value": "http://localhost:8000/640f2a19-852a-4849-8e3c-2b6c2e5be6e5"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+        <skos:prefLabel xml:lang="en">{"id": "cf4df3a0-85d9-4fa7-a102-090715f68016", "value": "Unknown"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "188a5bbd-bde1-4d15-a9b7-3aa8cae1294c", "value": "Unknown"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/13112ca3-8983-49ef-b3a8-e41a2e9c4fc9">
+        <skos:scopeNote xml:lang="en">{"id": "1c49870a-0e7a-4367-b612-888c4ace705e", "value": "A diagrammatic representation of an area of land or sea showing physical features, cities, roads, etc.."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "aa8c5ea7-453f-46d8-8cd6-572562350ea8", "value": "Maps"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+        <dcterms:identifier xml:lang="en">{"id": "551d4fbc-ed60-40a4-bba9-1b4bbef3dd8a", "value": "http://localhost:8000/13112ca3-8983-49ef-b3a8-e41a2e9c4fc9"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/28dd4e9f-1e57-416e-a570-d5e430d8d100">
+        <skos:prefLabel xml:lang="en">{"id": "a2932665-282e-4eaf-bf54-e3e596a4f95c", "value": "Unknown-Recorded From Legacy Data"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "0820e454-5a10-466f-a24e-81e805ac1834", "value": "http://localhost:8000/28dd4e9f-1e57-416e-a570-d5e430d8d100"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+        <skos:scopeNote xml:lang="en">{"id": "5fc0ac82-7c6d-48a0-9fdc-73da89eb7a60", "value": "The source of measurement is unknown; data has been copied from Legacy Data"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:identifier xml:lang="en">{"id": "c0393657-de00-47d3-8e11-db961cf4d61a", "value": "http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/37030458-45d0-4ed4-8ae0-c4a3e81e82bd">
+        <skos:inScheme rdf:resource="http://localhost:8000/57a99cbe-788d-409f-9c1c-ee21bd6362f6"/>
+        <skos:prefLabel xml:lang="en">{"id": "b7896f32-a168-43a8-9b1a-dc917be1f9ff", "value": "Laser Rangefinder"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "c1921bbc-f89b-4def-83dd-4a77029e983b", "value": "A laser rangefinder is a rangefinder which uses a laser beam to determine the distance to an object."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "6cce0789-7fe0-4606-b33e-a2f3a42b1b04", "value": "http://localhost:8000/37030458-45d0-4ed4-8ae0-c4a3e81e82bd"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "be0bbb9e-340e-4312-8aad-9d5639ab4909", "value": "Measurement Type"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>

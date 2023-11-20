@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/a948d68d-ede0-4945-8a78-2c7f8ceb38ab">
+    <skos:prefLabel xml:lang="en">{"id": "9d803265-0c03-4e1a-9904-bab407c66aa7", "value": "Toponym"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "4d6c935b-f6c0-4572-b265-4c23d64854e1", "value": "When, in the absence of other known designations, the site is named after the nearest city, district, river, farm or any other placename"}</skos:scopeNote>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/a54cfdbc-2a61-46a1-b1c8-e6c61101a154">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a948d68d-ede0-4945-8a78-2c7f8ceb38ab"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7fb393c7-7e25-4e54-afd3-4d80d61d1d2d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/527eb017-964e-4730-9b6e-5c31b7379793"/>
+        <dcterms:title xml:lang="en">{"id": "5992e0ff-6c1c-4cde-a5be-6f03856235c5", "value": "Heritage Location Name Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/1e922b35-6b68-41ef-82e4-d0c361ecfc71"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/58191ab9-f6da-49cc-b08a-1280715b1063"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2d18dac9-de62-4b9c-bfed-bcdea5377f4e"/>
+        <dcterms:identifier xml:lang="en">{"id": "a7be2fbc-8091-4e1e-b8a7-8c2cfc6df545", "value": "http://localhost:8000/a54cfdbc-2a61-46a1-b1c8-e6c61101a154"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <dcterms:identifier xml:lang="en">{"id": "34fee994-a0fd-4385-abc1-328d0624c63a", "value": "http://localhost:8000/a948d68d-ede0-4945-8a78-2c7f8ceb38ab"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/527eb017-964e-4730-9b6e-5c31b7379793">
+    <skos:inScheme rdf:resource="http://localhost:8000/a54cfdbc-2a61-46a1-b1c8-e6c61101a154"/>
+    <skos:prefLabel xml:lang="en">{"id": "49218928-3eeb-48f2-b971-84b84125c8ae", "value": "SICG ID"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "d64d54ba-abaa-48fc-97a3-70e9eb58f1f3", "value": "http://localhost:8000/527eb017-964e-4730-9b6e-5c31b7379793"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1e922b35-6b68-41ef-82e4-d0c361ecfc71">
+    <skos:prefLabel xml:lang="en">{"id": "be514849-797d-4449-97c8-3f7f97742e7e", "value": "Primary Name"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/a54cfdbc-2a61-46a1-b1c8-e6c61101a154"/>
+    <skos:scopeNote xml:lang="en">{"id": "9f2a3acf-f1b2-4ed6-b522-47edd021bf04", "value": "Official or most commonly used name on records or publications"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "14a1b87f-e712-47c3-b0fd-4a2369f6f328", "value": "http://localhost:8000/1e922b35-6b68-41ef-82e4-d0c361ecfc71"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/58191ab9-f6da-49cc-b08a-1280715b1063">
+    <dcterms:identifier xml:lang="en">{"id": "f8ebb187-7aed-42dd-a4cc-52d00a821a04", "value": "http://localhost:8000/58191ab9-f6da-49cc-b08a-1280715b1063"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/a54cfdbc-2a61-46a1-b1c8-e6c61101a154"/>
+    <skos:prefLabel xml:lang="en">{"id": "1409005e-e8b0-4fa1-b39e-5f517cc2265b", "value": "Alternate Name"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "540743bc-9cfa-4a2a-9f90-e100367685d3", "value": "Any other designation"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2d18dac9-de62-4b9c-bfed-bcdea5377f4e">
+    <skos:scopeNote xml:lang="en">{"id": "c3b43ea3-00d6-43e8-86f3-1bb9b9155651", "value": "Current identifier of the site in the CNSA/SICG of Brazil, consisting of two letters identifying the state and a sequence of numbers."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "23f684f5-be7f-4f79-87e8-cd5ee421acba", "value": "http://localhost:8000/2d18dac9-de62-4b9c-bfed-bcdea5377f4e"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "7e749085-f921-4efd-a29a-c5f7ad9c07a8", "value": "CNSA ID"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/a54cfdbc-2a61-46a1-b1c8-e6c61101a154"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7fb393c7-7e25-4e54-afd3-4d80d61d1d2d">
+    <skos:prefLabel xml:lang="en">{"id": "3cb42819-369f-4d72-97c7-7d9048ccc219", "value": "PRONAPA ID"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "bbc261a7-f67b-4022-94c2-db5cdc308c45", "value": "Old record created by the National Program of Archaeological Research (PRONAPA) in Brazil, consisting of two letters identifying the state, one or two letters identifying the municipality or river basin, and a number (e.g. RS-PE-12)."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "72702c8d-727e-4f64-8ac8-ffb122d3d169", "value": "http://localhost:8000/7fb393c7-7e25-4e54-afd3-4d80d61d1d2d"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/a54cfdbc-2a61-46a1-b1c8-e6c61101a154"/>
+  </skos:Concept>
+</rdf:RDF>

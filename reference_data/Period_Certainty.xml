@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/21e5efe2-3d07-4e93-8c85-93d56565f245">
+    <skos:prefLabel xml:lang="en">{"id": "e4fbbb6f-a995-427d-b63d-4f2ebd6a182d", "value": "Unconfirmed"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "4261bf98-547f-4fba-b8f0-a10c770eb07d", "value": "http://localhost:8000/21e5efe2-3d07-4e93-8c85-93d56565f245"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/d71874c8-32d5-435a-a327-a9ff640714ad">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/21e5efe2-3d07-4e93-8c85-93d56565f245"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/c6a83752-601a-40a6-9f58-e13c5a36e00b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/232ebf36-a393-49e5-b15a-157a33601889"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2176dba7-746f-4659-8276-4d0429da39bd"/>
+        <dcterms:title xml:lang="en">{"id": "98f95239-46bb-4d03-ab8a-b6a2f217eeef", "value": "Period Certainty"}</dcterms:title>
+        <dcterms:identifier xml:lang="en">{"id": "6e9746ae-c9d0-42aa-acdd-88506f4772f8", "value": "http://localhost:8000/d71874c8-32d5-435a-a327-a9ff640714ad"}</dcterms:identifier>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:scopeNote xml:lang="en">{"id": "ff1ed45b-536e-4aa9-8c69-66b72da4c996", "value": "Data has been recorded/cited from a published source however there are no references to collected/analyzed material culture. Data recorder cannot or has not checked data"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/c6a83752-601a-40a6-9f58-e13c5a36e00b">
+    <skos:scopeNote xml:lang="en">{"id": "eef65ddd-5361-4874-9df2-d07babf47851", "value": "Site artefacts and finds have been collected and analyzed and there is no doubt about the period. Either this data has been collected from the field directly or it is documented in a published and secure source. Only if there is no reason to doubt."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/d71874c8-32d5-435a-a327-a9ff640714ad"/>
+    <skos:prefLabel xml:lang="en">{"id": "9d9bfef4-263e-409d-ac28-72fc130d6832", "value": "Confirmed"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "2094fb20-43c4-4c87-b344-ac6831a891e6", "value": "http://localhost:8000/c6a83752-601a-40a6-9f58-e13c5a36e00b"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2176dba7-746f-4659-8276-4d0429da39bd">
+    <skos:scopeNote xml:lang="en">{"id": "85fb411f-b4b4-4b10-940f-e051d9f230a5", "value": "The published source expresses that the find/materials is \"possibly\" or \"probably\" from a period or the assessment of the materials in the field has some issues with the certainty of the identified period."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "2211a8a1-83dd-4e68-a9bc-5f2ce8bdc0ec", "value": "Possible"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "7dc83e78-f8f2-48d8-b437-ca1cc1b312ce", "value": "http://localhost:8000/2176dba7-746f-4659-8276-4d0429da39bd"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/d71874c8-32d5-435a-a327-a9ff640714ad"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/232ebf36-a393-49e5-b15a-157a33601889">
+    <skos:scopeNote xml:lang="en">{"id": "60af462d-38bd-4074-9d42-4e37959c3142", "value": "Not Applicable"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "f272633b-aa8c-420b-a746-f560d5f4025d", "value": "http://localhost:8000/232ebf36-a393-49e5-b15a-157a33601889"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/d71874c8-32d5-435a-a327-a9ff640714ad"/>
+    <skos:prefLabel xml:lang="en">{"id": "b8601cb0-579a-44e3-bcbc-2a6bd9364a37", "value": "Not Applicable"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

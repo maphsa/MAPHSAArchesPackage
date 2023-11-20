@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://localhost:8000/6f22645e-745d-4645-bd05-f2122049209d">
+    <skos:scopeNote xml:lang="en">{"id": "e18026c1-b015-487c-8959-194f06176f9d", "value": "A smaller river, typically narrower and less significant than a major river"}</skos:scopeNote>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/12b33e34-05fb-4e9a-9c1e-aa2f80c8c3c9"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b7a25535-fda7-4d24-9ae2-e43a55467490"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/407de243-fe35-4a20-bacb-f361542c816e"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/6f22645e-745d-4645-bd05-f2122049209d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/dab6fdb0-ca9f-494f-b83c-04c8d0d6f4cd"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/97ac95ce-8373-4c8e-8b1b-a279af3671d7"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/54f80a45-017a-493f-ab1e-03959c9ae174"/>
+        <dcterms:title xml:lang="en">{"id": "6952c637-aaf0-45d1-9071-fdca28928517", "value": "Hydrology Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2e423951-4e7d-4553-afd8-43d319477d72"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/005c3398-f089-401d-be03-0d334414d895"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f442e6b0-fb6d-4f65-b2a0-811d017fb7cb"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/0063d8ce-79ff-4c4f-a7b6-21ed405b0ff1"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/662696f6-662b-4742-8c87-66ae3560a51e"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e7c01add-ed61-40ae-8903-b7020c432656"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/96c04716-768b-4499-a0f2-ee88dabd8a06"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/8b5f0c8e-a0f4-485f-8bb4-ecb734d1c360"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/eab0ade6-9c6e-4b76-93e3-64fd3c426654"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/8a3d63d8-bdee-419a-b04f-3aef99562238"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/5926a143-8f99-4b4b-8af0-4da0eb16b4ab"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/48f9f080-2c3b-4d10-a968-e2919872eec7"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/0e413dc2-3751-48de-9f41-b6503233906c"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "9cebc6ff-6937-4fba-8056-cfb9e034c523", "value": "Small River"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b7a25535-fda7-4d24-9ae2-e43a55467490">
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:prefLabel xml:lang="en">{"id": "2b0fd468-eb63-4f7f-b3ac-e48ac79950c8", "value": "Waterfall"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "484325c5-e694-40be-bcd0-f33f156f8ba1", "value": "A sudden and significant drop in the level of a river or stream, usually producing cascading or falling water"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8b5f0c8e-a0f4-485f-8bb4-ecb734d1c360">
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:scopeNote xml:lang="en">{"id": "fb889e8e-f7dd-4788-ab96-75995bb7abec", "value": "A body of water partially enclosed by land, often smaller than a gulf and larger than a cove"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "9cfe4554-4c28-4720-b374-a2c937326e2c", "value": "Bay"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/662696f6-662b-4742-8c87-66ae3560a51e">
+    <skos:scopeNote xml:lang="en">{"id": "f815d52c-a665-46b3-aef5-c677b2bb3e20", "value": "A man-made or natural channel designed to direct water away, often used in agriculture or urban areas"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "985d7cc4-f20d-4859-b1d2-a895cc76395d", "value": "Drainage Channel"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5926a143-8f99-4b4b-8af0-4da0eb16b4ab">
+    <skos:scopeNote xml:lang="en">{"id": "39bdd33a-c69e-4ce5-92df-1f06d951c85e", "value": "The largest and deepest bodies of saltwater on Earth, covering most of the planet's surface"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "f5928735-ce8c-45d9-b1fe-377044330785", "value": "Ocean"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8a3d63d8-bdee-419a-b04f-3aef99562238">
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:scopeNote xml:lang="en">{"id": "23a62995-32a7-442f-bffd-6802f78ac1f5", "value": " Describes land or soil that is saturated with water, often making it difficult to walk or build upon"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "0eb77505-f560-4e43-ac4b-7a899572bb46", "value": "Waterlogged"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/407de243-fe35-4a20-bacb-f361542c816e">
+    <skos:prefLabel xml:lang="en">{"id": "2b58fdd0-5474-4168-b5a9-d1877d9fe17d", "value": "Lagoon"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "3fcc3f08-cd48-431d-b98f-ec785004e62d", "value": "A shallower lake"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e7c01add-ed61-40ae-8903-b7020c432656">
+    <skos:prefLabel xml:lang="en">{"id": "5a5433d3-3d1b-4b4b-a0f3-a94e42301c63", "value": "Channel"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "1fbc4a69-2852-4522-846a-d91bf7f47f6f", "value": "A watercourse or passage where water flows, often a part of a river or waterway"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f442e6b0-fb6d-4f65-b2a0-811d017fb7cb">
+    <skos:prefLabel xml:lang="en">{"id": "2723b049-915f-48bc-95ff-2d19c85b84c0", "value": "Creek"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:scopeNote xml:lang="en">{"id": "257c0452-afb4-4e58-9899-29653ccafa4c", "value": "A small, often shallow, and narrow stream or river"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/eab0ade6-9c6e-4b76-93e3-64fd3c426654">
+    <skos:prefLabel xml:lang="en">{"id": "329aba5b-43d4-403d-b7da-b264328eea9f", "value": "Tributary"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:scopeNote xml:lang="en">{"id": "0b54c262-3172-4f81-8d09-03091c21c895", "value": "A smaller river or stream that flows into a larger river"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/97ac95ce-8373-4c8e-8b1b-a279af3671d7">
+    <skos:prefLabel xml:lang="en">{"id": "81882253-acb6-4ad0-9a9c-bed5e24cbcbb", "value": "Ditch"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:scopeNote xml:lang="en">{"id": "baae85d5-8b7f-4ec6-9185-dc378f56aac2", "value": "A narrow trench dug to drain water or serve as a boundary or irrigation channel"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/12b33e34-05fb-4e9a-9c1e-aa2f80c8c3c9">
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:prefLabel xml:lang="en">{"id": "18d5dea2-2c33-47c1-a742-8690733a60aa", "value": "River"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "5c292b28-4472-4b96-b69c-2570970e92bd", "value": "A large, flowing body of water that typically flows towards the sea"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0e413dc2-3751-48de-9f41-b6503233906c">
+    <skos:scopeNote xml:lang="en">{"id": "d078e927-122c-4dc9-9212-465e958bd244", "value": "Not a common term; it may refer to a sloping area where water flows"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "db9e6407-1160-4190-99ee-37211d7634b9", "value": "Water-Slope"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2e423951-4e7d-4553-afd8-43d319477d72">
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:scopeNote xml:lang="en">{"id": "73b4cc32-3e0f-456f-ab89-fa6e6df19cb3", "value": "A small, narrow, flowing body of water, often a tributary to a larger river"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "93bbd578-67a5-4acc-b1da-9c127609410f", "value": "Stream"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/54f80a45-017a-493f-ab1e-03959c9ae174">
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:scopeNote xml:lang="en">{"id": "1320c4a9-9cc1-43d4-b7fb-91d4306db5c6", "value": "An area where the land is saturated with water, leading to the growth of specific plants and serving as a habitat for wildlife"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "4d9d8a25-8e7f-474d-9462-daf7987e26cf", "value": "Wetland"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/005c3398-f089-401d-be03-0d334414d895">
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:prefLabel xml:lang="en">{"id": "fed8f862-2c44-497b-a910-dee75ce66c42", "value": "Spring"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "73f70001-da4d-4466-8883-a29c1f402e39", "value": "A natural water source where groundwater flows to the surface, often creating a small stream"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/0063d8ce-79ff-4c4f-a7b6-21ed405b0ff1">
+    <skos:scopeNote xml:lang="en">{"id": "0a1aa14f-b349-4f93-ac38-21a7aeb88624", "value": " An artificial or natural lake used to store water, often created by damming a river"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "d20a4c43-a9e4-4bce-8718-d39cc46d1c9d", "value": "Reservoir"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/dab6fdb0-ca9f-494f-b83c-04c8d0d6f4cd">
+    <skos:scopeNote xml:lang="en">{"id": "c8e69d27-3e91-4800-aed1-cde9a9746892", "value": "A large inland body of water, typically freshwater, surrounded by land"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "35be3d28-4f67-49ad-833d-7f3f4cae8e6e", "value": "Lake"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/96c04716-768b-4499-a0f2-ee88dabd8a06">
+    <skos:prefLabel xml:lang="en">{"id": "cfe0efa6-282d-46ca-b561-a133e0255862", "value": "Headwater"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+    <skos:scopeNote xml:lang="en">{"id": "ad56169c-b944-4417-86a3-448ca307adfd", "value": "The source or origin of a river or stream, typically high in elevation"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/48f9f080-2c3b-4d10-a968-e2919872eec7">
+    <skos:prefLabel xml:lang="en">{"id": "81c43f94-10ca-48ad-9d32-ec4a18d253a1", "value": "Not Defined"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/6aa6fecf-4bbe-43be-96f6-2df4b79e8ee6"/>
+  </skos:Concept>
+</rdf:RDF>

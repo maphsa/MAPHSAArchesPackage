@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="http://localhost:8000/ef01b980-6fe8-4034-99fe-99d6d2109e98">
+    <dcterms:identifier xml:lang="en">{"id": "648b76a1-e7d2-445d-93ab-b69dfae88e66", "value": "http://localhost:8000/ef01b980-6fe8-4034-99fe-99d6d2109e98"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/7fff8649-1692-40b6-9dbd-61383539c310">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4939c1e2-f35f-421f-9d0e-6362b976ca9f"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/51166d6a-12b7-4436-8542-848951172ed4"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/63c7a595-f616-475c-8bc4-554f0b222fad"/>
+        <dcterms:title xml:lang="en">{"id": "fdea56c6-d30f-41ab-85e1-883739c42220", "value": "Archaeological Certainty"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2caa4096-1c39-49b4-985c-7ff63e6ffac1"/>
+        <dcterms:identifier xml:lang="en">{"id": "331fb3db-78e2-4b50-a6e7-9e6804cd04bc", "value": "http://localhost:8000/7fff8649-1692-40b6-9dbd-61383539c310"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ef01b980-6fe8-4034-99fe-99d6d2109e98"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "5fc93d61-e367-4797-a978-41baa459a872", "value": "Definite"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "339cd1d5-56e1-45bf-8bde-1e25c874d866", "value": "There is definitive evidence to suggest that the site/feature is archaeological. The site has been visited and it is confirmed that it is a site of archaeological interest. (Published literature/ Field-visit only)"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4939c1e2-f35f-421f-9d0e-6362b976ca9f">
+    <skos:inScheme rdf:resource="http://localhost:8000/7fff8649-1692-40b6-9dbd-61383539c310"/>
+    <skos:scopeNote xml:lang="en">{"id": "b377ba4f-c930-4fe0-ace7-66ee8f252250", "value": "There is very weak evidence to suggest that the site/feature is archaeological i.e. a placename exists, but there is no corresponding imagery data. There has been no field visit to confirm that the site is not archaeological i.e. natural, but is highly questionable whether the site/feature is of archaeological interest."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "6021a8b9-2457-4022-84f4-50e214d7344b", "value": "Negligible"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ad889cdc-d279-4ddf-b767-dad0ffed6fb8", "value": "http://localhost:8000/4939c1e2-f35f-421f-9d0e-6362b976ca9f"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2caa4096-1c39-49b4-985c-7ff63e6ffac1">
+    <skos:scopeNote xml:lang="en">{"id": "983ff671-cad7-463e-af57-4236871d3e2d", "value": "There is evidence to suggest that the site/feature is archaeological. The area has multiple sources of evidence which support each other (e.g. multiple image sets) or is clear enough in a single evidence source to suggest that it is possibly a site of archaeological interest. The area will probably be easy to delimit, but alternative non-archaeological explanations may be possible. There has been no field visit to confirm this interpretation."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "fc7284ed-d949-4efe-bbed-74551311371b", "value": "http://localhost:8000/2caa4096-1c39-49b4-985c-7ff63e6ffac1"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "fe0abe72-3151-4aeb-b837-4e2119eb48dc", "value": "Medium"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/7fff8649-1692-40b6-9dbd-61383539c310"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/63c7a595-f616-475c-8bc4-554f0b222fad">
+    <dcterms:identifier xml:lang="en">{"id": "b8f4ac36-511b-47c0-82b8-1539103667ce", "value": "http://localhost:8000/63c7a595-f616-475c-8bc4-554f0b222fad"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "72618b4d-b720-4473-9f47-e4eb7dfbf7ab", "value": "Low"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "dea385b8-7d9e-463c-9bed-f7b9b0a263cd", "value": "There is weak evidence to suggest that the site/feature is archaeological. The site/feature may be unclear on imagery or alternative explanations may be probable. This is probably not a site of archaeological interest, although there has been no fieldwork to verify this."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/7fff8649-1692-40b6-9dbd-61383539c310"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/51166d6a-12b7-4436-8542-848951172ed4">
+    <dcterms:identifier xml:lang="en">{"id": "d2487906-bfca-4b22-b2de-12460d257559", "value": "http://localhost:8000/51166d6a-12b7-4436-8542-848951172ed4"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "abd135a6-2b79-49f6-86f5-14782f697bb6", "value": "There is strong evidence to suggest that the site/feature is archaeological. The area has multiple sources of evidence that support each other (e.g. multiple image sets) or is clear enough in a single evidence source to suggest that it is a site of archaeological interest. The area will probably be easy to delimit and there are no obvious non-archaeological explanations possible. There has been no field visit to confirm this interpretation."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "cf5b468b-4a48-45b6-88b7-d0d6fa71c6f9", "value": "High"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/7fff8649-1692-40b6-9dbd-61383539c310"/>
+  </skos:Concept>
+</rdf:RDF>

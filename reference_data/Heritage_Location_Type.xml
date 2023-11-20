@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/e7b1b26c-4790-4fa2-bf6a-00aeb85e90cd">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/50938f14-d804-463d-afa3-1c9d3c270973">
+        <skos:inScheme rdf:resource="http://localhost:8000/e7b1b26c-4790-4fa2-bf6a-00aeb85e90cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "90cc8a8b-48f8-4842-a6ba-03ec3f5e34d9", "value": "Archaeological Site"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "5a8dfa85-fe48-4bfe-93a1-dad98c55ae03", "value": "A place is of archaeological value if it holds evidence of past human activity. For MAHSA, this is represented by a minimum of two artefacts or features of verifiable antiquity value within five meters of one another."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/79ae8f51-2a83-4701-bc6a-5cae8018303c">
+        <skos:scopeNote xml:lang="en">{"id": "a03732f9-166c-49d6-88d2-6d91af2d7525", "value": "An area\u202fcontaining\u202fgroup of sites/heritage places of shared archaeological/heritage significance. Use this category to record \u2018parent sites\u2019 with multiple features (E18s) to record individual elements/features of the site (i.e. multi-feature sites)"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/e7b1b26c-4790-4fa2-bf6a-00aeb85e90cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "52c8076f-b2ab-424e-a62a-44413da7e488", "value": "Complex Archaeological Site/Multi Feature Sites"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "230be41a-0144-48f4-b99f-238d9398770e", "value": "Heritage Location Type"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/c6a3a60f-8c9d-47ca-8a70-06fb01e5ae18">
+        <skos:prefLabel xml:lang="en">{"id": "f381ff01-1689-4add-8f5b-9804d0e88f4b", "value": "Archaeological Feature"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "7fcbf411-4fa1-49ad-bbda-cf6d24238fae", "value": "An individual significant part of a\u202fsite. Use this category only if you are recording individual and separate elements of a Complex Archaeological Site recorded as a \u2018parent site\u2019 (e.g. if you are recording a temple on the mound).\u00a0\u00a0"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/e7b1b26c-4790-4fa2-bf6a-00aeb85e90cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

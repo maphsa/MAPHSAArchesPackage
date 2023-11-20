@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:ConceptScheme rdf:about="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd">
+    <dcterms:identifier xml:lang="en">{"id": "7752246c-afc3-483e-bb71-dcbf0d0c4d4e", "value": "http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/29fff861-d220-44ed-9c5f-46fecc15ac2a">
+        <skos:prefLabel xml:lang="en">{"id": "c5de1270-39b9-41cd-b662-a40aba920b6d", "value": "Ferralsols-Cambisols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/5b00ce58-6862-4cf3-8d61-361cc48e3856">
+        <skos:prefLabel xml:lang="en">{"id": "a2d37ea2-1d4f-44b1-b702-f8cdc0ce4f39", "value": "Gleysols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/435b6d22-61cd-45a4-a068-e0f042ebd1f4">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "b9406fa8-39bc-4702-9db7-87fe2fc63706", "value": "Histosols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/94cd5329-3510-450f-a91f-53dae81f49fe">
+        <skos:prefLabel xml:lang="en">{"id": "35f33138-ae01-4c34-8156-d8dedad36963", "value": "Andosols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/36f08b9e-a842-468f-8ad3-a7d58913447c">
+        <skos:prefLabel xml:lang="en">{"id": "481dcbf4-1939-4471-871f-7ea05e3127b5", "value": "Ferralsols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/14d5f00a-ec82-465d-b858-63c59f0b19a1">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "dd877e06-5417-457e-8c67-02c4da8dbe12", "value": "Cambisols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/dd4cc13a-4633-4df8-8173-4334312efd83">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "fd4d49b5-3a16-4ceb-aa16-7fd96781cb15", "value": "Cambisols-Ferralsols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/358dd766-738c-4117-bbfd-575a513c448f">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "3299c34a-241e-4898-9b27-20afe29fcf94", "value": "Lluvisols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/68b110b8-e2e9-4664-8d9f-a0afb6a17777">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "3f806b4e-511c-45b3-aacd-ced9a99ec1b2", "value": "Plinthosols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/d14b3b12-c157-4451-bb0f-0947af6cdc07">
+        <skos:prefLabel xml:lang="en">{"id": "95132dad-63a9-44e4-99c4-ea09c9805872", "value": "Podzols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/d924ee54-ce6a-4158-acfd-696942ba0afa">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "29a0cf87-f04a-425b-a714-ef96310a9590", "value": "Entisols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/d6e34658-792c-4c27-bd50-b420ba95f243">
+        <skos:prefLabel xml:lang="en">{"id": "ad669b1b-f413-4501-a202-8da3fbcb3bc8", "value": "Lithosols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/068ebd66-56c5-4af8-9e3c-0b2f25ea881f">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "752d48e2-99dd-4471-9c5d-3897daa3d8c3", "value": "Cambisols-Hortic Antrosols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/fa770fc7-bdf7-4ee1-9a67-993775648737">
+        <skos:prefLabel xml:lang="en">{"id": "f19364e6-9d4f-4cca-a406-5674627db2a0", "value": "Fluvients"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/6407fe92-c42e-4a9e-b569-bf431b80bac1">
+        <skos:prefLabel xml:lang="en">{"id": "c8bcee72-1784-4e6f-aa70-acfc1203150d", "value": "Hortic Anthrosols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/0a772938-7c4d-4660-bd1a-22865ee24ec9">
+        <skos:prefLabel xml:lang="en">{"id": "cd00ec97-faae-4d97-b700-88e8f86d1f39", "value": "Not Specified"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/02ecc2bb-88e9-4151-8d15-553390fe52b3">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "7377ff55-2587-4034-89b9-b08fe7b2834b", "value": "Latosols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/d957120a-65c4-4dcf-981a-a7f36024efd0">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "72267e60-a972-4331-ad5e-d5da2e74bdd3", "value": "Vertisols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/fa4d3a2f-26a8-4401-a632-a135e1327345">
+        <skos:prefLabel xml:lang="en">{"id": "572fc84f-123f-4909-8326-fcac4b9fbd23", "value": "Nitisols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/43abeb05-b078-4b52-9bef-155f5c53dbf4">
+        <skos:prefLabel xml:lang="en">{"id": "7a607155-92bc-4170-acf9-36863be181bd", "value": "Plinthosols-Histosols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/d80966a4-8ffe-45fd-9776-a5a35b887ac7">
+        <skos:prefLabel xml:lang="en">{"id": "69f0f37b-f4c8-4019-94a6-21a751af98bd", "value": "Paleosols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "fc12892f-3dee-4fd7-b6c4-5dbc93d23ca5", "value": "Soil Classification"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/d26c5356-5a89-4e1e-8d10-9ebf707dde80">
+        <skos:prefLabel xml:lang="en">{"id": "1849b3ff-eac4-47fa-aef8-f98842551021", "value": "Acrisols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/9d51c70b-3169-4542-b734-c6bed61e43de">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "a66f3e8c-d072-4019-9cc9-e1e1c375c973", "value": "Arenosols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/b5c3d07f-e96b-4911-9e34-df0aa6a448e2">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "ae5670cc-cfc1-46b0-b298-68113c8b76db", "value": "Plinthosolos"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/dedf19a6-cd8c-424a-a64c-8ea09e6818c0">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "9211f22b-04b2-47e1-87c5-b1e2507f0796", "value": "Leptosols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/7a2096e7-f4ca-4132-880e-7a85f04507a4">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "e5eefd9a-6648-4c30-bde2-1e9efae7bbba", "value": "Plinthosolos-Ferralsols"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/6d48cc9f-2e43-48ca-97ab-f559fb828a84">
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+        <skos:prefLabel xml:lang="en">{"id": "de1be640-12c6-478c-b99e-1af490f09436", "value": "Ferralsols-Plinthosolos"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/84525b8b-9876-40df-9a3f-5316bc931a10">
+        <skos:prefLabel xml:lang="en">{"id": "94599af9-302d-4bea-8391-1cf14eb44f37", "value": "Acrisols-Hortic Anthrosols"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/b8c5066d-93cc-47ac-bbc1-253e43ce85cd"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

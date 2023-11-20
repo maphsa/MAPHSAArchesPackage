@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://localhost:8000/ee9b1f16-b737-4673-b2d7-b2d2c1d717ec">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/c94079dc-1c84-4251-b74a-a961b37754d7">
+        <skos:prefLabel xml:lang="en">{"id": "23b08c78-469f-4444-9df3-a81e0ddf1c3c", "value": "Low"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "b5e5d1a0-a329-4219-9dda-055da0938c75", "value": "http://localhost:8000/c94079dc-1c84-4251-b74a-a961b37754d7"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "80c6ff7e-3bb2-4000-8f1d-73c494a06ecd", "value": "The investigator has considerable reason to doubt their identifications/interpretations. It is It is not confirmed by published sources/other imagery specialists or multiple imagery sources."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/ee9b1f16-b737-4673-b2d7-b2d2c1d717ec"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "ac82199d-776a-4515-9c34-96f4846935f8", "value": "Heritage Location Function Certainty"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/c21a82aa-daa7-4bfe-84bf-de8cad10dec6">
+        <dcterms:identifier xml:lang="en">{"id": "e0a207b6-a93c-48c1-afb4-a2dcd41d94b3", "value": "http://localhost:8000/c21a82aa-daa7-4bfe-84bf-de8cad10dec6"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/ee9b1f16-b737-4673-b2d7-b2d2c1d717ec"/>
+        <skos:prefLabel xml:lang="en">{"id": "58e5d204-df94-406b-a93f-5b6ed3f8f5a1", "value": "Definite"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "3a8efb9c-0333-4cda-ac39-ec6ff6ebc782", "value": "The investigator has no reason to doubt their identification and it is either confirmed by published sources/other imagery specialists or multiple imagery sources."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/a4853b3b-b404-4d35-9b04-29d22281bbc4">
+        <dcterms:identifier xml:lang="en">{"id": "7924faed-f11b-4136-8e3e-fe74aa465a36", "value": "http://localhost:8000/a4853b3b-b404-4d35-9b04-29d22281bbc4"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "38316707-d76b-4826-b327-954454b78a7d", "value": "The investigator has considerable reason to doubt their identifications/interpretations. The evidence may also be contradicted by published sources/other imagery specialists or multiple imagery sources."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://localhost:8000/ee9b1f16-b737-4673-b2d7-b2d2c1d717ec"/>
+        <skos:prefLabel xml:lang="en">{"id": "ef7aa09c-5b5f-434d-a355-509685c3787f", "value": "Negligible"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:identifier xml:lang="en">{"id": "6f553041-5637-484a-b7b4-467b363bfae3", "value": "http://localhost:8000/ee9b1f16-b737-4673-b2d7-b2d2c1d717ec"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/05a8a88e-1862-4ebc-aab8-3ba569155fb7">
+        <skos:scopeNote xml:lang="en">{"id": "abb8649a-87fb-416a-bf24-b4c758aee62d", "value": "The investigator has some reason to doubt their identifications/interpretations. It is not confirmed by published sources/other imagery specialists or multiple imagery sources."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "e6459b97-ab77-4632-97bd-2625cdd0f619", "value": "Medium"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/ee9b1f16-b737-4673-b2d7-b2d2c1d717ec"/>
+        <dcterms:identifier xml:lang="en">{"id": "440d9c1a-9aef-4603-9132-b11b0802da40", "value": "http://localhost:8000/05a8a88e-1862-4ebc-aab8-3ba569155fb7"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/f512c7c8-42bf-4cc3-b725-0dca36e68870">
+        <skos:scopeNote xml:lang="en">{"id": "8ff2c2e4-9b0a-462e-876d-87f0a094e629", "value": "The investigator has little reason to doubt their identification, it may or may not be confirmed by published sources/other imagery specialists or multiple imagery sources."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "0b2a69d4-1326-46cc-b05a-c2806ffb6280", "value": "http://localhost:8000/f512c7c8-42bf-4cc3-b725-0dca36e68870"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "925a0f64-3b30-4c60-8d7a-e70e6dc46cbf", "value": "High"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/ee9b1f16-b737-4673-b2d7-b2d2c1d717ec"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://localhost:8000/226a5592-bd34-4c29-a869-a298f1e1151e">
+        <skos:inScheme rdf:resource="http://localhost:8000/ee9b1f16-b737-4673-b2d7-b2d2c1d717ec"/>
+        <dcterms:identifier xml:lang="en">{"id": "41201c07-c600-4128-a9b4-815e4405958c", "value": "http://localhost:8000/226a5592-bd34-4c29-a869-a298f1e1151e"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "e7ffbc81-0027-4319-8243-1c9537c46d57", "value": "The investigator has entered 'unknown' and certainty does not apply"}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "25244c76-3411-482b-9eba-59f550d3a943", "value": "Not Applicable"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>
