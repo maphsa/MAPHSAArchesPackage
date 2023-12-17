@@ -1,149 +1,184 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
->
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <skos:Concept rdf:about="http://localhost:8000/de6220da-c790-454b-90bd-250e4f3a32db">
-    <skos:scopeNote xml:lang="en">{"id": "0b0094e9-4f54-4994-a915-56295c61e91d", "value": "Vertical to near-vertical faces of exposed rock or sediment located at the shoreline and produced by wave erosion"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "8e81d3f8-ee22-4666-b302-08164cc3ea29", "value": "Coastal Cliff"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "35185756-1a1b-4a76-9ba7-f4b1e1ea38c8", "value": "http://localhost:8000/de6220da-c790-454b-90bd-250e4f3a32db"}</dcterms:identifier>
     <skos:inScheme>
       <skos:ConceptScheme rdf:about="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/26a93946-a28f-4625-a4ae-0ff507748230"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/94274018-7eb9-4f2e-a4f5-276e5fada470"/>
-        <dcterms:title xml:lang="en">{"id": "4b6b4e38-0788-4c8f-a06d-6d8a5c0de247", "value": "Topography"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/8fb81d32-8223-4d28-a48f-4de2421a9017"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/8187539d-7ed8-4afe-be00-f102d3820432"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/6b9b975e-7b2b-4fe0-b4b5-421b79e85ca2"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/85f52e59-7cd5-4a04-974c-1472a4e668f5"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/4544634d-813d-4a48-a268-1b1b3324ec5e"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/23a0b586-4701-4809-859e-09a700eaeb54"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/0efa0f44-534d-43c9-b46e-fba2ca6e658d"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/8449f1f2-2ae8-46fe-b11b-994f12684650"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/11f04863-3b3d-4bd0-afc0-8728ab8d4d66"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/bf0d84d2-68a4-4862-9642-a0a768de8d0c"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/94274018-7eb9-4f2e-a4f5-276e5fada470"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/66c0eae2-8f8b-4ce1-a51a-81c146e6cab6"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/aae3e7c3-d458-446f-a4d6-b1eaf9a8f1b2"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/21398d4b-3f84-480d-b868-044e528fcc87"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/74e43ff2-0ce3-4b6f-be60-17ef8c5cde66"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/6b9b975e-7b2b-4fe0-b4b5-421b79e85ca2"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/bf0d84d2-68a4-4862-9642-a0a768de8d0c"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/3a95343b-676c-4aee-8f6a-193d387fb932"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/de6220da-c790-454b-90bd-250e4f3a32db"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/7a20033d-0bc7-4c41-b0bf-f209807d62fd"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/a02a6115-c088-4349-8e84-a15d4a01d9a2"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/7b52a253-120c-44b6-9e9c-cd29d788a4bc"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/74e43ff2-0ce3-4b6f-be60-17ef8c5cde66"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/60978e34-6f43-4a5d-9479-80b99be9454b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7b52a253-120c-44b6-9e9c-cd29d788a4bc"/>
         <skos:hasTopConcept rdf:resource="http://localhost:8000/9cfd747c-e820-42e8-a9bf-538d7b9d6485"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/11f04863-3b3d-4bd0-afc0-8728ab8d4d66"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/8449f1f2-2ae8-46fe-b11b-994f12684650"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a02a6115-c088-4349-8e84-a15d4a01d9a2"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/20d5af98-c927-49b5-8cdd-3a08af67d255"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/de6220da-c790-454b-90bd-250e4f3a32db"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/13657039-d031-4bd1-a80f-e1de04e16a54"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/0efa0f44-534d-43c9-b46e-fba2ca6e658d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7a20033d-0bc7-4c41-b0bf-f209807d62fd"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/8187539d-7ed8-4afe-be00-f102d3820432"/>
+        <dcterms:title xml:lang="en">{"id": "4b6b4e38-0788-4c8f-a06d-6d8a5c0de247", "value": "Topography"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/33058121-3bbc-4b59-b57c-32c6e4276ad4"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/21398d4b-3f84-480d-b868-044e528fcc87"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/23a0b586-4701-4809-859e-09a700eaeb54"/>
+        <dcterms:identifier xml:lang="en">{"id": "7ffaa2c4-b05c-445a-a46a-782ac040478d", "value": "http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/aae3e7c3-d458-446f-a4d6-b1eaf9a8f1b2"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/8fb81d32-8223-4d28-a48f-4de2421a9017"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4544634d-813d-4a48-a268-1b1b3324ec5e"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/26a93946-a28f-4625-a4ae-0ff507748230"/>
       </skos:ConceptScheme>
     </skos:inScheme>
-    <skos:prefLabel xml:lang="en">{"id": "8e81d3f8-ee22-4666-b302-08164cc3ea29", "value": "Coastal cliff"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "0b0094e9-4f54-4994-a915-56295c61e91d", "value": "Vertical to near-vertical faces of exposed rock or sediment located at the shoreline and produced by wave erosion"}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/11f04863-3b3d-4bd0-afc0-8728ab8d4d66">
-    <skos:prefLabel xml:lang="en">{"id": "97e6ee61-411f-45a5-bd0d-8e56fac3f7b1", "value": "Island/Islet"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "d36cfda9-7dbc-4394-b281-dbae3b27969e", "value": "Area of land surrounded by water"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/6b9b975e-7b2b-4fe0-b4b5-421b79e85ca2">
-    <skos:prefLabel xml:lang="en">{"id": "0a6ae444-11e3-4b91-8c05-cf4ff0d6cd00", "value": "Coast (linear/straight shore)"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "d914ea9e-8ec5-4546-bd70-13e8012e98ac", "value": "Generalized term to describe a straight or un-indented section of shoreline where the precise geomorphology is unclear"}</skos:scopeNote>
+  <skos:Concept rdf:about="http://localhost:8000/94274018-7eb9-4f2e-a4f5-276e5fada470">
+    <dcterms:identifier xml:lang="en">{"id": "7034e96d-4132-41da-9f80-23a8105c6bf9", "value": "http://localhost:8000/94274018-7eb9-4f2e-a4f5-276e5fada470"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "ba6aed8d-f712-4845-98b3-7f8cf95510a1", "value": "Lake Bed"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "156a3313-25d0-461e-bfe0-f53f14d5afcf", "value": "The floor/bottom of an inland body of water"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/74e43ff2-0ce3-4b6f-be60-17ef8c5cde66">
-    <skos:prefLabel xml:lang="en">{"id": "9d24819e-b6cd-4b7d-b503-73430b4aa4ef", "value": "Estuary"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
     <skos:scopeNote xml:lang="en">{"id": "3fabe477-934d-4bc1-8ba4-d9fc0035c2ef", "value": "Semi-enclosed water body or indentation in th coastline created by the entry of one or more freshwater watercourses into the sea"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/a02a6115-c088-4349-8e84-a15d4a01d9a2">
-    <skos:scopeNote xml:lang="en">{"id": "dbca7f86-95d8-415c-824b-c6b9c88d5fa7", "value": "Extensive flat or gently sloping area of unconsolidated fine sediment (generally mud to sand) covered by water at high tide and exposed at low tide"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "2461ccc9-ca1a-484d-81bd-a62aa0aebf50", "value": "Intertidal Flat"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/7a20033d-0bc7-4c41-b0bf-f209807d62fd">
-    <skos:scopeNote xml:lang="en">{"id": "c8d7ebd5-f6c1-4023-95b0-e24f5bf0133c", "value": "The floor/bottom of a maritime body of water"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-    <skos:prefLabel xml:lang="en">{"id": "5d2b297b-a402-4e79-9832-6d80bec16a02", "value": "Ocean/Sea Bed (Subtidal)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "3c8b9e65-9ce5-434b-872d-7cd5ef7b0286", "value": "http://localhost:8000/74e43ff2-0ce3-4b6f-be60-17ef8c5cde66"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "9d24819e-b6cd-4b7d-b503-73430b4aa4ef", "value": "Estuary"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/aae3e7c3-d458-446f-a4d6-b1eaf9a8f1b2">
+    <dcterms:identifier xml:lang="en">{"id": "962556c0-3f3c-4954-87f9-61e8e4f084ea", "value": "http://localhost:8000/aae3e7c3-d458-446f-a4d6-b1eaf9a8f1b2"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-    <skos:scopeNote xml:lang="en">{"id": "07ee1143-77d2-42f6-bc4b-ebc021b94b55", "value": "The area of land adjacent/immediately alongside a flowing body of water (e.g. river, stream, \"wadi\"). This area is the active edge of the water course i.e. where erosion etc. is occurring."}</skos:scopeNote>
     <skos:prefLabel xml:lang="en">{"id": "b64f3741-fb5f-42d2-93ec-991f4d722009", "value": "Watercourse Banks"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "07ee1143-77d2-42f6-bc4b-ebc021b94b55", "value": "The area of land adjacent/immediately alongside a flowing body of water (e.g. river, stream, \"wadi\"). This area is the active edge of the water course i.e. where erosion etc. is occurring."}</skos:scopeNote>
   </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/9cfd747c-e820-42e8-a9bf-538d7b9d6485">
-    <skos:prefLabel xml:lang="en">{"id": "9a733b26-0ed9-401b-9d88-0d0ccc2870bd", "value": "Precipice/Edge"}</skos:prefLabel>
+  <skos:Concept rdf:about="http://localhost:8000/0efa0f44-534d-43c9-b46e-fba2ca6e658d">
     <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-    <skos:scopeNote xml:lang="en">{"id": "c0f57546-afd0-4f7a-b885-0d91019e3c31", "value": "Outside limit/border/boundary of an area/topographical feature such as a hill (separated here into precipice/edge; slopes and summit). The limit of this feature can be very sharp i.e. a steep, vertical boundary or more gentle."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "46bd56ef-6abc-473a-b6f1-aa2d59e319bb", "value": "Watercourse Bed"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "0b5449d7-4ac2-4091-855d-0a5389953d0d", "value": "http://localhost:8000/0efa0f44-534d-43c9-b46e-fba2ca6e658d"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "ad021c40-34e4-40a7-be33-8be5eb672380", "value": "The floor/bottom of a flowing body of water (e.g. river, stream, 'wadi')."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a02a6115-c088-4349-8e84-a15d4a01d9a2">
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+    <skos:prefLabel xml:lang="en">{"id": "2461ccc9-ca1a-484d-81bd-a62aa0aebf50", "value": "Intertidal Flat"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "53d198ed-47bc-4bb0-9c0a-cb949feee894", "value": "http://localhost:8000/a02a6115-c088-4349-8e84-a15d4a01d9a2"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "dbca7f86-95d8-415c-824b-c6b9c88d5fa7", "value": "Extensive flat or gently sloping area of unconsolidated fine sediment (generally mud to sand) covered by water at high tide and exposed at low tide"}</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/8fb81d32-8223-4d28-a48f-4de2421a9017">
     <skos:scopeNote xml:lang="en">{"id": "e0cde612-a2b2-4c75-9974-60465b98f996", "value": "Flat or sloping band of unconsolidated fine to coarse sediment (general sand/gravel, but including also pebble to boulder sizes) running along the coastline"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "d6dcf370-8666-4e32-86f7-924ec8ae5918", "value": "http://localhost:8000/8fb81d32-8223-4d28-a48f-4de2421a9017"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
     <skos:prefLabel xml:lang="en">{"id": "5c2f0105-dc0f-4518-aec9-8cf30df9ffdb", "value": "Beach"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/8449f1f2-2ae8-46fe-b11b-994f12684650">
-    <skos:scopeNote xml:lang="en">{"id": "7bb4f47d-d680-4ae6-9c59-ef749929da5d", "value": "Indentation of the shoreline to form a semi-enclosed body of water"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-    <skos:prefLabel xml:lang="en">{"id": "41e7865a-3d89-45c8-a3f5-0d79a97bae8d", "value": "Bay/Inlet"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/8187539d-7ed8-4afe-be00-f102d3820432">
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-    <skos:prefLabel xml:lang="en">{"id": "715e7f8b-87d8-411f-be7f-2a592713db89", "value": "Ocean/Sea Shore"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "579ee678-d737-4039-a509-a0e2126bbf0a", "value": "The area of land alongside a maritime body of water. The edge of this is usually defined by the presence of another topographical feature e.g. slopes"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/0efa0f44-534d-43c9-b46e-fba2ca6e658d">
-    <skos:prefLabel xml:lang="en">{"id": "46bd56ef-6abc-473a-b6f1-aa2d59e319bb", "value": "Watercourse Bed"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "ad021c40-34e4-40a7-be33-8be5eb672380", "value": "The floor/bottom of a flowing body of water (e.g. river, stream, 'wadi')."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/94274018-7eb9-4f2e-a4f5-276e5fada470">
-    <skos:prefLabel xml:lang="en">{"id": "ba6aed8d-f712-4845-98b3-7f8cf95510a1", "value": "Lake Bed"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-    <skos:scopeNote xml:lang="en">{"id": "156a3313-25d0-461e-bfe0-f53f14d5afcf", "value": "The floor/bottom of an inland body of water"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/85f52e59-7cd5-4a04-974c-1472a4e668f5">
-    <skos:scopeNote xml:lang="en">{"id": "dab17ec2-f175-4c47-88a8-c4fe7e0d18a0", "value": "A broad and relatively flat area of land occurring in lowland and upland environments."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-    <skos:prefLabel xml:lang="en">{"id": "503ec033-85dd-408c-be05-1ab2941c9e28", "value": "Plain/Plateau"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/60978e34-6f43-4a5d-9479-80b99be9454b">
-    <skos:scopeNote xml:lang="en">{"id": "a41fe489-7475-4b67-a5cd-86857384dab7", "value": "Ridge of material, generally rock, coral or sand, protruding from the seabed, often with its summit lying close to the water surface"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "00c40f47-3b19-4e98-989c-e102144d382e", "value": "Reef"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/21398d4b-3f84-480d-b868-044e528fcc87">
-    <skos:scopeNote xml:lang="en">{"id": "5af07dd5-ef74-4dac-a297-ac651a930256", "value": "Topographic unit defined by the rise or fall of the lands surface.  This category can be used to describe any discrete area which has clearly identifiable changes in gradient e.g. the area has a higher elevation at one end compared to the other. Flat areas with very gentle undulations (i.e. changes in gradient which are hardly identifiable via imagery and/or by eye in the field) are excluded from this category."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "de838d02-f84f-4c38-9140-265e8628e164", "value": "Slopes"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/26a93946-a28f-4625-a4ae-0ff507748230">
-    <skos:prefLabel xml:lang="en">{"id": "40ec250f-46ab-4e23-8230-d9f037a4db52", "value": "Valley Terrace"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-    <skos:scopeNote xml:lang="en">{"id": "d12b8744-fc41-4283-9013-71f7305e4a5b", "value": "Elongated, often bench like, landforms found along the slopes of an elongated depression in the landscape (i.e. valley). These represent the former level of the valley floor and can be formed by fluvial or glacial action etc. In the case of river valleys, they represent the former level of the floodplain. In some cases it may be impossible to distinguish between natural terraces and those which have been modified or built by human activity and this definition includes terraces which may have been modified by human activities."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/66c0eae2-8f8b-4ce1-a51a-81c146e6cab6">
-    <skos:scopeNote xml:lang="en">{"id": "9b382e87-040a-489e-8054-6a6f4a6a86de", "value": "The bottom/floor of an elongated depression (caused by e.g. tectonic activity, fluvial action) of the surface of the earth. This definition includes and does not differentiate between gorges, canyons and wadis. "}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-    <skos:prefLabel xml:lang="en">{"id": "80d00aef-0ec9-4c1a-98cf-00b9bceec465", "value": "Valley Bed"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/3a95343b-676c-4aee-8f6a-193d387fb932">
-    <skos:scopeNote xml:lang="en">{"id": "9bc10425-9c69-4bec-b373-309a11047b77", "value": "The area of land adjacent/alongside an inland body of water. The edge of this is usually defined by the presence of another topographical feature e.g. slopes"}</skos:scopeNote>
     <skos:prefLabel xml:lang="en">{"id": "a677b8fe-21c1-45cb-9a05-96c1ce7fad46", "value": "Lake Shore"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "9cfd3d6c-3547-4248-8623-f699fb3871f4", "value": "http://localhost:8000/3a95343b-676c-4aee-8f6a-193d387fb932"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "9bc10425-9c69-4bec-b373-309a11047b77", "value": "The area of land adjacent/alongside an inland body of water. The edge of this is usually defined by the presence of another topographical feature e.g. slopes"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/bf0d84d2-68a4-4862-9642-a0a768de8d0c">
+  <skos:Concept rdf:about="http://localhost:8000/66c0eae2-8f8b-4ce1-a51a-81c146e6cab6">
     <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
-    <skos:scopeNote xml:lang="en">{"id": "22615f50-e93f-4a80-9840-7612f5b6a61d", "value": "The highest point/points of an area of upland terrain (e.g. mountains, hills etc.). This cannot be used to refer to the entire hill or mountain and solely refers to the top of one of these features."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "63788763-cb05-4af1-93fd-7193dd8db53c", "value": "Summit"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "9b382e87-040a-489e-8054-6a6f4a6a86de", "value": "The bottom/floor of an elongated depression (caused by e.g. tectonic activity, fluvial action) of the surface of the earth. This definition includes and does not differentiate between gorges, canyons and wadis. "}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "80d00aef-0ec9-4c1a-98cf-00b9bceec465", "value": "Valley Bed"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "909186e6-a53f-46a7-a637-12e6494a3ff5", "value": "http://localhost:8000/66c0eae2-8f8b-4ce1-a51a-81c146e6cab6"}</dcterms:identifier>
   </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/4544634d-813d-4a48-a268-1b1b3324ec5e">
-    <skos:prefLabel xml:lang="en">{"id": "570bbda2-ed14-4c14-a1d9-06b36c938b35", "value": "Unknown"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "0222df14-2756-40f4-a366-12f4edb4584f", "value": "It is not possible to identify the topographical context of the archaeological \"site\" you are looking at. This may be due to dense urban settlement obscuring any accurate interpretation of the landforms that are present, or alternatively may be due to poor imagery or reference to the source in a publication without any landscape details. "}</skos:scopeNote>
+  <skos:Concept rdf:about="http://localhost:8000/85f52e59-7cd5-4a04-974c-1472a4e668f5">
+    <skos:prefLabel xml:lang="en">{"id": "503ec033-85dd-408c-be05-1ab2941c9e28", "value": "Plain/Plateau"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "dab17ec2-f175-4c47-88a8-c4fe7e0d18a0", "value": "A broad and relatively flat area of land occurring in lowland and upland environments."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "53879933-1e1c-4967-86c8-cfda19df7992", "value": "http://localhost:8000/85f52e59-7cd5-4a04-974c-1472a4e668f5"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/23a0b586-4701-4809-859e-09a700eaeb54">
-    <skos:prefLabel xml:lang="en">{"id": "deaa349e-2832-4d52-bf27-399cb981873f", "value": "Delta"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "ffa68c1c-2480-4659-8b22-4c3562f5a942", "value": "Low-lying body of alluvial sediment, often triangular in planform, deposited where one or more freshwater watercourse meet the sea"}</skos:scopeNote>
+  <skos:Concept rdf:about="http://localhost:8000/33058121-3bbc-4b59-b57c-32c6e4276ad4">
+    <skos:prefLabel xml:lang="en">{"id": "1ecc580d-cfda-430a-a0bf-2d67bd89c40d", "value": "Slopes-Plain/Plateu"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7a20033d-0bc7-4c41-b0bf-f209807d62fd">
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+    <skos:scopeNote xml:lang="en">{"id": "c8d7ebd5-f6c1-4023-95b0-e24f5bf0133c", "value": "The floor/bottom of a maritime body of water"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "2b14b79e-c3c8-45d9-9a4d-3524ea8a71b2", "value": "http://localhost:8000/7a20033d-0bc7-4c41-b0bf-f209807d62fd"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "5d2b297b-a402-4e79-9832-6d80bec16a02", "value": "Ocean/Sea Bed (Subtidal)"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://localhost:8000/7b52a253-120c-44b6-9e9c-cd29d788a4bc">
     <skos:scopeNote xml:lang="en">{"id": "ad6e2c59-60aa-4ddb-806d-9db1d612e285", "value": "Sediment deposits (usually triangular/sub-triangular in shape), built up and/or crossed by water courses (including wadis, streams, rivers etc.). This definition also includes deltas; wetlands created by a build of sediment created by water courses flowing into another body of water (or more unsually land)"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
     <skos:prefLabel xml:lang="en">{"id": "bcd94a1a-a79d-40d6-bf1b-3d68a1865c4f", "value": "Alluvial Fan"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c1368edd-be47-4703-8173-9850b34eb2a9", "value": "http://localhost:8000/7b52a253-120c-44b6-9e9c-cd29d788a4bc"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8187539d-7ed8-4afe-be00-f102d3820432">
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+    <skos:scopeNote xml:lang="en">{"id": "579ee678-d737-4039-a509-a0e2126bbf0a", "value": "The area of land alongside a maritime body of water. The edge of this is usually defined by the presence of another topographical feature e.g. slopes"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "4b0d92e7-78d8-4c82-b77a-9af92e0932e2", "value": "http://localhost:8000/8187539d-7ed8-4afe-be00-f102d3820432"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "715e7f8b-87d8-411f-be7f-2a592713db89", "value": "Ocean/Sea Shore"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/23a0b586-4701-4809-859e-09a700eaeb54">
+    <skos:scopeNote xml:lang="en">{"id": "ffa68c1c-2480-4659-8b22-4c3562f5a942", "value": "Low-lying body of alluvial sediment, often triangular in planform, deposited where one or more freshwater watercourse meet the sea"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "deaa349e-2832-4d52-bf27-399cb981873f", "value": "Delta"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "4dd142d8-0994-49f3-bc8a-ae01eeeba1d9", "value": "http://localhost:8000/23a0b586-4701-4809-859e-09a700eaeb54"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/20d5af98-c927-49b5-8cdd-3a08af67d255">
+    <skos:prefLabel xml:lang="en">{"id": "e2f9d2fe-2824-47d6-b909-4c6d2517c163", "value": "Cave"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/13657039-d031-4bd1-a80f-e1de04e16a54">
+    <skos:prefLabel xml:lang="en">{"id": "36b5c4f5-cd99-4d24-86f5-52044ad00721", "value": "Dunes"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/11f04863-3b3d-4bd0-afc0-8728ab8d4d66">
+    <skos:scopeNote xml:lang="en">{"id": "d36cfda9-7dbc-4394-b281-dbae3b27969e", "value": "Area of land surrounded by water"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "a7f9ef03-6659-4ef2-9549-7dfdd3c67a72", "value": "http://localhost:8000/11f04863-3b3d-4bd0-afc0-8728ab8d4d66"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "97e6ee61-411f-45a5-bd0d-8e56fac3f7b1", "value": "Island/Islet"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4544634d-813d-4a48-a268-1b1b3324ec5e">
+    <skos:scopeNote xml:lang="en">{"id": "0222df14-2756-40f4-a366-12f4edb4584f", "value": "It is not possible to identify the topographical context of the archaeological \"site\" you are looking at. This may be due to dense urban settlement obscuring any accurate interpretation of the landforms that are present, or alternatively may be due to poor imagery or reference to the source in a publication without any landscape details. "}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+    <skos:prefLabel xml:lang="en">{"id": "570bbda2-ed14-4c14-a1d9-06b36c938b35", "value": "Unknown"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "cce3379e-5630-40da-b505-b1a50cd52f70", "value": "http://localhost:8000/4544634d-813d-4a48-a268-1b1b3324ec5e"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6b9b975e-7b2b-4fe0-b4b5-421b79e85ca2">
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+    <skos:prefLabel xml:lang="en">{"id": "0a6ae444-11e3-4b91-8c05-cf4ff0d6cd00", "value": "Coast (linear/straight shore)"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "d914ea9e-8ec5-4546-bd70-13e8012e98ac", "value": "Generalized term to describe a straight or un-indented section of shoreline where the precise geomorphology is unclear"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "4a91bf3a-00fb-4b75-8ed9-d4c22abb3967", "value": "http://localhost:8000/6b9b975e-7b2b-4fe0-b4b5-421b79e85ca2"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/21398d4b-3f84-480d-b868-044e528fcc87">
+    <skos:scopeNote xml:lang="en">{"id": "5af07dd5-ef74-4dac-a297-ac651a930256", "value": "Topographic unit defined by the rise or fall of the lands surface.  This category can be used to describe any discrete area which has clearly identifiable changes in gradient e.g. the area has a higher elevation at one end compared to the other. Flat areas with very gentle undulations (i.e. changes in gradient which are hardly identifiable via imagery and/or by eye in the field) are excluded from this category."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "c7ff7f25-2188-4976-a586-ff83aa30d9aa", "value": "http://localhost:8000/21398d4b-3f84-480d-b868-044e528fcc87"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+    <skos:prefLabel xml:lang="en">{"id": "de838d02-f84f-4c38-9140-265e8628e164", "value": "Slopes"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8449f1f2-2ae8-46fe-b11b-994f12684650">
+    <skos:prefLabel xml:lang="en">{"id": "41e7865a-3d89-45c8-a3f5-0d79a97bae8d", "value": "Bay/Inlet"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+    <skos:scopeNote xml:lang="en">{"id": "7bb4f47d-d680-4ae6-9c59-ef749929da5d", "value": "Indentation of the shoreline to form a semi-enclosed body of water"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "0e8b4a8e-253b-473d-8a77-ec506c35088e", "value": "http://localhost:8000/8449f1f2-2ae8-46fe-b11b-994f12684650"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/26a93946-a28f-4625-a4ae-0ff507748230">
+    <skos:scopeNote xml:lang="en">{"id": "d12b8744-fc41-4283-9013-71f7305e4a5b", "value": "Elongated, often bench like, landforms found along the slopes of an elongated depression in the landscape (i.e. valley). These represent the former level of the valley floor and can be formed by fluvial or glacial action etc. In the case of river valleys, they represent the former level of the floodplain. In some cases it may be impossible to distinguish between natural terraces and those which have been modified or built by human activity and this definition includes terraces which may have been modified by human activities."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+    <skos:prefLabel xml:lang="en">{"id": "40ec250f-46ab-4e23-8230-d9f037a4db52", "value": "Valley Terrace"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "74e9d9cd-6840-409d-bd7f-931deb2af128", "value": "http://localhost:8000/26a93946-a28f-4625-a4ae-0ff507748230"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/bf0d84d2-68a4-4862-9642-a0a768de8d0c">
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+    <skos:prefLabel xml:lang="en">{"id": "63788763-cb05-4af1-93fd-7193dd8db53c", "value": "Summit"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "22615f50-e93f-4a80-9840-7612f5b6a61d", "value": "The highest point/points of an area of upland terrain (e.g. mountains, hills etc.). This cannot be used to refer to the entire hill or mountain and solely refers to the top of one of these features."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "b04b680e-6260-49c8-8219-1b2f0b01dede", "value": "http://localhost:8000/bf0d84d2-68a4-4862-9642-a0a768de8d0c"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/60978e34-6f43-4a5d-9479-80b99be9454b">
+    <dcterms:identifier xml:lang="en">{"id": "0c113671-6641-4815-9a12-e5945b759312", "value": "http://localhost:8000/60978e34-6f43-4a5d-9479-80b99be9454b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "00c40f47-3b19-4e98-989c-e102144d382e", "value": "Reef"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
+    <skos:scopeNote xml:lang="en">{"id": "a41fe489-7475-4b67-a5cd-86857384dab7", "value": "Ridge of material, generally rock, coral or sand, protruding from the seabed, often with its summit lying close to the water surface"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9cfd747c-e820-42e8-a9bf-538d7b9d6485">
+    <skos:scopeNote xml:lang="en">{"id": "c0f57546-afd0-4f7a-b885-0d91019e3c31", "value": "Outside limit/border/boundary of an area/topographical feature such as a hill (separated here into precipice/edge; slopes and summit). The limit of this feature can be very sharp i.e. a steep, vertical boundary or more gentle."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "8702a90b-cc10-487a-8232-e81098f7c297", "value": "http://localhost:8000/9cfd747c-e820-42e8-a9bf-538d7b9d6485"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "9a733b26-0ed9-401b-9d88-0d0ccc2870bd", "value": "Precipice/Edge"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/920e27b5-221b-478b-ad02-af838426a1d0"/>
   </skos:Concept>
 </rdf:RDF>
