@@ -1,43 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
->
-  <skos:ConceptScheme rdf:about="http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b">
-    <dcterms:identifier xml:lang="en">{"id": "ea6ff190-e458-4f7e-8260-562a1151a508", "value": "http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b"}</dcterms:identifier>
-    <dcterms:title xml:lang="en">{"id": "04054906-cd0f-44cb-b2b7-543512cfa3c8", "value": "Cultural Affiliation Certainty"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/ff4761b5-995a-4a78-b6bf-a17d332e3b9a">
-        <skos:scopeNote xml:lang="en">{"id": "7fdcad03-5d9f-4d6c-8dc0-96aa172082d6", "value": "The published source expresses that the find/materials is \"possibly\" or \"probably\" from a culture or the assessment of the materials in the field has some issues with the certainty of the identified cultural affiliation."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b"/>
-        <skos:prefLabel xml:lang="en">{"id": "1a68f005-a8d4-4274-8555-9680c12702ef", "value": "Possible"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "49a60399-0a33-4fb4-beca-11ca7f79094f", "value": "http://localhost:8000/ff4761b5-995a-4a78-b6bf-a17d332e3b9a"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/d07526a5-746b-4c16-9629-7351682e969f">
-        <dcterms:identifier xml:lang="en">{"id": "5e8d1319-c38e-46a2-bc68-4fee0475865f", "value": "http://localhost:8000/d07526a5-746b-4c16-9629-7351682e969f"}</dcterms:identifier>
-        <skos:scopeNote xml:lang="en">{"id": "1bab02c2-2599-4323-86fd-983b6c59139d", "value": "Site artefacts and finds have been collected and analyzed and there is no doubt about the cultural affiliation. Either this data has been collected from the field directly or it is documented in a published and secure source. Only if there is no reason to doubt."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "65ed77eb-f3f0-4fc3-aa9d-1909e7a69776", "value": "Confirmed"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/cd0b70da-3549-4b37-a24a-63fa34a7685b">
-        <dcterms:identifier xml:lang="en">{"id": "59df17e1-b49b-48cb-bd4b-ed4483cc2afe", "value": "http://localhost:8000/cd0b70da-3549-4b37-a24a-63fa34a7685b"}</dcterms:identifier>
-        <skos:inScheme rdf:resource="http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b"/>
-        <skos:prefLabel xml:lang="en">{"id": "105730df-ab43-4565-9b75-f504610e935e", "value": "Not Applicable"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "73e7621b-5ae1-44e0-86f8-5c49b0f2781f", "value": "Not Applicable"}</skos:scopeNote>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/2d1c1505-7276-4f99-a256-92bf307530da">
-        <skos:prefLabel xml:lang="en">{"id": "d74eb229-4d44-44a1-9dad-5a098783646f", "value": "Unconfirmed"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "151fc5bb-5a4b-40c2-a2ce-9ba3693fc4bf", "value": "Data has been recorded/cited from a published source however there are no references to collected/analyzed material culture. Data recorder cannot or has not checked data"}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b"/>
-        <dcterms:identifier xml:lang="en">{"id": "902ab779-9431-419d-8a16-8b78d679d3d8", "value": "http://localhost:8000/2d1c1505-7276-4f99-a256-92bf307530da"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-  </skos:ConceptScheme>
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept rdf:about="http://localhost:8000/2d1c1505-7276-4f99-a256-92bf307530da">
+    <skos:prefLabel xml:lang="en">{"id": "d74eb229-4d44-44a1-9dad-5a098783646f", "value": "Unconfirmed"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ff4761b5-995a-4a78-b6bf-a17d332e3b9a"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/cd0b70da-3549-4b37-a24a-63fa34a7685b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7746f50d-2d8c-4eb7-9e51-592a09208a6b"/>
+        <dcterms:title xml:lang="en">{"id": "04054906-cd0f-44cb-b2b7-543512cfa3c8", "value": "Cultural Affiliation Certainty"}</dcterms:title>
+        <dcterms:identifier xml:lang="en">{"id": "ea6ff190-e458-4f7e-8260-562a1151a508", "value": "http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2d1c1505-7276-4f99-a256-92bf307530da"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d07526a5-746b-4c16-9629-7351682e969f"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <dcterms:identifier xml:lang="en">{"id": "902ab779-9431-419d-8a16-8b78d679d3d8", "value": "http://localhost:8000/2d1c1505-7276-4f99-a256-92bf307530da"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "151fc5bb-5a4b-40c2-a2ce-9ba3693fc4bf", "value": "Data has been recorded/cited from a published source however there are no references to collected/analyzed material culture. Data recorder cannot or has not checked data"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d07526a5-746b-4c16-9629-7351682e969f">
+    <dcterms:identifier xml:lang="en">{"id": "5e8d1319-c38e-46a2-bc68-4fee0475865f", "value": "http://localhost:8000/d07526a5-746b-4c16-9629-7351682e969f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "65ed77eb-f3f0-4fc3-aa9d-1909e7a69776", "value": "Confirmed"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "1bab02c2-2599-4323-86fd-983b6c59139d", "value": "Site artefacts and finds have been collected and analyzed and there is no doubt about the cultural affiliation. Either this data has been collected from the field directly or it is documented in a published and secure source. Only if there is no reason to doubt."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ff4761b5-995a-4a78-b6bf-a17d332e3b9a">
+    <skos:scopeNote xml:lang="en">{"id": "7fdcad03-5d9f-4d6c-8dc0-96aa172082d6", "value": "The published source expresses that the find/materials is \"possibly\" or \"probably\" from a culture or the assessment of the materials in the field has some issues with the certainty of the identified cultural affiliation."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "49a60399-0a33-4fb4-beca-11ca7f79094f", "value": "http://localhost:8000/ff4761b5-995a-4a78-b6bf-a17d332e3b9a"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b"/>
+    <skos:prefLabel xml:lang="en">{"id": "1a68f005-a8d4-4274-8555-9680c12702ef", "value": "Possible"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7746f50d-2d8c-4eb7-9e51-592a09208a6b">
+    <skos:inScheme rdf:resource="http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b"/>
+    <skos:prefLabel xml:lang="en">{"id": "b59faa3e-8727-455a-8180-a66c11821ede", "value": "Not Informed"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cd0b70da-3549-4b37-a24a-63fa34a7685b">
+    <skos:inScheme rdf:resource="http://localhost:8000/84688acf-c4a0-4a82-85d6-92460ab8d30b"/>
+    <skos:scopeNote xml:lang="en">{"id": "73e7621b-5ae1-44e0-86f8-5c49b0f2781f", "value": "Not Applicable"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "59df17e1-b49b-48cb-bd4b-ed4483cc2afe", "value": "http://localhost:8000/cd0b70da-3549-4b37-a24a-63fa34a7685b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "105730df-ab43-4565-9b75-f504610e935e", "value": "Not Applicable"}</skos:prefLabel>
+  </skos:Concept>
 </rdf:RDF>
