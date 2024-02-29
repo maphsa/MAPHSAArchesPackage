@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://localhost:8000/b7578ad0-5041-4715-bb85-093b64ffaeaf">
+    <skos:prefLabel xml:lang="en">{"id": "b2eaa43f-0a9c-4a92-9c97-e4c4607dcafb", "value": "Person"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/9b97cece-0534-40b6-860e-ab41039a4687">
+        <dcterms:title xml:lang="en">{"id": "99a8f717-c328-4229-87c0-cbc00e4a389b", "value": "Person or Organization Category"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b7578ad0-5041-4715-bb85-093b64ffaeaf"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/aa77fbdf-9b45-4a6f-a270-5587c731e6b1"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/aa77fbdf-9b45-4a6f-a270-5587c731e6b1">
+    <skos:prefLabel xml:lang="en">{"id": "2d1d170b-6df1-4a2b-aec2-8f63ec01fada", "value": "Organization"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/9b97cece-0534-40b6-860e-ab41039a4687"/>
+  </skos:Concept>
+</rdf:RDF>
