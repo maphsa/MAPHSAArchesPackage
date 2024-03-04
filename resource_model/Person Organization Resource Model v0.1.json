@@ -798,11 +798,20 @@
                 {
                     "alias": "related_person_organization_resource",
                     "config": {
-                        "graphs": [],
+                        "graphs": [
+                            {
+                                "graphid": "230d08bd-140a-4b6b-857e-dd1068ca7f5a",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Person Organization Resource Model v0.1",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
+                            }
+                        ],
                         "searchDsl": "",
                         "searchString": ""
                     },
-                    "datatype": "resource-instance",
+                    "datatype": "resource-instance-list",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
@@ -817,7 +826,7 @@
                     "nodeid": "b3b47a80-da2c-11ee-9743-b5f1595c5346",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
-                    "sortorder": 6,
+                    "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
                 {
