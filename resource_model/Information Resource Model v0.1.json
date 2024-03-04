@@ -602,9 +602,9 @@
                 {
                     "alias": "information_resource_type",
                     "config": {
-                        "en": ""
+                        "rdmCollection": "39ede164-66f8-454b-bfe8-56c3e3de1080"
                     },
-                    "datatype": "semantic",
+                    "datatype": "concept",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,

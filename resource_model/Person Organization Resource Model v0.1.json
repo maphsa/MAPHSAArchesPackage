@@ -32,6 +32,33 @@
                 },
                 {
                     "active": true,
+                    "cardid": "17714f44-629e-4b4f-b50c-d18868bd24a0",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "230d08bd-140a-4b6b-857e-dd1068ca7f5a",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Related Person Organization Resource"
+                    },
+                    "nodegroup_id": "b3b47a80-da2c-11ee-9743-b5f1595c5346",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "3daf6e35-9489-4692-acb4-a557c54b47dd",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -282,6 +309,27 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "17714f44-629e-4b4f-b50c-d18868bd24a0",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related Person Organization Resource",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "671703e0-054e-4258-aff0-cfcafbb841db",
+                    "label": {
+                        "en": "Related Person Organization Resource"
+                    },
+                    "node_id": "b3b47a80-da2c-11ee-9743-b5f1595c5346",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
                     "card_id": "5d1fb444-8d9a-4084-bbc6-eb5bd816000c",
                     "config": {
                         "defaultValue": "",
@@ -410,6 +458,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "b1d115f2-d6f8-11ee-9743-b5f1595c5346"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "86c29028-d6f5-11ee-9743-b5f1595c5346",
+                    "edgeid": "d64675a2-fdb8-4790-ad4c-992f4cea4312",
+                    "graph_id": "230d08bd-140a-4b6b-857e-dd1068ca7f5a",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
+                    "rangenode_id": "b3b47a80-da2c-11ee-9743-b5f1595c5346"
                 }
             ],
             "functions_x_graphs": [],
@@ -461,6 +518,12 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
+                    "nodegroupid": "b3b47a80-da2c-11ee-9743-b5f1595c5346",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
                     "nodegroupid": "d7a86a50-d6f8-11ee-9743-b5f1595c5346",
                     "parentnodegroup_id": null
                 }
@@ -486,7 +549,7 @@
                     "nodeid": "05c0ef30-d6f8-11ee-9743-b5f1595c5346",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0,
+                    "sortorder": 3,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -561,7 +624,7 @@
                     "nodeid": "28a10f0e-d6f7-11ee-9743-b5f1595c5346",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0,
+                    "sortorder": 5,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -614,7 +677,7 @@
                     "nodeid": "3d18ce86-d6f7-11ee-9743-b5f1595c5346",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0,
+                    "sortorder": 4,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -637,7 +700,7 @@
                     "nodeid": "5ac82d54-d6f8-11ee-9743-b5f1595c5346",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P161_has_spatial_projection",
-                    "sortorder": 0,
+                    "sortorder": 1,
                     "sourcebranchpublication_id": null
                 },
                 {
@@ -733,6 +796,31 @@
                     "sourcebranchpublication_id": null
                 },
                 {
+                    "alias": "related_person_organization_resource",
+                    "config": {
+                        "graphs": [],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "230d08bd-140a-4b6b-857e-dd1068ca7f5a",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Person Organization Resource",
+                    "nodegroup_id": "b3b47a80-da2c-11ee-9743-b5f1595c5346",
+                    "nodeid": "b3b47a80-da2c-11ee-9743-b5f1595c5346",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
+                    "sortorder": 6,
+                    "sourcebranchpublication_id": null
+                },
+                {
                     "alias": "description",
                     "config": {
                         "activateMax": false,
@@ -754,7 +842,7 @@
                     "nodeid": "d7a86a50-d6f8-11ee-9743-b5f1595c5346",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 0,
+                    "sortorder": 2,
                     "sourcebranchpublication_id": null
                 }
             ],
