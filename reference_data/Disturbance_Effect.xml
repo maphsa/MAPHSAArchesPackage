@@ -1,12 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:Concept rdf:about="http://localhost:8000/b4a0a53f-cfc0-476e-8117-437bbb3ad3e2">
-    <skos:prefLabel xml:lang="en">{"id": "af403c54-d6f1-4dbf-b3af-d7574d246efe", "value": "Not Defined"}</skos:prefLabel>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://localhost:8000/4abb9307-ba85-40e4-b7c3-d8c3ed514f24">
+    <skos:prefLabel xml:lang="en">{"id": "0c4422e4-2557-4620-b9c4-da28c65ba277", "value": "Covering/Burying/Concealing"}</skos:prefLabel>
     <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/6b4e1ac6-e233-4845-a1d5-17008ac64255">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/b4a0a53f-cfc0-476e-8117-437bbb3ad3e2"/>
-        <dcterms:title xml:lang="en">{"id": "f8e90451-4505-4aa2-851c-d2ec588d8909", "value": "Disturbance Effect"}</dcterms:title>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4abb9307-ba85-40e4-b7c3-d8c3ed514f24"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/662429ae-9e18-4103-9ca6-7948ec50d17b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/df6d92dd-39dc-44a3-b0e7-31e37c4ff595"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d19c5a3d-795a-4e82-bffb-85fd3c7bc3fc"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/85a2f5d8-73b1-4c86-9a32-04042da6ab1e"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d57e72c6-5228-43ad-91dd-5135601e9c51"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4e9f5f7c-096a-4442-b6b1-ce9d860fc7dc"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f5b3ce53-0839-4a36-9092-bbf0c41612b0"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7761441b-7917-4fea-ab31-de9e5203da7a"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7203827c-2ef0-4ab6-8582-7fa856f237d6"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f5d6dea1-3fbf-45f0-b9ca-6b63c5e1c74d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/729ebb4d-92a3-4583-91af-2ed8603846b7"/>
+        <dcterms:title xml:lang="en">{"id": "18f3ec02-0d3c-4809-9ea5-08a78f1750e3", "value": "Disturbance Effect"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/790e0d53-5dc3-4083-9e3e-968ca5506f37"/>
       </skos:ConceptScheme>
     </skos:inScheme>
+    <skos:scopeNote xml:lang="en">{"id": "40df332a-28f0-45fe-9190-46103729eabc", "value": "Deposits burying/concealing features of archaeological significance, this can include the effects of sedimentation, rock falls, dumping of non-local material and/or the erection of new buildings or structures. It also covers sites that are only partially covered."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4e9f5f7c-096a-4442-b6b1-ce9d860fc7dc">
+    <skos:scopeNote xml:lang="en">{"id": "acb50b21-1ef9-42d1-beda-31a123ef03d3", "value": "Loss of the upper layer of the feature."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "35979d2a-032a-4c28-9a4d-7e2f79deebca", "value": "Surface Loss"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7203827c-2ef0-4ab6-8582-7fa856f237d6">
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+    <skos:prefLabel xml:lang="en">{"id": "8acddbf1-1721-4cad-94fe-b53d48a467fe", "value": "Compressed/Flattened"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "ac6ccaae-2bd9-491c-8557-30030d18ec90", "value": "The pressing or packing down of archaeological sites/artefacts/soils and so the material becomes flattened and/or compressed."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f5d6dea1-3fbf-45f0-b9ca-6b63c5e1c74d">
+    <skos:scopeNote xml:lang="en">{"id": "6f481dc7-b151-4709-b5c8-7b1fbff666ad", "value": "Damage causing archaeological sites or features to fall in/subside or to become structurally unsound, or the structural integrity of the site or feature to be compromised. This category includes partial structural deformation, inclination and swelling."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "fc313734-a289-4cd4-a400-c0cfca8e8170", "value": "Collapse/Structural Damage"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f5b3ce53-0839-4a36-9092-bbf0c41612b0">
+    <skos:prefLabel xml:lang="en">{"id": "43371da0-9e4e-449e-bdc5-11ecb5aed899", "value": "Vegetation Covering"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "644d3867-a372-4b7b-9eb3-a87b5265aaf3", "value": "Vegetation or trees burying/concealing features of archaeological significance."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/85a2f5d8-73b1-4c86-9a32-04042da6ab1e">
+    <skos:prefLabel xml:lang="en">{"id": "5a062f43-a35e-4ad1-885a-32e22b0b68f6", "value": "Artefact or Feature Displacement"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+    <skos:scopeNote xml:lang="en">{"id": "ab485f69-4f11-48d7-9f94-8d06933c9966", "value": "The dispersal/spread of artefacts/objects across the surface or subsurface of an archaeological site. This is often the result of ploughing."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d57e72c6-5228-43ad-91dd-5135601e9c51">
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+    <skos:scopeNote xml:lang="en">{"id": "89a40af2-b08c-4682-ad10-16edc16054f2", "value": "Only to use when the cause is \"No Visible/Known\"."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "0f2d0616-b9a5-475d-a5a9-e65533cdf68f", "value": "Not Applicable"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/790e0d53-5dc3-4083-9e3e-968ca5506f37">
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+    <skos:prefLabel xml:lang="en">{"id": "5edad0f1-7573-4b3a-aa92-70fedb1f30e8", "value": "Structural Alteration"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "e5285493-3761-4fbd-bfc9-a880ad5a3290", "value": "Damage or alteration to an archaeological site/feature where the result does not cause the feature to become structurally unsound/compromised."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/729ebb4d-92a3-4583-91af-2ed8603846b7">
+    <skos:scopeNote xml:lang="en">{"id": "ee5c0d6f-e646-476e-b2e3-1957eb948ab2", "value": "The process of archaeological material being worn away/weathered, often due to natural causes. (e.g. exposure to wind, rain, sunlight, as well as salt crystalization, insects and pests damage, and growth of micro-organisms)"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "fafb482c-f2c7-4e68-b960-8ac64479748e", "value": "Erosion/Deterioration"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/df6d92dd-39dc-44a3-b0e7-31e37c4ff595">
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+    <skos:prefLabel xml:lang="en">{"id": "92ca1b01-dca9-498d-8279-fd49515e63c3", "value": "Not Visible/Known"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "21d3c342-25b9-486f-a881-122fdbd52b1b", "value": "This term should be used to indicate that, given the current evidence, there is no evidence for damage and/or threat to the archaeological site mentioned in published imagery or identifiable from imagery sources."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d19c5a3d-795a-4e82-bffb-85fd3c7bc3fc">
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+    <skos:scopeNote xml:lang="en">{"id": "9dd9749f-f4a6-42f7-8a4f-3e94bb644f58", "value": "Changes in the shape/form of landforms or the topography of a site as the result of activities, such as the bulldozing/dumping of non-site/local material."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "5f8c8866-bdf6-4ebb-aad0-6f2b28ab5907", "value": "Alteration of Terrain"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7761441b-7917-4fea-ab31-de9e5203da7a">
+    <skos:prefLabel xml:lang="en">{"id": "938cc2fb-e8c3-4ee5-b7fc-6041122e26e6", "value": "Burning"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "cf3a88f1-23b4-4abd-b1d2-fb7831dce469", "value": "The damage caused to archaeological sites/features via fire. This can include both damage caused by the flames of the fire, as well as smoke damage."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/662429ae-9e18-4103-9ca6-7948ec50d17b">
+    <skos:inScheme rdf:resource="http://localhost:8000/2a02260c-995b-4050-ae41-6feb40b332b2"/>
+    <skos:prefLabel xml:lang="en">{"id": "2c6c7887-5a6f-490a-9477-24de8e7f0c2f", "value": "Water Damage"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "6112c539-e247-40a6-9bc6-2669eb93340e", "value": "The effects of water on archaeological features and sites, this includes rising damp, structural decay, rotting, rusting etc."}</skos:scopeNote>
   </skos:Concept>
 </rdf:RDF>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://localhost:8000/3bb961b5-ed08-45e6-9451-ac261cddf403">
+    <skos:scopeNote xml:lang="en">{"id": "0fecb92c-3fc1-4bc7-ac1f-9a5de46f494f", "value": "On an official national register/inventory not specifically listed below"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "2883e147-ef07-4e04-9bb6-893c11a9e96c", "value": "National Register"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/9d99bbd9-1704-42ec-bd4b-f5bb2b7a5f9c">
+        <dcterms:title xml:lang="en">{"id": "7d00942e-fc49-4495-9c4e-f846a24770f3", "value": "Level of Protection"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d61d9903-d3de-4670-a6d7-3be6e86f8615"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/3bb961b5-ed08-45e6-9451-ac261cddf403"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ca74de16-ecaf-4b57-a3a2-5a1f557a0957"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/57e29b22-ea6c-43b8-8883-f582711eaf79"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/6ce6d69f-620f-420a-8b55-bb3da8f3b923"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/09a114a3-ab97-4088-b194-b6420e6bd825"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/751efd3a-9ead-4818-9665-9fbe17804c93"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ca5778d1-66c5-4d59-957e-267d9c0e056e"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d61d9903-d3de-4670-a6d7-3be6e86f8615">
+    <skos:prefLabel xml:lang="en">{"id": "b903fee9-611f-4a3a-ab28-2a14c2305e25", "value": "Not Protected"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/9d99bbd9-1704-42ec-bd4b-f5bb2b7a5f9c"/>
+    <skos:scopeNote xml:lang="en">{"id": "94d3936a-f61d-4d16-9fff-74e49cb5e7f4", "value": "Not yet protected under any designation but may be listed as an archaeological site or historical building"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/751efd3a-9ead-4818-9665-9fbe17804c93">
+    <skos:inScheme rdf:resource="http://localhost:8000/9d99bbd9-1704-42ec-bd4b-f5bb2b7a5f9c"/>
+    <skos:prefLabel xml:lang="en">{"id": "2d0abe5d-350e-4dd4-a8b4-791a8428ffba", "value": "UNESCO World Heritage List"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "7b123442-334b-448f-9011-31a98d2d72b0", "value": "Sites designated by UNESCO as having cultural, historical, scientific or other significance and considered to be of outstanding value to humanity.  https://whc.unesco.org/en/list/"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6ce6d69f-620f-420a-8b55-bb3da8f3b923">
+    <skos:inScheme rdf:resource="http://localhost:8000/9d99bbd9-1704-42ec-bd4b-f5bb2b7a5f9c"/>
+    <skos:scopeNote xml:lang="en">{"id": "e652b4ec-cf01-4d28-89e5-973f41bf5b96", "value": "Sites under consideration by UNESCO to be added to the World Heritage List. https://whc.unesco.org/en/tentativelists/"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "9cf3592a-cbb0-4235-b5c6-f57a958caf9a", "value": "UNESCO World Heritage Tentative List"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ca5778d1-66c5-4d59-957e-267d9c0e056e">
+    <skos:inScheme rdf:resource="http://localhost:8000/9d99bbd9-1704-42ec-bd4b-f5bb2b7a5f9c"/>
+    <skos:scopeNote xml:lang="en">{"id": "743bfdec-3fe9-406f-ae24-bbfdeb7c8096", "value": "On an official local register/inventory, i.e. below the national level, not specifically listed below"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "59d9df25-69c0-4d1c-a5cf-1def21578261", "value": "Local Register"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/57e29b22-ea6c-43b8-8883-f582711eaf79">
+    <skos:inScheme rdf:resource="http://localhost:8000/9d99bbd9-1704-42ec-bd4b-f5bb2b7a5f9c"/>
+    <skos:scopeNote xml:lang="en">{"id": "db490328-32c1-43a4-b446-c558cf7fea22", "value": "Nominated for certain listing/registering or protections but not yet protected"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "fed6e242-86c7-4616-9085-2641e9b3b1eb", "value": "Nominated"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/09a114a3-ab97-4088-b194-b6420e6bd825">
+    <skos:inScheme rdf:resource="http://localhost:8000/9d99bbd9-1704-42ec-bd4b-f5bb2b7a5f9c"/>
+    <skos:prefLabel xml:lang="en">{"id": "709a8e89-b29e-4125-b8e1-4c5c37d7f463", "value": "Unknown"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "82a0247d-af3b-4da8-8969-c689e033be05", "value": "Unknown whether it is listed, registered or protected"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ca74de16-ecaf-4b57-a3a2-5a1f557a0957">
+    <skos:scopeNote xml:lang="en">{"id": "f2b739da-1677-4413-ade4-e4a1133bbb51", "value": "UNESCO World Heritage Sites which are considered to be experiencing conditions which threaten the very characteristics for which a property was inscribe on the list.  https://whc.unesco.org/en/danger/"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/9d99bbd9-1704-42ec-bd4b-f5bb2b7a5f9c"/>
+    <skos:prefLabel xml:lang="en">{"id": "fb72e493-3ea1-4729-b663-f7dbbbcbd0f7", "value": "UNESCO World Heritage in Danger List"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

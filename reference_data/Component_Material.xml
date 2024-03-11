@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://localhost:8000/6db67ea2-88e8-4ae8-8e19-dea778b92098">
+    <skos:prefLabel xml:lang="en">{"id": "b0675f2c-a8d0-4d79-a04c-96d43757bf1a", "value": "Plaster"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/1a5a8fde-8383-4ffc-98cb-e61bdbc46f5d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/72ec6134-d6cf-480e-88ad-722e56c47246"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ac76f988-973d-4c13-8aa3-97b90e96e11a"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/9273b140-afe9-4f26-ad10-d856a2b492ae"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/6db67ea2-88e8-4ae8-8e19-dea778b92098"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/24506d73-2108-43d9-bae8-3b4cc1fb9b23"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b223a0f1-c323-4381-b682-008f087934f7"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/6bb6e73a-866d-4560-a68e-865e69696703"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b9cb44ce-e6ff-4434-bd56-4ad2752c7314"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/431a000c-9a8d-4704-8fff-5943590d0f6c"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/6f7482ba-a56e-4733-835b-b1dceaff53b3"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/fba25556-a825-4c2d-b5e2-c7330a30f064"/>
+        <dcterms:title xml:lang="en">{"id": "a5fff3e7-864b-40c9-b157-296fb5a349f2", "value": "Component Material"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/5bfc7cf5-d46c-4b68-b721-1bb279965b76"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ac76f988-973d-4c13-8aa3-97b90e96e11a">
+    <skos:prefLabel xml:lang="en">{"id": "24fe1639-171f-4d8b-a692-3d891037f163", "value": "Baked brick"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "73650b51-cd20-46ea-a23d-30fe71a94385", "value": "Standard rectangular block or tablet bonded on mortar joints in a regular arrangement or pattern for strength or decoration, baked. Made from clay or brick earth which may contain varying quantities of chalk, lime or iron oxide which effect colour or density."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/431a000c-9a8d-4704-8fff-5943590d0f6c">
+    <skos:scopeNote xml:lang="en">{"id": "d6b96d54-dc51-4394-974a-66829e67932a", "value": "Unknown"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "0f653c39-b914-47ad-aa76-d784e202c2f0", "value": "Unknown"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5bfc7cf5-d46c-4b68-b721-1bb279965b76">
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+    <skos:scopeNote xml:lang="en">{"id": "5372c006-5538-456f-b741-1f9c7480970c", "value": "Uneven stones set in mortar in an irregular way (not according regular courses)."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "e9c359c3-2bd4-42e4-a809-f542843fbf11", "value": "Rubble stone"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6bb6e73a-866d-4560-a68e-865e69696703">
+    <skos:prefLabel xml:lang="en">{"id": "f448e6b0-3ea7-494a-aebf-c942d9daeb0b", "value": "Stucco"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "534a4835-0be1-49ef-ae01-9e62b47a4fdd", "value": "FISH: Smooth rendering applied to the exterior of buildings which may be incised to suggest coursed masonry. Made of lime and sand or brick dust, and more recently, cement."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1a5a8fde-8383-4ffc-98cb-e61bdbc46f5d">
+    <skos:scopeNote xml:lang="en">{"id": "31ac90d5-e003-4b8d-868c-ed1a5964ca8d", "value": "Soil, sand or other earthy matter, can bonded with straw or other binding material. Sundried in shaped or moulded blocks, forming mud bricks."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+    <skos:prefLabel xml:lang="en">{"id": "7e9662ff-b076-4148-b776-626f4326856a", "value": "Mud/Adobe"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/fba25556-a825-4c2d-b5e2-c7330a30f064">
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+    <skos:scopeNote xml:lang="en">{"id": "8e36c011-3630-4399-b8c9-84ddeeaf5c92", "value": "Use of rubble stones"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "17afc151-51ec-4a2c-b348-6baae307dfe1", "value": "Roughcast/Pebbledash"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/72ec6134-d6cf-480e-88ad-722e56c47246">
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+    <skos:scopeNote xml:lang="en">{"id": "9063241a-a6bc-40bf-95fd-488e04cdd024", "value": "Hard, unglazed, brown, versatile earthenware which can be used as a tile or moulded into statuary. Used in a structural or semi-structural context as a moulded hollow block."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "f0c9b58c-fd53-4c35-b8e6-a96a6948e593", "value": "Terracotta"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b9cb44ce-e6ff-4434-bd56-4ad2752c7314">
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+    <skos:prefLabel xml:lang="en">{"id": "599ed698-a533-47f6-8b73-758084b766ad", "value": "Tile"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "9704f710-eccb-4bdc-8a35-3090f860c042", "value": "Ceramic tile"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9273b140-afe9-4f26-ad10-d856a2b492ae">
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+    <skos:prefLabel xml:lang="en">{"id": "01967275-25ce-4e11-8b2c-c3617fea4b75", "value": "Mortar"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "9a05fb75-cae6-4674-99bc-59ab2fc8f352", "value": "A mixture of unspecified materials and water used for bonding stones or bricks."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/6f7482ba-a56e-4733-835b-b1dceaff53b3">
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+    <skos:prefLabel xml:lang="en">{"id": "4a97067e-5c2f-4fe3-8564-00e174477d3c", "value": "Other"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "56a725f9-cb22-43c2-86a3-e6a3f823a17d", "value": "Other materials not listed above"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b223a0f1-c323-4381-b682-008f087934f7">
+    <skos:scopeNote xml:lang="en">{"id": "8bc823ae-66b3-40ce-bcd6-43d87463792a", "value": "A piece of rock or hard mineral hewn or chiseled to shape"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+    <skos:prefLabel xml:lang="en">{"id": "49f6055d-4392-49a2-89f8-1ce30e6cb1e4", "value": "Stone"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/24506d73-2108-43d9-bae8-3b4cc1fb9b23">
+    <skos:inScheme rdf:resource="http://localhost:8000/e68b2182-1bf8-483e-82da-f9afd3b25a44"/>
+    <skos:prefLabel xml:lang="en">{"id": "2a4a72f8-010b-40cf-b8d2-fdbdf83831c1", "value": "Bitumen"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "8418e522-3542-42bb-b56a-e984be25808a", "value": "A black mineral pitch."}</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>
