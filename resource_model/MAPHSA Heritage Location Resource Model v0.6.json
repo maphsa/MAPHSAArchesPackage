@@ -2064,7 +2064,7 @@
             "isresource": true,
             "jsonldcontext": null,
             "name": {
-                "en": "MAPHSA Heritage Location Resource Model v0.5"
+                "en": "MAPHSA Heritage Location Resource Model v0.6"
             },
             "nodegroups": [
                 {
@@ -2421,7 +2421,7 @@
                 {
                     "alias": "feature_type",
                     "config": {
-                        "rdmCollection": "a3768965-8867-473c-bf42-c5b01d595b86"
+                        "rdmCollection": null
                     },
                     "datatype": "concept",
                     "description": null,
@@ -3213,9 +3213,9 @@
                 {
                     "alias": "land_ownership_type",
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "2cc75aac-b7eb-4fed-bbb8-5e6360d9feac"
                     },
-                    "datatype": "semantic",
+                    "datatype": "concept",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
@@ -3340,7 +3340,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
-                    "name": "MAPHSA Heritage Location Resource Model v0.5",
+                    "name": "MAPHSA Heritage Location Resource Model v0.6",
                     "nodegroup_id": null,
                     "nodeid": "7ec8e4e6-1cc8-11ee-8c57-996f267db53e",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
@@ -4380,7 +4380,7 @@
                 {
                     "alias": null,
                     "config": {
-                        "rdmCollection": "8b4432f7-85ed-4081-8ab6-4d2e8795b2ad"
+                        "rdmCollection": null
                     },
                     "datatype": "concept",
                     "description": null,
@@ -4512,7 +4512,7 @@
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
-                "name": "MAPHSA Heritage Location Resource Model v0.5",
+                "name": "MAPHSA Heritage Location Resource Model v0.6",
                 "nodegroup_id": null,
                 "nodeid": "7ec8e4e6-1cc8-11ee-8c57-996f267db53e",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",

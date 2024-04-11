@@ -1,252 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:ConceptScheme rdf:about="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550">
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/a2b8a6ea-5478-4f11-ab77-ba522749949b">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "bab0428d-3ccc-4ec9-b9ef-df90ff25dd25", "value": "Scatter"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "3f2b8ad0-ff6d-4223-9d01-0db4e11db762", "value": "http://localhost:8000/a2b8a6ea-5478-4f11-ab77-ba522749949b"}</dcterms:identifier>
-        <skos:scopeNote xml:lang="en">{"id": "b1c1a8b3-1a54-46ae-a8ed-672be6b47bfe", "value": "A more or less dense collection of archaeological material or artefacts spread on the surface, e.g. pottery, lithics, slag etc."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/01a3b2b1-318f-4f94-beed-d41d9ef9ba2e">
-        <skos:scopeNote xml:lang="en">{"id": "c3145bb4-d913-48ae-8d2f-1b41a30887bf", "value": "Traces of architectural fragments (including rubbles and construction materials) suggesting the existance of an earlier structure"}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "238c63ce-3bbf-433d-a22d-0ac3ad1f8143", "value": "http://localhost:8000/01a3b2b1-318f-4f94-beed-d41d9ef9ba2e"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "4d2010ef-ad57-49cd-9c3e-f4b8e73dc4f9", "value": "Architectural Fragments"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/717900ac-41ed-497e-b4ec-6498b7ec9e4b">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "5adb0d7a-a9a6-47d2-a27d-0aa83c5a22b0", "value": "Modified Rock Surface"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "dd602edc-25ba-4f5e-832a-b1c65c2c12d2", "value": "An area of exposed rock whose surface has been modified in some way, e.g. rock art, inscriptions, relief sculpture etc.. This category should NOT be used for rock-cut pits or shafts, etc., which are defined here as modifying more than just the surface."}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "c54c07ce-2804-4e0b-9db9-d7de14a05962", "value": "http://localhost:8000/717900ac-41ed-497e-b4ec-6498b7ec9e4b"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/cd997ed9-0d0e-4f0c-8334-0971fb463a37">
-        <dcterms:identifier xml:lang="en">{"id": "c1641b19-7356-4479-a1cf-47d30abe00c9", "value": "http://localhost:8000/cd997ed9-0d0e-4f0c-8334-0971fb463a37"}</dcterms:identifier>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:scopeNote xml:lang="en">{"id": "2269bde2-4807-4b38-b348-4de88acbabc7", "value": "A vertical, linear construction with roughly vertical, rather than sloping, sides. If multiple wall(s) are present this term should be used if they DO NOT form a coherent 'structure' as defined above.  This term should be used as the resource type for  Ramparts/Fortification/Defensive Earthwork when the feature identified can be specifically classified as a wall, but has no visible complexity i.e. is composed of a single defensive wall/enclosure/linear fortification.If bastions etc., are associated with feature then Structure should be used as the resource type."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "81ad5938-b7d5-4b1b-afc8-b6ce242351a2", "value": "Wall"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/7592548e-889e-42f0-b402-a9921a16b298">
-        <dcterms:identifier xml:lang="en">{"id": "d177fd93-5122-4b1a-8656-d117591bff38", "value": "http://localhost:8000/7592548e-889e-42f0-b402-a9921a16b298"}</dcterms:identifier>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "a78ac061-c464-4f22-b8bc-a27e7288f9f9", "value": "Midden"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/7a52d569-3406-4476-b678-514ebc851ccb">
-        <skos:scopeNote xml:lang="en">{"id": "7526bc0f-6e5d-4b22-9797-57229cc71a12", "value": "The feature form is unknown. For example, a site is interpreted as a settlement in a source, but there is no reference to whether this settlement has built structures, scatters of material etc."}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "6c2b1bcb-b50e-4a0d-99a5-74c94c5f7a6a", "value": "Unknown"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "c55b9e3b-852b-4b5f-b22b-59c23881642a", "value": "http://localhost:8000/7a52d569-3406-4476-b678-514ebc851ccb"}</dcterms:identifier>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/eba7e6fc-0258-4aec-a9a5-11cb6245bc33">
-        <skos:prefLabel xml:lang="en">{"id": "893e00fc-707b-4be2-9ae9-258b5e26e550", "value": "Post"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <dcterms:identifier xml:lang="en">{"id": "162375ba-8727-43cf-b322-7341e284fda8", "value": "http://localhost:8000/eba7e6fc-0258-4aec-a9a5-11cb6245bc33"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/edb63743-2798-4e2e-8ad6-5aa1a4c74e65">
-        <skos:prefLabel xml:lang="en">{"id": "145541e8-1b14-437b-a0ee-a066e99849a2", "value": "Track"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/b646c112-3fab-4465-8139-2613081dd714">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:scopeNote xml:lang="en">{"id": "7193d793-e8d9-4ba2-a1e3-748a14b12ab9", "value": "An open area of land that has been cleared of stones/debris/vegetation, usually for a specific purpose"}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "fbcd718c-9e50-4eac-bdba-18fe578e385e", "value": "http://localhost:8000/b646c112-3fab-4465-8139-2613081dd714"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "6ca814fb-1d91-44df-bc66-d3f6d1ff4ad9", "value": "Cleared Area"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/b3c0c8bd-caec-4444-962e-bfa6f2bd1718">
-        <skos:prefLabel xml:lang="en">{"id": "bc3d77b2-91eb-4150-8299-d245699b6f63", "value": "Bank/Earthwork"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "cfed66d0-6f66-488f-baaf-c0829f8e4f61", "value": "A built feature, often linear, constructed primarily of earth and normally with sloping, rather than vertical sides. This term should be used as the resource type for  Ramparts/Fortification/Defensive Earthwork when the feature can be identified as a bank or earthwork and when the feature has no visible complexity i.e. is composed of a single defensive wall/enclosure/linear fortification. If bastions etc., are associated with feature then Structure should be used as the resource type."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <dcterms:identifier xml:lang="en">{"id": "e7746d1a-9978-4c40-b119-529c25af60aa", "value": "http://localhost:8000/b3c0c8bd-caec-4444-962e-bfa6f2bd1718"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/9c476426-02eb-4e23-9ca4-e2e8b7a69832">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <dcterms:identifier xml:lang="en">{"id": "d611ef30-79d1-4756-ae9a-355664d681ad", "value": "http://localhost:8000/9c476426-02eb-4e23-9ca4-e2e8b7a69832"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "aa81790b-9db9-4a2f-8335-12e6c82e529a", "value": "Funerary Urn"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/025bbf65-f286-4556-910d-9cd40f21d194">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "5b772bdd-d879-422a-8720-be4f7a6cf207", "value": "Mound"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/4349a6da-63c9-4f20-8ef5-d7981a8bea08">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:scopeNote xml:lang="en">{"id": "39873da8-b45d-46d2-97e1-417d6dc4fea0", "value": "A collection on the surface of rubble, construction materials and/or architectural fragments where there is no discernable individual structure visible. This includes architectural fragments which have been re-used."}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "ef91f070-a115-4ac4-9997-b70977d51987", "value": "http://localhost:8000/4349a6da-63c9-4f20-8ef5-d7981a8bea08"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "1246fb58-1763-4817-abf2-5d1db55b1613", "value": "Rubble Spread/Architectural Fragments"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/aa3e6c3b-2f8b-4737-b339-e548f4012d07">
-        <skos:scopeNote xml:lang="en">{"id": "de27dfb1-54ba-4edb-8dbf-da044d74841e", "value": "Man-made, raised surface designed to create a level area for a particular purpose, e.g. agriculture or the construction of a building"}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <dcterms:identifier xml:lang="en">{"id": "28d25acd-b647-49ec-a402-fcf6ad695f49", "value": "http://localhost:8000/aa3e6c3b-2f8b-4737-b339-e548f4012d07"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "056f0818-0872-45e7-9fa2-c46c252f2f83", "value": "Platform/Terrace"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/7a9f3825-3b95-409e-9d87-c3ca398589cc">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <dcterms:identifier xml:lang="en">{"id": "74266429-64fb-4b95-89ce-21f34be5c289", "value": "http://localhost:8000/7a9f3825-3b95-409e-9d87-c3ca398589cc"}</dcterms:identifier>
-        <skos:scopeNote xml:lang="en">{"id": "40720bf3-38d6-4b02-b762-4d9cf5d78961", "value": "A structure which is normally, but not exclusively, taller than it is wide and is often, but not always, multi-storeyed"}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "138f379f-b458-4979-b43c-1606162c8253", "value": "Tower"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/5c3308b1-71d3-4795-aa1c-e417f9cdad97">
-        <skos:prefLabel xml:lang="en">{"id": "2a54b49d-bba5-4083-9dc5-664b625f4c78", "value": "Depression/Hollow"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "8d2e8153-b909-472c-9970-d39620586673", "value": "http://localhost:8000/5c3308b1-71d3-4795-aa1c-e417f9cdad97"}</dcterms:identifier>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:scopeNote xml:lang="en">{"id": "256d7bbe-59c3-4de0-9fe0-109b072f77e0", "value": "A concave area in the surface of the ground, usually wider than it is deep; naturally or anthropogenically formed and/or modified. "}</skos:scopeNote>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/7775f139-41f3-4f59-8953-f632696f3bd4">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <dcterms:identifier xml:lang="en">{"id": "ecbc186d-f313-4a34-8383-ef8b797f9aad", "value": "http://localhost:8000/7775f139-41f3-4f59-8953-f632696f3bd4"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "29e2f99e-0ef7-4fb0-a2b9-7e3e16b8fa47", "value": "Ditch/Trench"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "3cc838a0-2f8e-4225-8b76-dbf584d83064", "value": "A deliberately excavated linear feature with no definitive evidence for a covering"}</skos:scopeNote>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/e9e947fe-44c9-45a8-a22d-276ab03a2940">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "03038d24-7408-422d-9f0f-d33f0feede6f", "value": "Burial"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "c83e9507-09c1-4fd0-8dc6-60db6f962001", "value": "http://localhost:8000/e9e947fe-44c9-45a8-a22d-276ab03a2940"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/f2aae49f-4e7c-455f-a80d-e95f9cc9388d">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "579ce457-1d14-45e1-b5eb-dac53fb74b2d", "value": "Oven"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/e9574d34-cf84-4bfc-8ee5-69ceb0578bdd">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "2eb3d948-6af7-4853-b245-a59414aa601a", "value": "Paved/Laid Surface"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "5b2f4c4a-1254-446a-8b58-897e69b71569", "value": "A man-made surface or floor formed through the deliberate laying of materials such as flat stones, tesserae, tiles etc."}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "31c32c27-9992-4e85-945b-4dfa49a5812e", "value": "http://localhost:8000/e9574d34-cf84-4bfc-8ee5-69ceb0578bdd"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/2ed42878-2d1a-4b12-bb30-f205dd26f1fa">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "29b0c308-dbf2-4c59-a1d0-6893ac7a2bd2", "value": "Small Mound/Cairn"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "d848960d-5193-40d4-9dfe-7858609017a3", "value": "A small (below 0.5ha in size) discrete heap of soil and/or stones, including small stone burial cairns, clearance piles and earthern mounds such as 'barrows'/'kurgans'."}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "a4f5afb4-3dcc-4aa5-9450-014969289936", "value": "http://localhost:8000/2ed42878-2d1a-4b12-bb30-f205dd26f1fa"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/35898d0d-eb61-4139-9b1e-c2b39928cba1">
-        <skos:prefLabel xml:lang="en">{"id": "81a88cd5-2bd2-4c6b-933c-220754927866", "value": "Large Mound"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "412b4a27-97ac-4210-ad31-22cc8f744853", "value": "http://localhost:8000/35898d0d-eb61-4139-9b1e-c2b39928cba1"}</dcterms:identifier>
-        <skos:scopeNote xml:lang="en">{"id": "238e2c10-e86f-4518-ac7b-b7c0b2669379", "value": "An anthropogenically-formed (or significantly modified) 'hill' (over 0.5ha in size), including very large tumuli and 'settlement mounds', i.e. tells."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/951674cc-e3e6-4889-9449-24fb5a53d3c8">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "4084e28f-7afe-4b4f-964f-19bf412759e4", "value": "Bank/Wall"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "9a3d2af6-21ef-4fda-b9cf-5f343b7f975e", "value": "A vertical/linear construction where it is unclear whether sloping or vertical sides are present. Generally, we will also have no information regarding the materials used for construction. This term should be used as the resource type for  Ramparts/Fortification/Defensive Earthwork when the feature cannot be identified as either a bank OR wall and when the feature has no visible complexity i.e. is composed of a single defensive wall/enclosure/linear fortification. If bastions etc., are associated with feature then Structure should be used as the resource type."}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "ab22c8bc-58bc-4651-af82-2b34b2b02903", "value": "http://localhost:8000/951674cc-e3e6-4889-9449-24fb5a53d3c8"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/b1735955-d57a-479f-8759-1399ae4dbf93">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "8dac45df-cb07-4720-bca8-3ad960e81234", "value": "Multi-Component"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "8f021ee6-9a5c-4aa7-9386-3cf52585b5d2", "value": "http://localhost:8000/b1735955-d57a-479f-8759-1399ae4dbf93"}</dcterms:identifier>
-        <skos:scopeNote xml:lang="en">{"id": "0692049e-1425-437e-9299-c11651087c96", "value": "A number of different types of structures or features - to be used only for very complex sites which someone can return to later to separate individual features, buildings, etc. out."}</skos:scopeNote>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:title xml:lang="en">{"id": "555e98b0-2845-4ca0-bda6-82a94443e533", "value": "Feature Type"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/32885830-8d9a-4af9-8968-6bb42804ce6b">
-        <skos:prefLabel xml:lang="en">{"id": "f8d6bf61-d930-4dde-8ce7-133f8f1597e2", "value": "Pyramid/Ziggurat"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:scopeNote xml:lang="en">{"id": "4ea30c5c-3ebd-497f-91bc-380bb341125e", "value": "A structure with triangular or rectangular base and flat or stepped sloping sides that meet at a point"}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "15387904-1f8d-42b4-9c1c-4368a3bf827c", "value": "http://localhost:8000/32885830-8d9a-4af9-8968-6bb42804ce6b"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/d1f0df4d-cf22-498d-8dd0-d5fb3c99ec79">
-        <dcterms:identifier xml:lang="en">{"id": "0c0d2c2a-acc1-4a86-b702-7fdac18e5fd2", "value": "http://localhost:8000/d1f0df4d-cf22-498d-8dd0-d5fb3c99ec79"}</dcterms:identifier>
-        <skos:scopeNote xml:lang="en">{"id": "21d40018-2af8-4a93-b7f6-a23a691e18f2", "value": "A monolithic stone feature which stands vertically"}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "8742b6bb-325f-43f1-a515-4fd5128eea89", "value": "Upright Stone"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/8f50f95f-3b7d-473a-a0bb-7345d644e688">
-        <skos:prefLabel xml:lang="en">{"id": "b662d8b9-ed7c-46aa-916a-7d0ba00094a0", "value": "Hearth/Oven"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <dcterms:identifier xml:lang="en">{"id": "a5389d55-5778-463f-9c95-f291c7044c4e", "value": "http://localhost:8000/8f50f95f-3b7d-473a-a0bb-7345d644e688"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/ad4ca4e0-028e-481b-bad3-93b5ed576def">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <dcterms:identifier xml:lang="en">{"id": "fb5b6222-b45c-480e-a2b7-8c56fc30d5f1", "value": "http://localhost:8000/ad4ca4e0-028e-481b-bad3-93b5ed576def"}</dcterms:identifier>
-        <skos:scopeNote xml:lang="en">{"id": "47ab481e-5362-4e2a-8428-ee84ddc27862", "value": "Variation in ground-surface colour or texture distinct from surrounding area associated with a site. In many cases using satellite imagery it will not be clear whether this is a cropmark or a soilmark. "}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "50537998-1d3c-4b77-9bcd-79c755c68ead", "value": "Colour/Texture Difference"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/366a0b8b-372a-40f4-a45e-2c8b2f5ec72d">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "20c286ff-9675-4503-907e-1b0f4344c68a", "value": "Pit/Shaft/Tunnel"}</skos:prefLabel>
-        <skos:scopeNote xml:lang="en">{"id": "8dfd0172-229e-431f-a5e7-e3fe0dd99371", "value": "A deliberately excavated hole or channel in the ground. These features may be left open at their entrance and in the case of long subsurface shafts and tunnels can be often roofed/covered."}</skos:scopeNote>
-        <dcterms:identifier xml:lang="en">{"id": "1719ffcd-864f-4ecc-8b71-1f5d92383e75", "value": "http://localhost:8000/366a0b8b-372a-40f4-a45e-2c8b2f5ec72d"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:identifier xml:lang="en">{"id": "4b4085bb-912e-4366-b604-d5415a135528", "value": "http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"}</dcterms:identifier>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/7173da0b-4d84-40d8-81d1-b7d152b8d464">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "7c79538c-51e4-4d45-8366-b5ee3dc49d01", "value": "Craft/Vessel/Vehicle"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "fbec2227-a44e-4522-8f5b-fddc30243e2b", "value": "http://localhost:8000/7173da0b-4d84-40d8-81d1-b7d152b8d464"}</dcterms:identifier>
-        <skos:scopeNote xml:lang="en">{"id": "15d0a525-2dc2-4174-8415-65d8627868ee", "value": "A man-made thing used for transportation including of people or goods. Definition here covers land (e.g. wheeled/tracked vehicles), air (i.e. aircraft) and sea (i.e. ships/boats) transportation"}</skos:scopeNote>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/95407d30-fab6-4ad8-8ca7-1113c6569d8b">
-        <skos:scopeNote xml:lang="en">{"id": "94934506-f69e-4daa-82e2-4d03adcabe6f", "value": "A built unit, roofed or unroofed, constructed from/comprising multiple parts, including walls and/or enclosed/covered areas, which forms a coherent whole; see also 'Pyramid/Ziggurat' and 'Tower' for two specific structures. This resource type should be used when the feature interpretation Ramparts/Fortification/Defensive Earthwork is being used and the identified feature is complex i.e. comprised of MORE than a single fortification wall and associated with elements such as butresses, bastions, watchtowers etc. If only a single fortification line/enclosure etc., is present-wall/bank OR wall OR bank/earthwork should be used as the resource type."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <skos:prefLabel xml:lang="en">{"id": "9a6b0a21-2403-4c64-a9d6-2cd6c003515a", "value": "Structure"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "34c0b12d-8af7-4b03-9478-79aa0ee66a1f", "value": "http://localhost:8000/95407d30-fab6-4ad8-8ca7-1113c6569d8b"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/1aac70a3-7979-40b7-b201-6f0defff8d2f">
-        <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
-        <dcterms:identifier xml:lang="en">{"id": "46aeac70-e7a1-4a7a-aa89-ed60a8dc6446", "value": "http://localhost:8000/1aac70a3-7979-40b7-b201-6f0defff8d2f"}</dcterms:identifier>
-        <skos:scopeNote xml:lang="en">{"id": "12b4da1b-a0ed-4542-bed2-c5f0b9b57421", "value": "An underground hollow, usually but not exclusively with a horizontal opening; naturally or anthropogenically formed and/or modified"}</skos:scopeNote>
-        <skos:prefLabel xml:lang="en">{"id": "4605c74d-c7df-40f2-97e8-d8f535f50660", "value": "Cave"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-  </skos:ConceptScheme>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept rdf:about="http://localhost:8000/35898d0d-eb61-4139-9b1e-c2b39928cba1">
+    <skos:scopeNote xml:lang="en">{"id": "238e2c10-e86f-4518-ac7b-b7c0b2669379", "value": "An anthropogenically-formed (or significantly modified) 'hill' (over 0.5ha in size), including very large tumuli and 'settlement mounds', i.e. tells."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "412b4a27-97ac-4210-ad31-22cc8f744853", "value": "http://localhost:8000/35898d0d-eb61-4139-9b1e-c2b39928cba1"}</dcterms:identifier>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550">
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d1f0df4d-cf22-498d-8dd0-d5fb3c99ec79"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/cd997ed9-0d0e-4f0c-8334-0971fb463a37"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/32885830-8d9a-4af9-8968-6bb42804ce6b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/8f50f95f-3b7d-473a-a0bb-7345d644e688"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e9574d34-cf84-4bfc-8ee5-69ceb0578bdd"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7a9f3825-3b95-409e-9d87-c3ca398589cc"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/a2b8a6ea-5478-4f11-ab77-ba522749949b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/35898d0d-eb61-4139-9b1e-c2b39928cba1"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/951674cc-e3e6-4889-9449-24fb5a53d3c8"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7775f139-41f3-4f59-8953-f632696f3bd4"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b646c112-3fab-4465-8139-2613081dd714"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/5c3308b1-71d3-4795-aa1c-e417f9cdad97"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/025bbf65-f286-4556-910d-9cd40f21d194"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/e9e947fe-44c9-45a8-a22d-276ab03a2940"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/366a0b8b-372a-40f4-a45e-2c8b2f5ec72d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7173da0b-4d84-40d8-81d1-b7d152b8d464"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/2ed42878-2d1a-4b12-bb30-f205dd26f1fa"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/1aac70a3-7979-40b7-b201-6f0defff8d2f"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b3c0c8bd-caec-4444-962e-bfa6f2bd1718"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/b1735955-d57a-479f-8759-1399ae4dbf93"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/9c476426-02eb-4e23-9ca4-e2e8b7a69832"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/f2aae49f-4e7c-455f-a80d-e95f9cc9388d"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/d36b0149-3662-4e0a-8ac0-ade62a9bd794"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/01a3b2b1-318f-4f94-beed-d41d9ef9ba2e"/>
+        <dcterms:title xml:lang="en">{"id": "555e98b0-2845-4ca0-bda6-82a94443e533", "value": "Feature Type"}</dcterms:title>
+        <dcterms:identifier xml:lang="en">{"id": "4b4085bb-912e-4366-b604-d5415a135528", "value": "http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/4349a6da-63c9-4f20-8ef5-d7981a8bea08"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7592548e-889e-42f0-b402-a9921a16b298"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/eba7e6fc-0258-4aec-a9a5-11cb6245bc33"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/842e7425-cbe5-4589-8164-57c65c118caa"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/95407d30-fab6-4ad8-8ca7-1113c6569d8b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/edb63743-2798-4e2e-8ad6-5aa1a4c74e65"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/717900ac-41ed-497e-b4ec-6498b7ec9e4b"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/aa3e6c3b-2f8b-4737-b339-e548f4012d07"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/ad4ca4e0-028e-481b-bad3-93b5ed576def"/>
+        <skos:hasTopConcept rdf:resource="http://localhost:8000/7a52d569-3406-4476-b678-514ebc851ccb"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "81a88cd5-2bd2-4c6b-933c-220754927866", "value": "Large Mound"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e9e947fe-44c9-45a8-a22d-276ab03a2940">
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "03038d24-7408-422d-9f0f-d33f0feede6f", "value": "Burial"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c83e9507-09c1-4fd0-8dc6-60db6f962001", "value": "http://localhost:8000/e9e947fe-44c9-45a8-a22d-276ab03a2940"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d36b0149-3662-4e0a-8ac0-ade62a9bd794">
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "a1da36da-3a16-4e5d-9d25-f57fb738c025", "value": "Anthropogenic Soil"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/f2aae49f-4e7c-455f-a80d-e95f9cc9388d">
+    <skos:prefLabel xml:lang="en">{"id": "579ce457-1d14-45e1-b5eb-dac53fb74b2d", "value": "Oven"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "7e6215c1-9f52-44ec-9690-c31328c21bbf", "value": "http://localhost:8000/f2aae49f-4e7c-455f-a80d-e95f9cc9388d"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7775f139-41f3-4f59-8953-f632696f3bd4">
+    <skos:scopeNote xml:lang="en">{"id": "3cc838a0-2f8e-4225-8b76-dbf584d83064", "value": "A deliberately excavated linear feature with no definitive evidence for a covering"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "ecbc186d-f313-4a34-8383-ef8b797f9aad", "value": "http://localhost:8000/7775f139-41f3-4f59-8953-f632696f3bd4"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "29e2f99e-0ef7-4fb0-a2b9-7e3e16b8fa47", "value": "Ditch/Trench"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b3c0c8bd-caec-4444-962e-bfa6f2bd1718">
+    <skos:prefLabel xml:lang="en">{"id": "bc3d77b2-91eb-4150-8299-d245699b6f63", "value": "Bank/Earthwork"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "e7746d1a-9978-4c40-b119-529c25af60aa", "value": "http://localhost:8000/b3c0c8bd-caec-4444-962e-bfa6f2bd1718"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "cfed66d0-6f66-488f-baaf-c0829f8e4f61", "value": "A built feature, often linear, constructed primarily of earth and normally with sloping, rather than vertical sides. This term should be used as the resource type for  Ramparts/Fortification/Defensive Earthwork when the feature can be identified as a bank or earthwork and when the feature has no visible complexity i.e. is composed of a single defensive wall/enclosure/linear fortification. If bastions etc., are associated with feature then Structure should be used as the resource type."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7592548e-889e-42f0-b402-a9921a16b298">
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "d177fd93-5122-4b1a-8656-d117591bff38", "value": "http://localhost:8000/7592548e-889e-42f0-b402-a9921a16b298"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a78ac061-c464-4f22-b8bc-a27e7288f9f9", "value": "Midden"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/e9574d34-cf84-4bfc-8ee5-69ceb0578bdd">
+    <dcterms:identifier xml:lang="en">{"id": "31c32c27-9992-4e85-945b-4dfa49a5812e", "value": "http://localhost:8000/e9574d34-cf84-4bfc-8ee5-69ceb0578bdd"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:scopeNote xml:lang="en">{"id": "5b2f4c4a-1254-446a-8b58-897e69b71569", "value": "A man-made surface or floor formed through the deliberate laying of materials such as flat stones, tesserae, tiles etc."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "2eb3d948-6af7-4853-b245-a59414aa601a", "value": "Paved/Laid Surface"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/eba7e6fc-0258-4aec-a9a5-11cb6245bc33">
+    <skos:prefLabel xml:lang="en">{"id": "893e00fc-707b-4be2-9ae9-258b5e26e550", "value": "Post"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "162375ba-8727-43cf-b322-7341e284fda8", "value": "http://localhost:8000/eba7e6fc-0258-4aec-a9a5-11cb6245bc33"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/842e7425-cbe5-4589-8164-57c65c118caa">
+    <skos:scopeNote xml:lang="en">{"id": "171cd8a1-b7a6-4488-9c0b-3dcbd5625fbe", "value": "A built feature, often linear, constructed primarily of earth and normally with sloping, rather than vertical sides that connect different sites or features within a site"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "3f9a0c51-e580-4841-bcb4-495289090268", "value": "Road/Path"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/a2b8a6ea-5478-4f11-ab77-ba522749949b">
+    <skos:scopeNote xml:lang="en">{"id": "b1c1a8b3-1a54-46ae-a8ed-672be6b47bfe", "value": "A more or less dense collection of archaeological material or artefacts spread on the surface, e.g. pottery, lithics, slag etc."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "3f2b8ad0-ff6d-4223-9d01-0db4e11db762", "value": "http://localhost:8000/a2b8a6ea-5478-4f11-ab77-ba522749949b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "bab0428d-3ccc-4ec9-b9ef-df90ff25dd25", "value": "Scatter"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/32885830-8d9a-4af9-8968-6bb42804ce6b">
+    <skos:prefLabel xml:lang="en">{"id": "f8d6bf61-d930-4dde-8ce7-133f8f1597e2", "value": "Pyramid/Ziggurat"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "4ea30c5c-3ebd-497f-91bc-380bb341125e", "value": "A structure with triangular or rectangular base and flat or stepped sloping sides that meet at a point"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "15387904-1f8d-42b4-9c1c-4368a3bf827c", "value": "http://localhost:8000/32885830-8d9a-4af9-8968-6bb42804ce6b"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b1735955-d57a-479f-8759-1399ae4dbf93">
+    <dcterms:identifier xml:lang="en">{"id": "8f021ee6-9a5c-4aa7-9386-3cf52585b5d2", "value": "http://localhost:8000/b1735955-d57a-479f-8759-1399ae4dbf93"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "0692049e-1425-437e-9299-c11651087c96", "value": "A number of different types of structures or features - to be used only for very complex sites which someone can return to later to separate individual features, buildings, etc. out."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "8dac45df-cb07-4720-bca8-3ad960e81234", "value": "Multi-Component"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/951674cc-e3e6-4889-9449-24fb5a53d3c8">
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "4084e28f-7afe-4b4f-964f-19bf412759e4", "value": "Bank/Wall"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "9a3d2af6-21ef-4fda-b9cf-5f343b7f975e", "value": "A vertical/linear construction where it is unclear whether sloping or vertical sides are present. Generally, we will also have no information regarding the materials used for construction. This term should be used as the resource type for  Ramparts/Fortification/Defensive Earthwork when the feature cannot be identified as either a bank OR wall and when the feature has no visible complexity i.e. is composed of a single defensive wall/enclosure/linear fortification. If bastions etc., are associated with feature then Structure should be used as the resource type."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "ab22c8bc-58bc-4651-af82-2b34b2b02903", "value": "http://localhost:8000/951674cc-e3e6-4889-9449-24fb5a53d3c8"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/ad4ca4e0-028e-481b-bad3-93b5ed576def">
+    <skos:scopeNote xml:lang="en">{"id": "47ab481e-5362-4e2a-8428-ee84ddc27862", "value": "Variation in ground-surface colour or texture distinct from surrounding area associated with a site. In many cases using satellite imagery it will not be clear whether this is a cropmark or a soilmark. "}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "fb5b6222-b45c-480e-a2b7-8c56fc30d5f1", "value": "http://localhost:8000/ad4ca4e0-028e-481b-bad3-93b5ed576def"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "50537998-1d3c-4b77-9bcd-79c755c68ead", "value": "Colour/Texture Difference"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/8f50f95f-3b7d-473a-a0bb-7345d644e688">
+    <dcterms:identifier xml:lang="en">{"id": "a5389d55-5778-463f-9c95-f291c7044c4e", "value": "http://localhost:8000/8f50f95f-3b7d-473a-a0bb-7345d644e688"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "b662d8b9-ed7c-46aa-916a-7d0ba00094a0", "value": "Hearth/Oven"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/aa3e6c3b-2f8b-4737-b339-e548f4012d07">
+    <skos:prefLabel xml:lang="en">{"id": "056f0818-0872-45e7-9fa2-c46c252f2f83", "value": "Platform/Terrace"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "28d25acd-b647-49ec-a402-fcf6ad695f49", "value": "http://localhost:8000/aa3e6c3b-2f8b-4737-b339-e548f4012d07"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:scopeNote xml:lang="en">{"id": "de27dfb1-54ba-4edb-8dbf-da044d74841e", "value": "Man-made, raised surface designed to create a level area for a particular purpose, e.g. agriculture or the construction of a building"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/4349a6da-63c9-4f20-8ef5-d7981a8bea08">
+    <skos:scopeNote xml:lang="en">{"id": "39873da8-b45d-46d2-97e1-417d6dc4fea0", "value": "A collection on the surface of rubble, construction materials and/or architectural fragments where there is no discernable individual structure visible. This includes architectural fragments which have been re-used."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "1246fb58-1763-4817-abf2-5d1db55b1613", "value": "Rubble Spread/Architectural Fragments"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ef91f070-a115-4ac4-9997-b70977d51987", "value": "http://localhost:8000/4349a6da-63c9-4f20-8ef5-d7981a8bea08"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/d1f0df4d-cf22-498d-8dd0-d5fb3c99ec79">
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "8742b6bb-325f-43f1-a515-4fd5128eea89", "value": "Upright Stone"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "0c0d2c2a-acc1-4a86-b702-7fdac18e5fd2", "value": "http://localhost:8000/d1f0df4d-cf22-498d-8dd0-d5fb3c99ec79"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "21d40018-2af8-4a93-b7f6-a23a691e18f2", "value": "A monolithic stone feature which stands vertically"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/366a0b8b-372a-40f4-a45e-2c8b2f5ec72d">
+    <skos:scopeNote xml:lang="en">{"id": "8dfd0172-229e-431f-a5e7-e3fe0dd99371", "value": "A deliberately excavated hole or channel in the ground. These features may be left open at their entrance and in the case of long subsurface shafts and tunnels can be often roofed/covered."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "20c286ff-9675-4503-907e-1b0f4344c68a", "value": "Pit/Shaft/Tunnel"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "1719ffcd-864f-4ecc-8b71-1f5d92383e75", "value": "http://localhost:8000/366a0b8b-372a-40f4-a45e-2c8b2f5ec72d"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7173da0b-4d84-40d8-81d1-b7d152b8d464">
+    <dcterms:identifier xml:lang="en">{"id": "fbec2227-a44e-4522-8f5b-fddc30243e2b", "value": "http://localhost:8000/7173da0b-4d84-40d8-81d1-b7d152b8d464"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "7c79538c-51e4-4d45-8366-b5ee3dc49d01", "value": "Craft/Vessel/Vehicle"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:scopeNote xml:lang="en">{"id": "15d0a525-2dc2-4174-8415-65d8627868ee", "value": "A man-made thing used for transportation including of people or goods. Definition here covers land (e.g. wheeled/tracked vehicles), air (i.e. aircraft) and sea (i.e. ships/boats) transportation"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/95407d30-fab6-4ad8-8ca7-1113c6569d8b">
+    <skos:prefLabel xml:lang="en">{"id": "9a6b0a21-2403-4c64-a9d6-2cd6c003515a", "value": "Structure"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "34c0b12d-8af7-4b03-9478-79aa0ee66a1f", "value": "http://localhost:8000/95407d30-fab6-4ad8-8ca7-1113c6569d8b"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "94934506-f69e-4daa-82e2-4d03adcabe6f", "value": "A built unit, roofed or unroofed, constructed from/comprising multiple parts, including walls and/or enclosed/covered areas, which forms a coherent whole; see also 'Pyramid/Ziggurat' and 'Tower' for two specific structures. This resource type should be used when the feature interpretation Ramparts/Fortification/Defensive Earthwork is being used and the identified feature is complex i.e. comprised of MORE than a single fortification wall and associated with elements such as butresses, bastions, watchtowers etc. If only a single fortification line/enclosure etc., is present-wall/bank OR wall OR bank/earthwork should be used as the resource type."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/cd997ed9-0d0e-4f0c-8334-0971fb463a37">
+    <skos:scopeNote xml:lang="en">{"id": "2269bde2-4807-4b38-b348-4de88acbabc7", "value": "A vertical, linear construction with roughly vertical, rather than sloping, sides. If multiple wall(s) are present this term should be used if they DO NOT form a coherent 'structure' as defined above.  This term should be used as the resource type for  Ramparts/Fortification/Defensive Earthwork when the feature identified can be specifically classified as a wall, but has no visible complexity i.e. is composed of a single defensive wall/enclosure/linear fortification.If bastions etc., are associated with feature then Structure should be used as the resource type."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "81ad5938-b7d5-4b1b-afc8-b6ce242351a2", "value": "Wall"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c1641b19-7356-4479-a1cf-47d30abe00c9", "value": "http://localhost:8000/cd997ed9-0d0e-4f0c-8334-0971fb463a37"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/01a3b2b1-318f-4f94-beed-d41d9ef9ba2e">
+    <dcterms:identifier xml:lang="en">{"id": "238c63ce-3bbf-433d-a22d-0ac3ad1f8143", "value": "http://localhost:8000/01a3b2b1-318f-4f94-beed-d41d9ef9ba2e"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "4d2010ef-ad57-49cd-9c3e-f4b8e73dc4f9", "value": "Architectural Fragments"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "c3145bb4-d913-48ae-8d2f-1b41a30887bf", "value": "Traces of architectural fragments (including rubbles and construction materials) suggesting the existance of an earlier structure"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/5c3308b1-71d3-4795-aa1c-e417f9cdad97">
+    <dcterms:identifier xml:lang="en">{"id": "8d2e8153-b909-472c-9970-d39620586673", "value": "http://localhost:8000/5c3308b1-71d3-4795-aa1c-e417f9cdad97"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2a54b49d-bba5-4083-9dc5-664b625f4c78", "value": "Depression/Hollow"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:scopeNote xml:lang="en">{"id": "256d7bbe-59c3-4de0-9fe0-109b072f77e0", "value": "A concave area in the surface of the ground, usually wider than it is deep; naturally or anthropogenically formed and/or modified. "}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/717900ac-41ed-497e-b4ec-6498b7ec9e4b">
+    <skos:prefLabel xml:lang="en">{"id": "5adb0d7a-a9a6-47d2-a27d-0aa83c5a22b0", "value": "Modified Rock Surface"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "dd602edc-25ba-4f5e-832a-b1c65c2c12d2", "value": "An area of exposed rock whose surface has been modified in some way, e.g. rock art, inscriptions, relief sculpture etc.. This category should NOT be used for rock-cut pits or shafts, etc., which are defined here as modifying more than just the surface."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "c54c07ce-2804-4e0b-9db9-d7de14a05962", "value": "http://localhost:8000/717900ac-41ed-497e-b4ec-6498b7ec9e4b"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/edb63743-2798-4e2e-8ad6-5aa1a4c74e65">
+    <skos:prefLabel xml:lang="en">{"id": "145541e8-1b14-437b-a0ee-a066e99849a2", "value": "Track"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "ea5761b8-e88a-4ae0-a0fd-e53c154a62e5", "value": "http://localhost:8000/edb63743-2798-4e2e-8ad6-5aa1a4c74e65"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/2ed42878-2d1a-4b12-bb30-f205dd26f1fa">
+    <skos:prefLabel xml:lang="en">{"id": "29b0c308-dbf2-4c59-a1d0-6893ac7a2bd2", "value": "Small Mound/Cairn"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:scopeNote xml:lang="en">{"id": "d848960d-5193-40d4-9dfe-7858609017a3", "value": "A small (below 0.5ha in size) discrete heap of soil and/or stones, including small stone burial cairns, clearance piles and earthern mounds such as 'barrows'/'kurgans'."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "a4f5afb4-3dcc-4aa5-9450-014969289936", "value": "http://localhost:8000/2ed42878-2d1a-4b12-bb30-f205dd26f1fa"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/025bbf65-f286-4556-910d-9cd40f21d194">
+    <skos:prefLabel xml:lang="en">{"id": "5b772bdd-d879-422a-8720-be4f7a6cf207", "value": "Mound"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "e86eec59-41db-484e-aec7-41a812288023", "value": "http://localhost:8000/025bbf65-f286-4556-910d-9cd40f21d194"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/b646c112-3fab-4465-8139-2613081dd714">
+    <skos:scopeNote xml:lang="en">{"id": "7193d793-e8d9-4ba2-a1e3-748a14b12ab9", "value": "An open area of land that has been cleared of stones/debris/vegetation, usually for a specific purpose"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "6ca814fb-1d91-44df-bc66-d3f6d1ff4ad9", "value": "Cleared Area"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "fbcd718c-9e50-4eac-bdba-18fe578e385e", "value": "http://localhost:8000/b646c112-3fab-4465-8139-2613081dd714"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/1aac70a3-7979-40b7-b201-6f0defff8d2f">
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "46aeac70-e7a1-4a7a-aa89-ed60a8dc6446", "value": "http://localhost:8000/1aac70a3-7979-40b7-b201-6f0defff8d2f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "4605c74d-c7df-40f2-97e8-d8f535f50660", "value": "Cave"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "12b4da1b-a0ed-4542-bed2-c5f0b9b57421", "value": "An underground hollow, usually but not exclusively with a horizontal opening; naturally or anthropogenically formed and/or modified"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7a9f3825-3b95-409e-9d87-c3ca398589cc">
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "74266429-64fb-4b95-89ce-21f34be5c289", "value": "http://localhost:8000/7a9f3825-3b95-409e-9d87-c3ca398589cc"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "138f379f-b458-4979-b43c-1606162c8253", "value": "Tower"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "40720bf3-38d6-4b02-b762-4d9cf5d78961", "value": "A structure which is normally, but not exclusively, taller than it is wide and is often, but not always, multi-storeyed"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/9c476426-02eb-4e23-9ca4-e2e8b7a69832">
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <skos:prefLabel xml:lang="en">{"id": "aa81790b-9db9-4a2f-8335-12e6c82e529a", "value": "Funerary Urn"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "d611ef30-79d1-4756-ae9a-355664d681ad", "value": "http://localhost:8000/9c476426-02eb-4e23-9ca4-e2e8b7a69832"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://localhost:8000/7a52d569-3406-4476-b678-514ebc851ccb">
+    <skos:inScheme rdf:resource="http://localhost:8000/561cea52-3e4c-4bc7-baaf-b153cf4b3550"/>
+    <dcterms:identifier xml:lang="en">{"id": "c55b9e3b-852b-4b5f-b22b-59c23881642a", "value": "http://localhost:8000/7a52d569-3406-4476-b678-514ebc851ccb"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "7526bc0f-6e5d-4b22-9797-57229cc71a12", "value": "The feature form is unknown. For example, a site is interpreted as a settlement in a source, but there is no reference to whether this settlement has built structures, scatters of material etc."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "6c2b1bcb-b50e-4a0d-99a5-74c94c5f7a6a", "value": "Unknown"}</skos:prefLabel>
+  </skos:Concept>
 </rdf:RDF>
