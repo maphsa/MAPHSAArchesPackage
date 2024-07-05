@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <skos:Concept rdf:about="http://localhost:8000/f4d90609-6145-4dd9-b917-5b161b25ed1f">
-    <skos:scopeNote xml:lang="en">{"id": "ccda0f4e-de2c-4505-8168-580475853ac3", "value": "World Geodetic System 1984"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "f417bf06-31fa-45ba-9ef7-8c665d5ad5b2", "value": "WGS84"}</skos:prefLabel>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/11571032-d318-40b2-84c6-c60b93e13970">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f4d90609-6145-4dd9-b917-5b161b25ed1f"/>
-        <dcterms:identifier xml:lang="en">{"id": "691430b1-8aaa-45bf-998f-077d04d6027f", "value": "http://localhost:8000/11571032-d318-40b2-84c6-c60b93e13970"}</dcterms:identifier>
-        <dcterms:title xml:lang="en">{"id": "8bed1ef0-be08-4262-8652-ab8f4e50a935", "value": "Spatial Coordinates Reference System Datum"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/87c4d74f-9861-46c2-8ce3-8673c395d93d"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <dcterms:identifier xml:lang="en">{"id": "bd967497-8001-4294-8538-4ec4efe6d12e", "value": "http://localhost:8000/f4d90609-6145-4dd9-b917-5b161b25ed1f"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/87c4d74f-9861-46c2-8ce3-8673c395d93d">
-    <dcterms:identifier xml:lang="en">{"id": "de23d6a3-5120-4fb2-bf05-9b44440c148a", "value": "http://localhost:8000/87c4d74f-9861-46c2-8ce3-8673c395d93d"}</dcterms:identifier>
+  <rdf:Description rdf:about="http://localhost:8000/87c4d74f-9861-46c2-8ce3-8673c395d93d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">{"id": "5ee9eb5e-873e-4e9b-b6f1-cc06b324ac77", "value": "SIRGAS2000"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/11571032-d318-40b2-84c6-c60b93e13970"/>
+    <dcterms:identifier xml:lang="en">{"id": "de23d6a3-5120-4fb2-bf05-9b44440c148a", "value": "http://localhost:8000/87c4d74f-9861-46c2-8ce3-8673c395d93d"}</dcterms:identifier>
     <skos:scopeNote xml:lang="en">{"id": "0199761c-e308-4539-bace-97c8921cbd65", "value": "Sistema de Referencia Geocentrico para las AmericaS 2000"}</skos:scopeNote>
-  </skos:Concept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/11571032-d318-40b2-84c6-c60b93e13970">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:identifier xml:lang="en">{"id": "691430b1-8aaa-45bf-998f-077d04d6027f", "value": "http://localhost:8000/11571032-d318-40b2-84c6-c60b93e13970"}</dcterms:identifier>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/87c4d74f-9861-46c2-8ce3-8673c395d93d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f4d90609-6145-4dd9-b917-5b161b25ed1f"/>
+    <dcterms:title xml:lang="en">{"id": "8bed1ef0-be08-4262-8652-ab8f4e50a935", "value": "Spatial Coordinates Reference System Datum"}</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f4d90609-6145-4dd9-b917-5b161b25ed1f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "f417bf06-31fa-45ba-9ef7-8c665d5ad5b2", "value": "WGS84"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/11571032-d318-40b2-84c6-c60b93e13970"/>
+    <skos:scopeNote xml:lang="en">{"id": "ccda0f4e-de2c-4505-8168-580475853ac3", "value": "World Geodetic System 1984"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "bd967497-8001-4294-8538-4ec4efe6d12e", "value": "http://localhost:8000/f4d90609-6145-4dd9-b917-5b161b25ed1f"}</dcterms:identifier>
+  </rdf:Description>
 </rdf:RDF>

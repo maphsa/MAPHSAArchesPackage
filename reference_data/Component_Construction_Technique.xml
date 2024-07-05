@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/d2753d8a-0288-431a-bbc5-993cc35a13e9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "56686dfe-4613-447f-a64b-c7c2a409335f", "value": "http://localhost:8000/d2753d8a-0288-431a-bbc5-993cc35a13e9"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "ae316684-61b0-4806-95f2-88538e5e4770", "value": "Unknown"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/0f79ffa5-4b0d-4784-bb6a-3c5be0b87ebd"/>
+    <skos:prefLabel xml:lang="en">{"id": "d4539eae-c0b8-437b-874f-acd7b691fa39", "value": "Unknown"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/3c6bcb16-21dd-49cf-b47c-ed779fb5c66d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "8c0b19ec-749f-4b7a-ac4d-48debc053c4d", "value": "http://localhost:8000/3c6bcb16-21dd-49cf-b47c-ed779fb5c66d"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "cd3ff48f-f19e-4ee2-bac9-4c88e1c41756", "value": "Stucco"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/0f79ffa5-4b0d-4784-bb6a-3c5be0b87ebd"/>
+    <skos:scopeNote xml:lang="en">{"id": "f793bb2a-0088-4b02-9e71-fcc129adc7f5", "value": "Fine plaster used for covering walls and for making decorations (cornices, mouldings, etc.)"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/0f79ffa5-4b0d-4784-bb6a-3c5be0b87ebd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:identifier xml:lang="en">{"id": "ffa9454e-18b9-4bc1-924a-69b8fa02edc0", "value": "http://localhost:8000/0f79ffa5-4b0d-4784-bb6a-3c5be0b87ebd"}</dcterms:identifier>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/468b33c5-c06d-456e-9808-1d31fe4978f4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/3993f473-198d-4906-a6cb-1916e49ef2a4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/8e174f0a-0bfb-47a9-9d8f-28b5d1cd8e34"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/80b6371e-a175-4a98-b11c-5a4a211f5c59"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d2753d8a-0288-431a-bbc5-993cc35a13e9"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/3c6bcb16-21dd-49cf-b47c-ed779fb5c66d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e9d90e72-3b24-4316-ba6d-87d882283d74"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7f123bdf-379e-4313-aa4c-e6f39fd377c5"/>
+    <dcterms:title xml:lang="en">{"id": "ca6f72b7-239e-486c-9321-833b247da438", "value": "Component Construction Technique"}</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/8e174f0a-0bfb-47a9-9d8f-28b5d1cd8e34">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "b125216a-9a7d-482f-a777-2e6f26b78f79", "value": "Beam or Post-supported"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "100c3df4-efcb-43f3-9640-379efcfb0bf6", "value": "http://localhost:8000/8e174f0a-0bfb-47a9-9d8f-28b5d1cd8e34"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/0f79ffa5-4b0d-4784-bb6a-3c5be0b87ebd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/7f123bdf-379e-4313-aa4c-e6f39fd377c5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/0f79ffa5-4b0d-4784-bb6a-3c5be0b87ebd"/>
+    <dcterms:identifier xml:lang="en">{"id": "e1566a5c-1ec8-4280-82b6-ac8f48d6b4cc", "value": "http://localhost:8000/7f123bdf-379e-4313-aa4c-e6f39fd377c5"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "dfe2f7ad-73d2-42a5-8d72-7a57625617b6", "value": "Masonry"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "3e75fd73-7d81-4a27-a2e9-70b70a700f00", "value": "Laying stones to form a wall, bonded with mortar."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/468b33c5-c06d-456e-9808-1d31fe4978f4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "c6a31144-a14d-4699-85ce-952182ea7cc3", "value": "Applying a coat on other building material to make to surface smooth."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "72ac93b2-09bc-463f-93d8-54199364176a", "value": "Plastering"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "f530021d-35be-4c9a-ab4b-7e08e412732b", "value": "http://localhost:8000/468b33c5-c06d-456e-9808-1d31fe4978f4"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/0f79ffa5-4b0d-4784-bb6a-3c5be0b87ebd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/80b6371e-a175-4a98-b11c-5a4a211f5c59">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "e931dfa3-5253-4684-804c-6293142df159", "value": "Wood Construction"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/0f79ffa5-4b0d-4784-bb6a-3c5be0b87ebd"/>
+    <skos:scopeNote xml:lang="en">{"id": "e8646627-98fa-4161-9140-c806e8a10276", "value": "Timber framing"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "202a5c9b-584a-4169-88d0-d57bb3356b06", "value": "http://localhost:8000/80b6371e-a175-4a98-b11c-5a4a211f5c59"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/3993f473-198d-4906-a6cb-1916e49ef2a4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "67e0a517-81c4-4c78-849a-ecd38afba7f9", "value": "http://localhost:8000/3993f473-198d-4906-a6cb-1916e49ef2a4"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "e2c5aac4-00b4-498a-a327-b3ae1a8fb5bc", "value": "Wattle-and-Daub or Applied Mud"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/0f79ffa5-4b0d-4784-bb6a-3c5be0b87ebd"/>
+    <skos:scopeNote xml:lang="en">{"id": "57855cb1-f040-4ec4-b029-8c281b25f1a9", "value": "Mixture of twigs, earth, clay and mud"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/e9d90e72-3b24-4316-ba6d-87d882283d74">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "5363df73-58a6-4ea1-9442-2c4ef37cd414", "value": "Paving/Mosaic/Tiling"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "82fb2efa-74db-4157-932c-1f0092452d0f", "value": "http://localhost:8000/e9d90e72-3b24-4316-ba6d-87d882283d74"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "99bafceb-f5fc-4df5-b591-e9fe8d2e8957", "value": "Laying a pavement or similar surface."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/0f79ffa5-4b0d-4784-bb6a-3c5be0b87ebd"/>
+  </rdf:Description>
+</rdf:RDF>

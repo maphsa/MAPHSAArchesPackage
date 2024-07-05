@@ -1,89 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <skos:Concept rdf:about="http://localhost:8000/6b6cf6e2-c861-440e-9f1b-4af03335b102">
-    <skos:prefLabel xml:lang="en">{"id": "10133e20-b0b1-4a0f-8e83-d1263e6a08cb", "value": "Granite"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "4c49ee44-db14-4458-bff0-944a1944bad4", "value": "Coarse-to medium grained igeneous rock, generally formed by slow cooling of molten rock within the Earth's surface "}</skos:scopeNote>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/220f2839-b73a-4ca5-8d30-9b0779d09842"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/c2510b6e-7a60-40c6-9a1a-bf515ab322c8"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/6b6cf6e2-c861-440e-9f1b-4af03335b102"/>
-        <dcterms:title xml:lang="en">{"id": "469c43d0-679c-4c38-ad26-748d02cf8e8a", "value": "Bedrock Geology"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/ad07cc44-0609-4deb-a754-991bdb5afcdb"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/04b19982-9fd5-4a00-818f-a503fe1ef70d"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/3f6c0d9e-734c-4549-b7f6-0483226c0b4f"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/a676635b-f532-42ec-9976-180b592f024e"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/09b918f5-260f-4e3b-97d4-8740c3d33c9a"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/16d96bb9-85f4-49c3-84da-a103e10dd181"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/61e8a964-3877-4236-9b09-e75e85b85dc3"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f1650ccb-1d8c-4579-9147-920d4d3d5d5e"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/d2a0dcf5-bfe0-44d5-9c43-47b9d6ecc50e"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/4b7dfdd1-0228-48d2-92c3-8bbbf74a1f78"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/16d96bb9-85f4-49c3-84da-a103e10dd181">
-    <skos:prefLabel xml:lang="en">{"id": "a5c2886b-77d6-4a54-9476-184fcd937386", "value": "Slate"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
-    <skos:scopeNote xml:lang="en">{"id": "33d0f749-5d92-478a-9f56-229b84e3e677", "value": "Fine-grained metamorphic rock derived from mudstone/shale"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f1650ccb-1d8c-4579-9147-920d4d3d5d5e">
-    <skos:prefLabel xml:lang="en">{"id": "2106ed87-d9ed-48f0-92d3-1d1e6616fab1", "value": "Metamorphic (undefined)"}</skos:prefLabel>
+  <rdf:Description rdf:about="http://localhost:8000/f1650ccb-1d8c-4579-9147-920d4d3d5d5e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "b2a89cb2-2ba4-4ca7-9b37-1d8c6c8786b8", "value": "http://localhost:8000/f1650ccb-1d8c-4579-9147-920d4d3d5d5e"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
     <skos:scopeNote xml:lang="en">{"id": "7f553836-9677-467f-9017-a2a895b545b0", "value": "Rock formed by an intense change in heat and pressure applied to a prexisting igneous or sedimentary rock Use this term where the rock is metamorphic but the specific type (e.g. quartzite, schist) is unknown"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/c2510b6e-7a60-40c6-9a1a-bf515ab322c8">
+    <skos:prefLabel xml:lang="en">{"id": "2106ed87-d9ed-48f0-92d3-1d1e6616fab1", "value": "Metamorphic (undefined)"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/04b19982-9fd5-4a00-818f-a503fe1ef70d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/a676635b-f532-42ec-9976-180b592f024e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/220f2839-b73a-4ca5-8d30-9b0779d09842"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f1650ccb-1d8c-4579-9147-920d4d3d5d5e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d2a0dcf5-bfe0-44d5-9c43-47b9d6ecc50e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ad07cc44-0609-4deb-a754-991bdb5afcdb"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/3f6c0d9e-734c-4549-b7f6-0483226c0b4f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c2510b6e-7a60-40c6-9a1a-bf515ab322c8"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/16d96bb9-85f4-49c3-84da-a103e10dd181"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4b7dfdd1-0228-48d2-92c3-8bbbf74a1f78"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/09b918f5-260f-4e3b-97d4-8740c3d33c9a"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/6b6cf6e2-c861-440e-9f1b-4af03335b102"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/61e8a964-3877-4236-9b09-e75e85b85dc3"/>
+    <dcterms:title xml:lang="en">{"id": "469c43d0-679c-4c38-ad26-748d02cf8e8a", "value": "Bedrock Geology"}</dcterms:title>
+    <dcterms:identifier xml:lang="en">{"id": "98c31fcb-0ffe-49d9-bcf7-f803c6e10302", "value": "http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/16d96bb9-85f4-49c3-84da-a103e10dd181">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "ba009b6e-a93e-4e7c-a1eb-8eee293f9c6c", "value": "http://localhost:8000/16d96bb9-85f4-49c3-84da-a103e10dd181"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
+    <skos:scopeNote xml:lang="en">{"id": "33d0f749-5d92-478a-9f56-229b84e3e677", "value": "Fine-grained metamorphic rock derived from mudstone/shale"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "a5c2886b-77d6-4a54-9476-184fcd937386", "value": "Slate"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/220f2839-b73a-4ca5-8d30-9b0779d09842">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "f5051763-7101-401b-a520-64fa5792a35f", "value": "Mudstone/Siltstone"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "e369fac5-6958-466a-aab8-5e5067303fb4", "value": "http://localhost:8000/220f2839-b73a-4ca5-8d30-9b0779d09842"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "a3c7e1e5-9b01-4556-9c36-897be56cb128", "value": "Fine- to medium grained sedimentary rock produced by the accumulation of mud-sized clasts. Sometimes referred to as shale"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/ad07cc44-0609-4deb-a754-991bdb5afcdb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "e5c8d759-ec01-4162-aef6-d7c97e19cb43", "value": "Sedimentary rock produced by the consolidation of carbonate material accumulated from the shells and skeletons  of carbonate-producing organisms (e.g. molluscs, corals, foraminifera)"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
+    <dcterms:identifier xml:lang="en">{"id": "905d99b5-9313-4699-af8c-aed0d51401a3", "value": "http://localhost:8000/ad07cc44-0609-4deb-a754-991bdb5afcdb"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "edc0d7c4-b64e-4243-bd3d-7afafd535d83", "value": "Limestone/Chalk/Dolomite"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/3f6c0d9e-734c-4549-b7f6-0483226c0b4f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "b10f974f-07e7-4b04-a229-fd6b3c2a58c2", "value": "Metamorphic rock derived from carbonate rocks (e.g. limestone, dolomite)"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
+    <dcterms:identifier xml:lang="en">{"id": "22858342-ea5f-4e29-b0f8-fcddcd7a5df7", "value": "http://localhost:8000/3f6c0d9e-734c-4549-b7f6-0483226c0b4f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "69a82111-5555-4840-8969-3d1c6f9760a5", "value": "Marble"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/09b918f5-260f-4e3b-97d4-8740c3d33c9a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "d1aec990-848e-4cf6-86a1-6e019db7688b", "value": "Tuff"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "505850f4-078a-4723-8610-38ac632cec77", "value": "http://localhost:8000/09b918f5-260f-4e3b-97d4-8740c3d33c9a"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "80206c79-f90d-46f0-89db-d124d8bddd4c", "value": "Rock produced by the consolidation of accumulated volcanic material including ash, tephra and lava and often incorporating other rocks or material pre-existing at the point of deposition"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/d2a0dcf5-bfe0-44d5-9c43-47b9d6ecc50e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "7a7ce04e-5549-49c1-ba17-22c30f04cc90", "value": "Sedimentary rock produced by the consolidation of organic material accumulated from organic debris such as plant matter. Common types include coal and lignite"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
+    <dcterms:identifier xml:lang="en">{"id": "de81eb5b-6d5b-420e-b6e8-d801d760eaca", "value": "http://localhost:8000/d2a0dcf5-bfe0-44d5-9c43-47b9d6ecc50e"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "3ee8562c-0365-4c73-ac94-2f98a60cf0aa", "value": "Organic sedimentary rock"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/04b19982-9fd5-4a00-818f-a503fe1ef70d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "e43af628-cd7e-473b-a152-a5310b24324a", "value": "Sedimentary (undefined)"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "ad65c6d9-a347-4ea1-884f-367dc18af537", "value": "Rock formed by the accumulation and consolidation of loose sediment orginally deposited by any one, or several, of a range of transport / formation processes. For example including wind action, water action, glacial action, precipiation and biogenic processes. Use this term where the rock is sedimentary but the specific type (e.g. sandstone, shale) is unknown"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "7999e640-7255-4bc4-bbd8-ea4f67392c08", "value": "http://localhost:8000/04b19982-9fd5-4a00-818f-a503fe1ef70d"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/c2510b6e-7a60-40c6-9a1a-bf515ab322c8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "fdc144bf-08d2-4455-8ddb-d55a6b84874a", "value": "http://localhost:8000/c2510b6e-7a60-40c6-9a1a-bf515ab322c8"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
     <skos:scopeNote xml:lang="en">{"id": "0e03b81b-c52e-4645-a12c-7b9c9c8b8bfe", "value": "Fine- to medium grained  sedimentary rock produced by the accumulation and consolidation of sand-sized clasts"}</skos:scopeNote>
     <skos:prefLabel xml:lang="en">{"id": "2d63848a-fd01-4c75-8606-20cab9358c8e", "value": "Sandstone"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/3f6c0d9e-734c-4549-b7f6-0483226c0b4f">
-    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
-    <skos:prefLabel xml:lang="en">{"id": "69a82111-5555-4840-8969-3d1c6f9760a5", "value": "Marble"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "b10f974f-07e7-4b04-a229-fd6b3c2a58c2", "value": "Metamorphic rock derived from carbonate rocks (e.g. limestone, dolomite)"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/04b19982-9fd5-4a00-818f-a503fe1ef70d">
-    <skos:scopeNote xml:lang="en">{"id": "ad65c6d9-a347-4ea1-884f-367dc18af537", "value": "Rock formed by the accumulation and consolidation of loose sediment orginally deposited by any one, or several, of a range of transport / formation processes. For example including wind action, water action, glacial action, precipiation and biogenic processes. Use this term where the rock is sedimentary but the specific type (e.g. sandstone, shale) is unknown"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "e43af628-cd7e-473b-a152-a5310b24324a", "value": "Sedimentary (undefined)"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/09b918f5-260f-4e3b-97d4-8740c3d33c9a">
-    <skos:prefLabel xml:lang="en">{"id": "d1aec990-848e-4cf6-86a1-6e019db7688b", "value": "Tuff"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
-    <skos:scopeNote xml:lang="en">{"id": "80206c79-f90d-46f0-89db-d124d8bddd4c", "value": "Rock produced by the consolidation of accumulated volcanic material including ash, tephra and lava and often incorporating other rocks or material pre-existing at the point of deposition"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/ad07cc44-0609-4deb-a754-991bdb5afcdb">
-    <skos:prefLabel xml:lang="en">{"id": "edc0d7c4-b64e-4243-bd3d-7afafd535d83", "value": "Limestone/Chalk/Dolomite"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
-    <skos:scopeNote xml:lang="en">{"id": "e5c8d759-ec01-4162-aef6-d7c97e19cb43", "value": "Sedimentary rock produced by the consolidation of carbonate material accumulated from the shells and skeletons  of carbonate-producing organisms (e.g. molluscs, corals, foraminifera)"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/4b7dfdd1-0228-48d2-92c3-8bbbf74a1f78">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/4b7dfdd1-0228-48d2-92c3-8bbbf74a1f78">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "24244d4e-1bc9-401d-8ab5-cabdf615416b", "value": "Sedimentary rock containing large gravel sized clasts (&gt;2mm) usually embedded within a matrix of finer grains"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
     <skos:prefLabel xml:lang="en">{"id": "64123b76-0f45-477f-8d35-1e228b8843c2", "value": "Conglomerate"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "24244d4e-1bc9-401d-8ab5-cabdf615416b", "value": "Sedimentary rock containing large gravel sized clasts (&gt;2mm) usually embedded within a matrix of finer grains"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/220f2839-b73a-4ca5-8d30-9b0779d09842">
+    <dcterms:identifier xml:lang="en">{"id": "86dc210a-0a62-46a6-95d0-304235668a2e", "value": "http://localhost:8000/4b7dfdd1-0228-48d2-92c3-8bbbf74a1f78"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/a676635b-f532-42ec-9976-180b592f024e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "2b445b9e-0d34-43bf-8ec4-2d2cb64992ad", "value": "http://localhost:8000/a676635b-f532-42ec-9976-180b592f024e"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "37708c74-1355-42e1-81a8-09ebbdaa14f7", "value": "Dark, fine-grained igeneous rock, generally formed by rapid cooling of lava"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
-    <skos:prefLabel xml:lang="en">{"id": "f5051763-7101-401b-a520-64fa5792a35f", "value": "Mudstone/Siltstone"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "a3c7e1e5-9b01-4556-9c36-897be56cb128", "value": "Fine- to medium grained sedimentary rock produced by the accumulation of mud-sized clasts. Sometimes referred to as shale"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/61e8a964-3877-4236-9b09-e75e85b85dc3">
-    <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
+    <skos:prefLabel xml:lang="en">{"id": "969b25b3-c2f7-441a-a7c5-5fd60ef6ccd7", "value": "Basalt"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/61e8a964-3877-4236-9b09-e75e85b85dc3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:scopeNote xml:lang="en">{"id": "0acdf2a0-93d0-4c77-8cef-937b53334209", "value": "Rock formed by cooling and solidification of molten rock including within the Earth as well as from eruptions/extrusion of lava. Use this term where the rock is igneous, but the specific type (e.g. basal, granite) is unknown"}</skos:scopeNote>
     <skos:prefLabel xml:lang="en">{"id": "8f041467-6546-4e50-b6ce-93ac6b674b11", "value": "Igenous (undefined)"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/d2a0dcf5-bfe0-44d5-9c43-47b9d6ecc50e">
-    <skos:scopeNote xml:lang="en">{"id": "7a7ce04e-5549-49c1-ba17-22c30f04cc90", "value": "Sedimentary rock produced by the consolidation of organic material accumulated from organic debris such as plant matter. Common types include coal and lignite"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "3ee8562c-0365-4c73-ac94-2f98a60cf0aa", "value": "Organic sedimentary rock"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "aea76526-4098-42c8-951d-41bfe870abf8", "value": "http://localhost:8000/61e8a964-3877-4236-9b09-e75e85b85dc3"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/a676635b-f532-42ec-9976-180b592f024e">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/6b6cf6e2-c861-440e-9f1b-4af03335b102">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/d56025c1-40ff-4287-82e3-f5d10638e7c3"/>
-    <skos:scopeNote xml:lang="en">{"id": "37708c74-1355-42e1-81a8-09ebbdaa14f7", "value": "Dark, fine-grained igeneous rock, generally formed by rapid cooling of lava"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "969b25b3-c2f7-441a-a7c5-5fd60ef6ccd7", "value": "Basalt"}</skos:prefLabel>
-  </skos:Concept>
+    <dcterms:identifier xml:lang="en">{"id": "665d2f8e-79f3-4dac-bd57-ddc30dd2a702", "value": "http://localhost:8000/6b6cf6e2-c861-440e-9f1b-4af03335b102"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "10133e20-b0b1-4a0f-8e83-d1263e6a08cb", "value": "Granite"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "4c49ee44-db14-4458-bff0-944a1944bad4", "value": "Coarse-to medium grained igeneous rock, generally formed by slow cooling of molten rock within the Earth's surface "}</skos:scopeNote>
+  </rdf:Description>
 </rdf:RDF>

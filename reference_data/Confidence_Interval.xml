@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/3a6bdb83-cc0a-413f-8d8b-96f9c915931b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "f79ad781-94c5-419c-ab06-bf395d87472d", "value": "99.7% (3 sigma)"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/19a0282e-32fe-498d-96da-ba53fb30ec78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/19a0282e-32fe-498d-96da-ba53fb30ec78">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/3a6bdb83-cc0a-413f-8d8b-96f9c915931b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/8b984b19-3656-4d23-b24d-b13a0722f700"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7a9e6a4f-cfd6-41b2-8295-f518e08be614"/>
+    <dcterms:title xml:lang="en">{"id": "7de8daf6-7d67-4030-8c54-3fee0abe9938", "value": "Confidence Interval"}</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/8b984b19-3656-4d23-b24d-b13a0722f700">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "2488e9ce-7c5f-4d10-af00-d4a2fc197a17", "value": "68.2% (1 sigma)"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/19a0282e-32fe-498d-96da-ba53fb30ec78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/7a9e6a4f-cfd6-41b2-8295-f518e08be614">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "ffb18d83-e129-4e27-9e43-86077da09e54", "value": "95.4% (2 sigma)"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/19a0282e-32fe-498d-96da-ba53fb30ec78"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,76 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:ConceptScheme rdf:about="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0">
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/1d909e2f-3cd5-41a1-82e2-7b09029feaa2">
-        <skos:prefLabel xml:lang="en">{"id": "fcb01d85-8a0c-4af6-90fc-90d186d5e020", "value": "East"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "11adb2cd-4f8c-46e1-a25d-1140732de3af", "value": "http://localhost:8000/1d909e2f-3cd5-41a1-82e2-7b09029feaa2"}</dcterms:identifier>
-        <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/2e182713-3e23-4248-be49-fc6fc7ca9f16">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "348b015d-8994-4727-830e-9d17d214820a", "value": "Northeast-Southwest"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1d60016e-8563-4721-acac-ecd85b652ddd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "11e303eb-a207-4cb9-8fef-7c24c3fa0546", "value": "North-South"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/c5c3aa40-7629-4a17-8d73-b275f872fb41">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "f22beb84-0823-4404-8091-b26e8ab75090", "value": "North"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "68d2548b-c501-4db7-b917-6b02e0906f57", "value": "http://localhost:8000/c5c3aa40-7629-4a17-8d73-b275f872fb41"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b24b232c-82c0-4001-9b42-f7cd78413589"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/8312c516-8000-404b-8c91-c98b4f6bf9bc"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1d909e2f-3cd5-41a1-82e2-7b09029feaa2"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/34d6e239-33cb-439d-a5f1-e2c9e592af20"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/fac07e9b-db7e-4be2-a407-32764156ad5a"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c5c3aa40-7629-4a17-8d73-b275f872fb41"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/801f2f45-b36b-4edf-838c-2edb86e1b7f3"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ef8dd108-466f-4825-a9aa-4c51f36e17b8"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/bb5ea6b6-5855-46cb-b931-9876eb629834"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4b6d9b1b-445e-4333-876e-da9d5de6628f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c02e7f36-3139-455d-b687-bca539af0777"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/5a40b11a-5c22-4ea7-ba1d-431ce766a465"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/2e182713-3e23-4248-be49-fc6fc7ca9f16"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1d60016e-8563-4721-acac-ecd85b652ddd"/>
     <dcterms:identifier xml:lang="en">{"id": "ab8388e5-a566-4511-97c6-15b5356d03ae", "value": "http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"}</dcterms:identifier>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/34d6e239-33cb-439d-a5f1-e2c9e592af20">
-        <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
-        <skos:prefLabel xml:lang="en">{"id": "a171546f-9e09-4942-8585-5473ca69baa3", "value": "Northwest"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "b0392392-a4d6-46f3-9f3c-fadc22d4f16b", "value": "http://localhost:8000/34d6e239-33cb-439d-a5f1-e2c9e592af20"}</dcterms:identifier>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/801f2f45-b36b-4edf-838c-2edb86e1b7f3">
-        <dcterms:identifier xml:lang="en">{"id": "b08b6fb0-fc43-4ce2-8e97-269b470f5c5c", "value": "http://localhost:8000/801f2f45-b36b-4edf-838c-2edb86e1b7f3"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "2552f048-6a3f-49c4-92d1-dc575e138c10", "value": "Southeast"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/c02e7f36-3139-455d-b687-bca539af0777">
-        <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
-        <skos:prefLabel xml:lang="en">{"id": "9c646468-1bab-4037-8444-0e9761d22859", "value": "Not Informed"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/b24b232c-82c0-4001-9b42-f7cd78413589">
-        <dcterms:identifier xml:lang="en">{"id": "63f2965c-8313-42ac-828d-45656e5f3d29", "value": "http://localhost:8000/b24b232c-82c0-4001-9b42-f7cd78413589"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "7bce417e-3adf-4b77-87cf-16629b3e3151", "value": "Southwest"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/fac07e9b-db7e-4be2-a407-32764156ad5a">
-        <dcterms:identifier xml:lang="en">{"id": "0c53f30d-8b89-48fe-afce-5c53e6a9d01b", "value": "http://localhost:8000/fac07e9b-db7e-4be2-a407-32764156ad5a"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "a6e24c6d-b4cd-439f-95e7-083b89e2e008", "value": "West"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
     <dcterms:title xml:lang="en">{"id": "2fc5861c-352d-478e-9cba-ef1a9d4f3d32", "value": "Heritage Location Orientation"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/5a40b11a-5c22-4ea7-ba1d-431ce766a465">
-        <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
-        <dcterms:identifier xml:lang="en">{"id": "df299d7f-520e-49b8-bf20-d6d7e3858f84", "value": "http://localhost:8000/5a40b11a-5c22-4ea7-ba1d-431ce766a465"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "90d19ce0-d2cc-4e43-be5d-6724ac319562", "value": "Not Applicable"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/bb5ea6b6-5855-46cb-b931-9876eb629834">
-        <dcterms:identifier xml:lang="en">{"id": "6993f53d-0c97-419c-8eca-b7a382d9bff9", "value": "http://localhost:8000/bb5ea6b6-5855-46cb-b931-9876eb629834"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "583ed573-ea72-4f02-9f5e-0b4eca7e6cc5", "value": "Northeast"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/c5c3aa40-7629-4a17-8d73-b275f872fb41">
-        <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
-        <dcterms:identifier xml:lang="en">{"id": "68d2548b-c501-4db7-b917-6b02e0906f57", "value": "http://localhost:8000/c5c3aa40-7629-4a17-8d73-b275f872fb41"}</dcterms:identifier>
-        <skos:prefLabel xml:lang="en">{"id": "f22beb84-0823-4404-8091-b26e8ab75090", "value": "North"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/4b6d9b1b-445e-4333-876e-da9d5de6628f">
-        <skos:prefLabel xml:lang="en">{"id": "18c283a9-1df2-47c9-924f-a2c3d1482070", "value": "South"}</skos:prefLabel>
-        <dcterms:identifier xml:lang="en">{"id": "4abbf581-4d02-44e6-94fd-78d9e385e19a", "value": "http://localhost:8000/4b6d9b1b-445e-4333-876e-da9d5de6628f"}</dcterms:identifier>
-        <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-  </skos:ConceptScheme>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1d909e2f-3cd5-41a1-82e2-7b09029feaa2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "fcb01d85-8a0c-4af6-90fc-90d186d5e020", "value": "East"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+    <dcterms:identifier xml:lang="en">{"id": "11adb2cd-4f8c-46e1-a25d-1140732de3af", "value": "http://localhost:8000/1d909e2f-3cd5-41a1-82e2-7b09029feaa2"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/4b6d9b1b-445e-4333-876e-da9d5de6628f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+    <dcterms:identifier xml:lang="en">{"id": "4abbf581-4d02-44e6-94fd-78d9e385e19a", "value": "http://localhost:8000/4b6d9b1b-445e-4333-876e-da9d5de6628f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "18c283a9-1df2-47c9-924f-a2c3d1482070", "value": "South"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/ef8dd108-466f-4825-a9aa-4c51f36e17b8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "a0af22e4-6e11-4572-b719-1d28c5083bd4", "value": "Northwest-Southeast"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/34d6e239-33cb-439d-a5f1-e2c9e592af20">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "b0392392-a4d6-46f3-9f3c-fadc22d4f16b", "value": "http://localhost:8000/34d6e239-33cb-439d-a5f1-e2c9e592af20"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a171546f-9e09-4942-8585-5473ca69baa3", "value": "Northwest"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/b24b232c-82c0-4001-9b42-f7cd78413589">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "7bce417e-3adf-4b77-87cf-16629b3e3151", "value": "Southwest"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+    <dcterms:identifier xml:lang="en">{"id": "63f2965c-8313-42ac-828d-45656e5f3d29", "value": "http://localhost:8000/b24b232c-82c0-4001-9b42-f7cd78413589"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/fac07e9b-db7e-4be2-a407-32764156ad5a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+    <skos:prefLabel xml:lang="en">{"id": "a6e24c6d-b4cd-439f-95e7-083b89e2e008", "value": "West"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "0c53f30d-8b89-48fe-afce-5c53e6a9d01b", "value": "http://localhost:8000/fac07e9b-db7e-4be2-a407-32764156ad5a"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/801f2f45-b36b-4edf-838c-2edb86e1b7f3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "2552f048-6a3f-49c4-92d1-dc575e138c10", "value": "Southeast"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+    <dcterms:identifier xml:lang="en">{"id": "b08b6fb0-fc43-4ce2-8e97-269b470f5c5c", "value": "http://localhost:8000/801f2f45-b36b-4edf-838c-2edb86e1b7f3"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/8312c516-8000-404b-8c91-c98b4f6bf9bc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+    <skos:prefLabel xml:lang="en">{"id": "a99cc2f3-6d58-4abb-9e3b-4ee679155b39", "value": "East-West"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/c02e7f36-3139-455d-b687-bca539af0777">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "9c646468-1bab-4037-8444-0e9761d22859", "value": "Not Informed"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "5cc97cad-6ef8-4fbc-b069-db77097d394b", "value": "http://localhost:8000/c02e7f36-3139-455d-b687-bca539af0777"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/bb5ea6b6-5855-46cb-b931-9876eb629834">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+    <skos:prefLabel xml:lang="en">{"id": "583ed573-ea72-4f02-9f5e-0b4eca7e6cc5", "value": "Northeast"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "6993f53d-0c97-419c-8eca-b7a382d9bff9", "value": "http://localhost:8000/bb5ea6b6-5855-46cb-b931-9876eb629834"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/5a40b11a-5c22-4ea7-ba1d-431ce766a465">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "df299d7f-520e-49b8-bf20-d6d7e3858f84", "value": "http://localhost:8000/5a40b11a-5c22-4ea7-ba1d-431ce766a465"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/a9d0f8e2-a223-46ab-8fe3-8a836e80e1d0"/>
+    <skos:prefLabel xml:lang="en">{"id": "90d19ce0-d2cc-4e43-be5d-6724ac319562", "value": "Not Applicable"}</skos:prefLabel>
+  </rdf:Description>
 </rdf:RDF>

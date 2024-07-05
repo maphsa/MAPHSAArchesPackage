@@ -1,101 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:Concept rdf:about="http://localhost:8000/1004f6bf-b534-40ea-9899-d1ce06579a20">
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/0b08ef61-4690-45dc-8bc2-8f1518925c2c"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/bab63e3d-d7eb-46a5-908f-b97e237fecb2"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/1004f6bf-b534-40ea-9899-d1ce06579a20"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/7894ad6b-271e-4b06-a9ce-009e63c3af41"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/cdfeeaea-5ce7-4e52-9750-9dfd0ed6d635"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/c640c0ac-cec0-4b51-b65f-435f1d4885f8"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/70ae9aba-3170-4cf3-9f95-0b678ef4c1ff"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/cec85f26-d10a-4eee-8651-90b7ff91258b"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/4895348e-0db6-4d04-8168-75000e2cf10c"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f93516fd-f6ae-46ed-9f0a-c5be54a7310c"/>
-        <dcterms:title xml:lang="en">{"id": "b94055ee-4040-4108-8a12-ef4657c0a053", "value": "Recommendation Type"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/9b4954d7-0489-4439-92ff-9efd13c345ee"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/a591c7f1-8a45-463a-9683-e507a7fedf9f"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/59f76b85-208e-4155-8ad8-3462525cdee5"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/a938d9aa-0645-499e-88a6-21162f6c50c8"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f82de7ec-c3b6-45ac-99c0-e6618b3e3fba"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/9d7e69e3-563b-4405-996b-bd222fd9bf04"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <skos:prefLabel xml:lang="en">{"id": "730da882-8f77-432f-bbc7-ede4fbbf7d4e", "value": "Construction Monitoring and Heritage Preservation"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "619eb9b8-4974-4cd5-a85c-bf1b7f4b82e1", "value": "The ongoing observation, assessment, and protection of heritage sites during construction or development projects to minimize potential damage."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/c640c0ac-cec0-4b51-b65f-435f1d4885f8">
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-    <skos:scopeNote xml:lang="en">{"id": "6491f804-6df7-46e5-a7b3-12991de34e78", "value": "Efforts to emphasize and showcase the importance of historical buildings and structures in their original or restored state."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "5ccbc757-0350-48a5-bd89-5525e99af326", "value": "Highlighting Historical Structures"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/0b08ef61-4690-45dc-8bc2-8f1518925c2c">
-    <skos:prefLabel xml:lang="en">{"id": "3d56bcf0-bcce-44c1-9506-3e6b0c6ecba0", "value": "Not Defined"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f93516fd-f6ae-46ed-9f0a-c5be54a7310c">
-    <skos:scopeNote xml:lang="en">{"id": "cfc1d787-6950-4a03-8228-ac78322c6a32", "value": "The combined impact of natural environmental factors and human activities on archaeological sites and cultural heritage."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "9c8eb0ff-078f-4001-8056-5c506fb6f8d9", "value": "Environmental and Anthropogenic Actions"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/cec85f26-d10a-4eee-8651-90b7ff91258b">
-    <skos:scopeNote xml:lang="en">{"id": "dbac9f2c-c710-4a3f-a2fb-1dd870873b9e", "value": "Initiatives designed to inform and educate local communities and the public about cultural heritage, archaeological sites, and the importance of preserving them. These activities promote community involvement and foster a sense of responsibility towards heritage conservation."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "c9dbbde3-b291-4073-a051-f532a109c8da", "value": "Community Awareness and Education"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/cdfeeaea-5ce7-4e52-9750-9dfd0ed6d635">
-    <skos:prefLabel xml:lang="en">{"id": "2b469a18-08c3-4721-9c2f-4aa253734ace", "value": "Conservation and Preservation"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "5bb5ec48-20f4-417f-901d-e8c30b4a2354", "value": "The practice of safeguarding and maintaining archaeological sites, artifacts, and cultural heritage to prevent deterioration or loss."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/a591c7f1-8a45-463a-9683-e507a7fedf9f">
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-    <skos:scopeNote xml:lang="en">{"id": "a489af15-c585-4a1d-a4f9-eeb249372cec", "value": "Initiatives and programs that promote education about cultural heritage, emphasizing its significance and the need for preservation."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "2fb9338a-5263-43f4-b158-6e27415db4d6", "value": "Heritage Education and Conservation"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/9b4954d7-0489-4439-92ff-9efd13c345ee">
-    <skos:scopeNote xml:lang="en">{"id": "effabce7-806f-4e44-903d-e5e720d896ec", "value": "The study, interpretation, and cultural utilization of archaeological findings and heritage resources."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "3a9b741c-bdf0-46ca-a35f-182577f2854e", "value": "Research and Cultural Utilization"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/bab63e3d-d7eb-46a5-908f-b97e237fecb2">
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-    <skos:prefLabel xml:lang="en">{"id": "8a00d3ed-8b4e-4c32-915d-947ee09524e0", "value": "Municipal Planning and Regulations"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "8701b912-008e-44b7-a1c7-a5e5b2a7f90f", "value": "The development of local government policies, laws, and regulations aimed at managing, protecting, and conserving heritage sites and historical structures within a municipality or region."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/7894ad6b-271e-4b06-a9ce-009e63c3af41">
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-    <skos:scopeNote xml:lang="en">{"id": "6ea47d97-5878-4f0d-8dee-93dd8b36b2b8", "value": "Activities and campaigns designed to assess the condition and significance of archaeological and heritage resources, as well as initiatives aimed at increasing public awareness and support for their protection and conservation."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "d489b1a0-e401-422e-a93c-b4f4e9eb0f5a", "value": "Assessment and Awareness Campaigns"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/9d7e69e3-563b-4405-996b-bd222fd9bf04">
-    <skos:scopeNote xml:lang="en">{"id": "f1d7040b-53bd-4616-8215-e16a6ccbc750", "value": "The formal process of notifying relevant legal authorities, property owners, and stakeholders about archaeological findings, site preservation requirements, or any actions required to comply with heritage preservation laws and regulations."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-    <skos:prefLabel xml:lang="en">{"id": "8067cbca-c37b-47b5-815f-0db49c42606c", "value": "Legal and Administrative Notifications"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/a938d9aa-0645-499e-88a6-21162f6c50c8">
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-    <skos:prefLabel xml:lang="en">{"id": "19f09d49-99c0-4bd0-b9f7-2e5b2769f23f", "value": "Archaeological Research and Conservation"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "0459738f-b414-4705-ae76-27e3f597c6ce", "value": "The systematic study, exploration, and preservation of archaeological sites, artifacts, and cultural heritage."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/59f76b85-208e-4155-8ad8-3462525cdee5">
-    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/59f76b85-208e-4155-8ad8-3462525cdee5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">{"id": "91aed053-4ecd-43fb-9dad-5c92d6ca21f3", "value": "Potential Archaeological Rescue"}</skos:prefLabel>
     <skos:scopeNote xml:lang="en">{"id": "e1af9053-b3c0-4344-b5c6-b574d0c8fa42", "value": "The pre-emptive planning and action taken to rescue or salvage archaeological sites and cultural heritage when they are at risk of damage or destruction due to construction or development projects."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/4895348e-0db6-4d04-8168-75000e2cf10c">
-    <skos:prefLabel xml:lang="en">{"id": "bdc27115-c831-4fc5-8ff7-5451059c20aa", "value": "Other"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/70ae9aba-3170-4cf3-9f95-0b678ef4c1ff">
+    <dcterms:identifier xml:lang="en">{"id": "7d3e4c76-32e5-4d21-969e-8f635e284a73", "value": "http://localhost:8000/59f76b85-208e-4155-8ad8-3462525cdee5"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/c640c0ac-cec0-4b51-b65f-435f1d4885f8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "6491f804-6df7-46e5-a7b3-12991de34e78", "value": "Efforts to emphasize and showcase the importance of historical buildings and structures in their original or restored state."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "5ccbc757-0350-48a5-bd89-5525e99af326", "value": "Highlighting Historical Structures"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-    <skos:prefLabel xml:lang="en">{"id": "0da9bca5-a3f1-4293-8066-5a6d224c6de3", "value": "Protective Measures"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ccc4abea-2c17-4795-a037-e4868de59973", "value": "http://localhost:8000/c640c0ac-cec0-4b51-b65f-435f1d4885f8"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/a938d9aa-0645-499e-88a6-21162f6c50c8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "0459738f-b414-4705-ae76-27e3f597c6ce", "value": "The systematic study, exploration, and preservation of archaeological sites, artifacts, and cultural heritage."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+    <dcterms:identifier xml:lang="en">{"id": "acf47cb6-cf01-4a59-9e99-04b577dcd99b", "value": "http://localhost:8000/a938d9aa-0645-499e-88a6-21162f6c50c8"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "19f09d49-99c0-4bd0-b9f7-2e5b2769f23f", "value": "Archaeological Research and Conservation"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/cdfeeaea-5ce7-4e52-9750-9dfd0ed6d635">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "2b469a18-08c3-4721-9c2f-4aa253734ace", "value": "Conservation and Preservation"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "0824f4ef-85b3-4151-9f0c-a11f9300f0ba", "value": "http://localhost:8000/cdfeeaea-5ce7-4e52-9750-9dfd0ed6d635"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+    <skos:scopeNote xml:lang="en">{"id": "5bb5ec48-20f4-417f-901d-e8c30b4a2354", "value": "The practice of safeguarding and maintaining archaeological sites, artifacts, and cultural heritage to prevent deterioration or loss."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/bab63e3d-d7eb-46a5-908f-b97e237fecb2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "a3e32574-72d5-4357-8d99-dde948614d77", "value": "http://localhost:8000/bab63e3d-d7eb-46a5-908f-b97e237fecb2"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "8701b912-008e-44b7-a1c7-a5e5b2a7f90f", "value": "The development of local government policies, laws, and regulations aimed at managing, protecting, and conserving heritage sites and historical structures within a municipality or region."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "8a00d3ed-8b4e-4c32-915d-947ee09524e0", "value": "Municipal Planning and Regulations"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/9b4954d7-0489-4439-92ff-9efd13c345ee">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "3a9b741c-bdf0-46ca-a35f-182577f2854e", "value": "Research and Cultural Utilization"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "5109cdec-737c-4a2a-9e4d-e890d84ecde3", "value": "http://localhost:8000/9b4954d7-0489-4439-92ff-9efd13c345ee"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+    <skos:scopeNote xml:lang="en">{"id": "effabce7-806f-4e44-903d-e5e720d896ec", "value": "The study, interpretation, and cultural utilization of archaeological findings and heritage resources."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1004f6bf-b534-40ea-9899-d1ce06579a20">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "730da882-8f77-432f-bbc7-ede4fbbf7d4e", "value": "Construction Monitoring and Heritage Preservation"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c4f9a144-7f3d-4d7f-becd-fb585a056d23", "value": "http://localhost:8000/1004f6bf-b534-40ea-9899-d1ce06579a20"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "619eb9b8-4974-4cd5-a85c-bf1b7f4b82e1", "value": "The ongoing observation, assessment, and protection of heritage sites during construction or development projects to minimize potential damage."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/0b08ef61-4690-45dc-8bc2-8f1518925c2c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+    <skos:prefLabel xml:lang="en">{"id": "3d56bcf0-bcce-44c1-9506-3e6b0c6ecba0", "value": "Not Defined"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "0e490726-3d38-442e-bbed-ed52f463ed49", "value": "http://localhost:8000/0b08ef61-4690-45dc-8bc2-8f1518925c2c"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/9d7e69e3-563b-4405-996b-bd222fd9bf04">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "f1d7040b-53bd-4616-8215-e16a6ccbc750", "value": "The formal process of notifying relevant legal authorities, property owners, and stakeholders about archaeological findings, site preservation requirements, or any actions required to comply with heritage preservation laws and regulations."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "20c844a9-a1e9-457d-a01e-c3e1f7801100", "value": "http://localhost:8000/9d7e69e3-563b-4405-996b-bd222fd9bf04"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "8067cbca-c37b-47b5-815f-0db49c42606c", "value": "Legal and Administrative Notifications"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9b4954d7-0489-4439-92ff-9efd13c345ee"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/cec85f26-d10a-4eee-8651-90b7ff91258b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f93516fd-f6ae-46ed-9f0a-c5be54a7310c"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/0b08ef61-4690-45dc-8bc2-8f1518925c2c"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/59f76b85-208e-4155-8ad8-3462525cdee5"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1004f6bf-b534-40ea-9899-d1ce06579a20"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/bab63e3d-d7eb-46a5-908f-b97e237fecb2"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7894ad6b-271e-4b06-a9ce-009e63c3af41"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/a591c7f1-8a45-463a-9683-e507a7fedf9f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/70ae9aba-3170-4cf3-9f95-0b678ef4c1ff"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/a938d9aa-0645-499e-88a6-21162f6c50c8"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c640c0ac-cec0-4b51-b65f-435f1d4885f8"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9d7e69e3-563b-4405-996b-bd222fd9bf04"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/cdfeeaea-5ce7-4e52-9750-9dfd0ed6d635"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f82de7ec-c3b6-45ac-99c0-e6618b3e3fba"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4895348e-0db6-4d04-8168-75000e2cf10c"/>
+    <dcterms:identifier xml:lang="en">{"id": "2f274223-4f29-4939-98f7-08dd5cc91f0d", "value": "http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"}</dcterms:identifier>
+    <dcterms:title xml:lang="en">{"id": "b94055ee-4040-4108-8a12-ef4657c0a053", "value": "Recommendation Type"}</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/a591c7f1-8a45-463a-9683-e507a7fedf9f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "a489af15-c585-4a1d-a4f9-eeb249372cec", "value": "Initiatives and programs that promote education about cultural heritage, emphasizing its significance and the need for preservation."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "ed203b35-962a-4078-82ec-aa1a8ead701e", "value": "http://localhost:8000/a591c7f1-8a45-463a-9683-e507a7fedf9f"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+    <skos:prefLabel xml:lang="en">{"id": "2fb9338a-5263-43f4-b158-6e27415db4d6", "value": "Heritage Education and Conservation"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/7894ad6b-271e-4b06-a9ce-009e63c3af41">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+    <skos:prefLabel xml:lang="en">{"id": "d489b1a0-e401-422e-a93c-b4f4e9eb0f5a", "value": "Assessment and Awareness Campaigns"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "6ea47d97-5878-4f0d-8dee-93dd8b36b2b8", "value": "Activities and campaigns designed to assess the condition and significance of archaeological and heritage resources, as well as initiatives aimed at increasing public awareness and support for their protection and conservation."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "b4e87b0b-51ec-40a6-bd6d-eb27890047be", "value": "http://localhost:8000/7894ad6b-271e-4b06-a9ce-009e63c3af41"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f93516fd-f6ae-46ed-9f0a-c5be54a7310c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "9c8eb0ff-078f-4001-8056-5c506fb6f8d9", "value": "Environmental and Anthropogenic Actions"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "cfc1d787-6950-4a03-8228-ac78322c6a32", "value": "The combined impact of natural environmental factors and human activities on archaeological sites and cultural heritage."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+    <dcterms:identifier xml:lang="en">{"id": "42154ede-3507-44f7-a223-1e7994233f50", "value": "http://localhost:8000/f93516fd-f6ae-46ed-9f0a-c5be54a7310c"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/70ae9aba-3170-4cf3-9f95-0b678ef4c1ff">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+    <dcterms:identifier xml:lang="en">{"id": "15e706dd-87b3-46a5-979f-4a9e18fc6334", "value": "http://localhost:8000/70ae9aba-3170-4cf3-9f95-0b678ef4c1ff"}</dcterms:identifier>
     <skos:scopeNote xml:lang="en">{"id": "f6e2bd5c-e627-497a-b219-4adb1cd1592f", "value": "Strategies and actions put in place to protect and safeguard archaeological sites, artifacts, and cultural heritage from potential harm, including vandalism, natural disasters, or development activities."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f82de7ec-c3b6-45ac-99c0-e6618b3e3fba">
+    <skos:prefLabel xml:lang="en">{"id": "0da9bca5-a3f1-4293-8066-5a6d224c6de3", "value": "Protective Measures"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f82de7ec-c3b6-45ac-99c0-e6618b3e3fba">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "a0a027f6-42e4-4bf7-9dc2-8aabc4c12025", "value": "http://localhost:8000/f82de7ec-c3b6-45ac-99c0-e6618b3e3fba"}</dcterms:identifier>
     <skos:scopeNote xml:lang="en">{"id": "eceb9593-bb81-4cbf-bc57-185eb5da631a", "value": "The assessment and management of the potential environmental impact of construction, development, or land use on archaeological and heritage sites."}</skos:scopeNote>
     <skos:prefLabel xml:lang="en">{"id": "bba753ed-0c44-4c0e-b96f-cc403fbb9374", "value": "Environmental Impact and Salvage"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
-  </skos:Concept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/4895348e-0db6-4d04-8168-75000e2cf10c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "bdc27115-c831-4fc5-8ff7-5451059c20aa", "value": "Other"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+    <dcterms:identifier xml:lang="en">{"id": "793f2a2e-7d20-4e67-8081-829319631f30", "value": "http://localhost:8000/4895348e-0db6-4d04-8168-75000e2cf10c"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/cec85f26-d10a-4eee-8651-90b7ff91258b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "dbac9f2c-c710-4a3f-a2fb-1dd870873b9e", "value": "Initiatives designed to inform and educate local communities and the public about cultural heritage, archaeological sites, and the importance of preserving them. These activities promote community involvement and foster a sense of responsibility towards heritage conservation."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/958ec0be-4734-49ef-9b76-c89928daf4ea"/>
+    <dcterms:identifier xml:lang="en">{"id": "e770c7ad-85a8-4cbc-a622-44fd6859d918", "value": "http://localhost:8000/cec85f26-d10a-4eee-8651-90b7ff91258b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "c9dbbde3-b291-4073-a051-f532a109c8da", "value": "Community Awareness and Education"}</skos:prefLabel>
+  </rdf:Description>
 </rdf:RDF>

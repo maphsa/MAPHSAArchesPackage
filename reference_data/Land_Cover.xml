@@ -1,111 +1,137 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:Concept rdf:about="http://localhost:8000/bba0333b-cd50-4813-950d-8e24031a2b9d">
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/0c1fb16c-6730-46d1-ab40-e7eae7c3c7cc"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/141fd904-9537-43e2-88ae-c4a79b8293a6"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/30ebc2ea-40e0-456b-85fd-f1f786e00068"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/411c5565-1a91-4006-8144-4c0312258a64"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/2a0db311-ff05-4713-b985-01dfc2cf9be7"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/4ce05905-96a4-4f51-a1e8-638c50e9e8fe"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f1bbdd4a-dcc2-4c01-9251-2901b0068e79"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/014126d7-a6be-4a51-b8eb-821322e98b11"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/d49a77e0-f776-4dad-951d-3daa2587dc64"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f4aaab68-125a-4b7a-b6f3-4ad7de7fc914"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/68bb4627-e3e3-4479-bccf-7a0e61f9081b"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/475a20d7-7a3c-4833-9bf7-10d153daf233"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/82d694b7-5a88-4d44-b5f3-be603fb26f9d"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/a08ab4bd-856a-4969-9100-ea7ce12f14ae"/>
-        <dcterms:title xml:lang="en">{"id": "bb7c2e6f-eabf-492d-b004-ffe36c1d12fb", "value": "Land Cover"}</dcterms:title>
-        <dcterms:identifier xml:lang="en">{"id": "f195e275-d332-40ba-944b-7ba36fc5173d", "value": "http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"}</dcterms:identifier>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/759e7ea3-ff15-472d-9b22-3d1545f407bd"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/bba0333b-cd50-4813-950d-8e24031a2b9d"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <dcterms:identifier xml:lang="en">{"id": "e20f1822-9cd0-496b-950a-42a0bdf63e88", "value": "http://localhost:8000/bba0333b-cd50-4813-950d-8e24031a2b9d"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "f9c290a9-0dbc-4907-8d20-6542ec104cd8", "value": "Bare"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "bb333392-9245-4b90-97f3-b80e2c7142d6", "value": "Areas such as rocks or sand where there is no vegetation or other type of cover, natural or man-made"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/30ebc2ea-40e0-456b-85fd-f1f786e00068">
-    <dcterms:identifier xml:lang="en">{"id": "3ddb72d1-c368-4dfb-9c22-ce5ff12d9af4", "value": "http://localhost:8000/30ebc2ea-40e0-456b-85fd-f1f786e00068"}</dcterms:identifier>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/141fd904-9537-43e2-88ae-c4a79b8293a6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "dd77220d-d5b2-42e9-9249-d28d3e7af4c4", "value": "http://localhost:8000/141fd904-9537-43e2-88ae-c4a79b8293a6"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "cd4c22ee-1c9d-4730-894f-ce01a6c8b417", "value": "Crops"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
+    <skos:scopeNote xml:lang="en">{"id": "3fb945c8-11d7-4c0e-b3fe-79e81688f0a6", "value": "Areas with vegetation which has been deliberately planted by people for consumption"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/30ebc2ea-40e0-456b-85fd-f1f786e00068"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/bba0333b-cd50-4813-950d-8e24031a2b9d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/82d694b7-5a88-4d44-b5f3-be603fb26f9d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d49a77e0-f776-4dad-951d-3daa2587dc64"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/0c1fb16c-6730-46d1-ab40-e7eae7c3c7cc"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4ce05905-96a4-4f51-a1e8-638c50e9e8fe"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/141fd904-9537-43e2-88ae-c4a79b8293a6"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f1bbdd4a-dcc2-4c01-9251-2901b0068e79"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/411c5565-1a91-4006-8144-4c0312258a64"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/68bb4627-e3e3-4479-bccf-7a0e61f9081b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/a08ab4bd-856a-4969-9100-ea7ce12f14ae"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/759e7ea3-ff15-472d-9b22-3d1545f407bd"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/475a20d7-7a3c-4833-9bf7-10d153daf233"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/2a0db311-ff05-4713-b985-01dfc2cf9be7"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f4aaab68-125a-4b7a-b6f3-4ad7de7fc914"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/014126d7-a6be-4a51-b8eb-821322e98b11"/>
+    <dcterms:title xml:lang="en">{"id": "bb7c2e6f-eabf-492d-b004-ffe36c1d12fb", "value": "Land Cover"}</dcterms:title>
+    <dcterms:identifier xml:lang="en">{"id": "f195e275-d332-40ba-944b-7ba36fc5173d", "value": "http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/68bb4627-e3e3-4479-bccf-7a0e61f9081b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "21f33e9f-06bb-4c73-94cc-820ac0f387d1", "value": "http://localhost:8000/68bb4627-e3e3-4479-bccf-7a0e61f9081b"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
+    <skos:prefLabel xml:lang="en">{"id": "7fee5808-3188-443e-9856-326bdfec5134", "value": "Built-Up"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "1fb0e74b-59cf-4428-b9b1-7370cff18bd8", "value": "Areas with man-made structures"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/30ebc2ea-40e0-456b-85fd-f1f786e00068">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
+    <dcterms:identifier xml:lang="en">{"id": "3ddb72d1-c368-4dfb-9c22-ce5ff12d9af4", "value": "http://localhost:8000/30ebc2ea-40e0-456b-85fd-f1f786e00068"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "9c072bae-fd28-4c31-b4fb-8a56fa649690", "value": "Shrubs"}</skos:prefLabel>
     <skos:scopeNote xml:lang="en">{"id": "bb7166b4-f8f5-45ac-8708-65154c113040", "value": "Areas covered with shrubs, i.e. small woody plants which have multiple stems from the ground and are smaller than trees"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f4aaab68-125a-4b7a-b6f3-4ad7de7fc914">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f4aaab68-125a-4b7a-b6f3-4ad7de7fc914">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
     <dcterms:identifier xml:lang="en">{"id": "bf2d116e-42e2-40a3-97c0-4797bfaa1989", "value": "http://localhost:8000/f4aaab68-125a-4b7a-b6f3-4ad7de7fc914"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "06cf338e-fab6-4861-9cde-098843ce8576", "value": "Grass"}</skos:prefLabel>
     <skos:scopeNote xml:lang="en">{"id": "64d78d32-0893-4bad-b6b2-0cf617847ed5", "value": "Areas primarily covered with vegetation consisting of typically short plants with long, narrow leaves, growing wild or cultivated on lawns and pasture"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/68bb4627-e3e3-4479-bccf-7a0e61f9081b">
-    <skos:prefLabel xml:lang="en">{"id": "7fee5808-3188-443e-9856-326bdfec5134", "value": "Built-Up"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "21f33e9f-06bb-4c73-94cc-820ac0f387d1", "value": "http://localhost:8000/68bb4627-e3e3-4479-bccf-7a0e61f9081b"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-    <skos:scopeNote xml:lang="en">{"id": "1fb0e74b-59cf-4428-b9b1-7370cff18bd8", "value": "Areas with man-made structures"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/82d694b7-5a88-4d44-b5f3-be603fb26f9d">
-    <skos:prefLabel xml:lang="en">{"id": "3d04f8f6-4858-4a5e-888c-89a4add03827", "value": "Mangroves"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "33675ac1-de56-417a-9fcd-e122dd1ea882", "value": "http://localhost:8000/82d694b7-5a88-4d44-b5f3-be603fb26f9d"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/0c1fb16c-6730-46d1-ab40-e7eae7c3c7cc">
-    <skos:prefLabel xml:lang="en">{"id": "4816e159-48e1-4e25-bf7d-6460c9446a7b", "value": "Deforested"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "29b39e36-017c-415d-ae24-9f59c0589ff5", "value": "Area that has had its forest or tree cover removed or significantly reduced"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/a08ab4bd-856a-4969-9100-ea7ce12f14ae">
-    <skos:scopeNote xml:lang="en">{"id": "c4009686-0860-4ae7-a465-0a38aa8fb87c", "value": "Physical and visual characteristics of an area of land, including its topography, land use, vegetation, and other natural features."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "6f292bab-fbfc-4b39-af83-84544e5eed5a", "value": "Landscape"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/141fd904-9537-43e2-88ae-c4a79b8293a6">
-    <skos:scopeNote xml:lang="en">{"id": "3fb945c8-11d7-4c0e-b3fe-79e81688f0a6", "value": "Areas with vegetation which has been deliberately planted by people for consumption"}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "dd77220d-d5b2-42e9-9249-d28d3e7af4c4", "value": "http://localhost:8000/141fd904-9537-43e2-88ae-c4a79b8293a6"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-    <skos:prefLabel xml:lang="en">{"id": "cd4c22ee-1c9d-4730-894f-ce01a6c8b417", "value": "Crops"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/d49a77e0-f776-4dad-951d-3daa2587dc64">
-    <skos:prefLabel xml:lang="en">{"id": "a3f47339-2358-4006-9c21-3336c7402b3e", "value": "Flowing Waters"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-    <dcterms:identifier xml:lang="en">{"id": "bfee6978-6a80-46c1-8b4b-ea5c9d8a1c83", "value": "http://localhost:8000/d49a77e0-f776-4dad-951d-3daa2587dc64"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "2d130e65-523c-4685-bd31-47eee87326ce", "value": "Areas of water which have a current and follows a course, such as rivers"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/475a20d7-7a3c-4833-9bf7-10d153daf233">
-    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-    <skos:prefLabel xml:lang="en">{"id": "806cbbf5-acf3-40cc-b118-e2c38a550776", "value": "Unknown"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/759e7ea3-ff15-472d-9b22-3d1545f407bd">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/759e7ea3-ff15-472d-9b22-3d1545f407bd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "4c948def-1eac-4736-b25d-275b7a012603", "value": "Trees"}</skos:prefLabel>
     <skos:scopeNote xml:lang="en">{"id": "40eb93df-d55a-45e6-a78f-c2e1fe98f19a", "value": "Areas covered with trees"}</skos:scopeNote>
     <dcterms:identifier xml:lang="en">{"id": "1bed1e23-3bf9-40eb-ae6a-af032cf0c0dd", "value": "http://localhost:8000/759e7ea3-ff15-472d-9b22-3d1545f407bd"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "4c948def-1eac-4736-b25d-275b7a012603", "value": "Trees"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/4ce05905-96a4-4f51-a1e8-638c50e9e8fe">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/bba0333b-cd50-4813-950d-8e24031a2b9d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-    <skos:prefLabel xml:lang="en">{"id": "203729c1-7718-4817-8973-b3485bd82cd7", "value": "Swamp"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/2a0db311-ff05-4713-b985-01dfc2cf9be7">
-    <skos:prefLabel xml:lang="en">{"id": "11e32e41-bdf4-440c-a0e0-71f028204315", "value": "No Vegetation"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "f3fd5014-7318-4dbe-a7b6-7c5140b0b0c4", "value": "Area with no vegetation cover"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "e20f1822-9cd0-496b-950a-42a0bdf63e88", "value": "http://localhost:8000/bba0333b-cd50-4813-950d-8e24031a2b9d"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "f9c290a9-0dbc-4907-8d20-6542ec104cd8", "value": "Bare"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "bb333392-9245-4b90-97f3-b80e2c7142d6", "value": "Areas such as rocks or sand where there is no vegetation or other type of cover, natural or man-made"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/a08ab4bd-856a-4969-9100-ea7ce12f14ae">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "c4009686-0860-4ae7-a465-0a38aa8fb87c", "value": "Physical and visual characteristics of an area of land, including its topography, land use, vegetation, and other natural features."}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/014126d7-a6be-4a51-b8eb-821322e98b11">
-    <skos:scopeNote xml:lang="en">{"id": "4b9d0cc5-722a-4cb2-bd2a-e4713febab22", "value": "Areas with very little vegetation of any kind, or only lichen and mosses"}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "964db418-ff10-4c4d-842a-1bf3a21611dc", "value": "http://localhost:8000/014126d7-a6be-4a51-b8eb-821322e98b11"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "6f292bab-fbfc-4b39-af83-84544e5eed5a", "value": "Landscape"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "eadcd1d0-bf81-4efc-b1be-f6295b03f5e4", "value": "http://localhost:8000/a08ab4bd-856a-4969-9100-ea7ce12f14ae"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f1bbdd4a-dcc2-4c01-9251-2901b0068e79">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-    <skos:prefLabel xml:lang="en">{"id": "d1ab7db2-664f-44cb-96ce-88b8221106bc", "value": "Lichen &amp; Mosses/Sparse Vegetation"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/411c5565-1a91-4006-8144-4c0312258a64">
-    <skos:scopeNote xml:lang="en">{"id": "5ae125f5-7af0-46cd-8f3d-6c5bde80efa5", "value": "Vegetation which primarily grows completely or partially underwater"}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "b5078571-ac4f-40cb-837e-57a4eef3f5ea", "value": "http://localhost:8000/411c5565-1a91-4006-8144-4c0312258a64"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "17dfaf1a-1160-497b-849e-11b8520a5e03", "value": "Aquatic Vegetation"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f1bbdd4a-dcc2-4c01-9251-2901b0068e79">
     <skos:prefLabel xml:lang="en">{"id": "6e46f44d-1ccb-44b5-aefe-d9925b1e8514", "value": "Ecological Restoration"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "9b9ab2be-2bc6-4851-af95-e8d1d61661e6", "value": "http://localhost:8000/f1bbdd4a-dcc2-4c01-9251-2901b0068e79"}</dcterms:identifier>
     <skos:scopeNote xml:lang="en">{"id": "36d83dba-22a8-46e5-8474-639c22c0fdea", "value": "Practice of intentionally restoring and rehabilitating ecosystems that have been degraded, damaged, or destroyed"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/d49a77e0-f776-4dad-951d-3daa2587dc64">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
-  </skos:Concept>
+    <dcterms:identifier xml:lang="en">{"id": "bfee6978-6a80-46c1-8b4b-ea5c9d8a1c83", "value": "http://localhost:8000/d49a77e0-f776-4dad-951d-3daa2587dc64"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a3f47339-2358-4006-9c21-3336c7402b3e", "value": "Flowing Waters"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "2d130e65-523c-4685-bd31-47eee87326ce", "value": "Areas of water which have a current and follows a course, such as rivers"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/2a0db311-ff05-4713-b985-01dfc2cf9be7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "11e32e41-bdf4-440c-a0e0-71f028204315", "value": "No Vegetation"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "f05676a6-99ae-4dcc-bdee-d5061370ea65", "value": "http://localhost:8000/2a0db311-ff05-4713-b985-01dfc2cf9be7"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
+    <skos:scopeNote xml:lang="en">{"id": "f3fd5014-7318-4dbe-a7b6-7c5140b0b0c4", "value": "Area with no vegetation cover"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/411c5565-1a91-4006-8144-4c0312258a64">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
+    <dcterms:identifier xml:lang="en">{"id": "b5078571-ac4f-40cb-837e-57a4eef3f5ea", "value": "http://localhost:8000/411c5565-1a91-4006-8144-4c0312258a64"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "5ae125f5-7af0-46cd-8f3d-6c5bde80efa5", "value": "Vegetation which primarily grows completely or partially underwater"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "17dfaf1a-1160-497b-849e-11b8520a5e03", "value": "Aquatic Vegetation"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/475a20d7-7a3c-4833-9bf7-10d153daf233">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
+    <skos:prefLabel xml:lang="en">{"id": "806cbbf5-acf3-40cc-b118-e2c38a550776", "value": "Unknown"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "88cef5ed-0748-451b-907d-1d4be3afec0d", "value": "http://localhost:8000/475a20d7-7a3c-4833-9bf7-10d153daf233"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/0c1fb16c-6730-46d1-ab40-e7eae7c3c7cc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "4816e159-48e1-4e25-bf7d-6460c9446a7b", "value": "Deforested"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "3e85a62b-2d56-4860-9a9a-6259e3e7ad50", "value": "http://localhost:8000/0c1fb16c-6730-46d1-ab40-e7eae7c3c7cc"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
+    <skos:scopeNote xml:lang="en">{"id": "29b39e36-017c-415d-ae24-9f59c0589ff5", "value": "Area that has had its forest or tree cover removed or significantly reduced"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/4ce05905-96a4-4f51-a1e8-638c50e9e8fe">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "28dd04bd-099a-4004-90a3-257b61b7526c", "value": "http://localhost:8000/4ce05905-96a4-4f51-a1e8-638c50e9e8fe"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "203729c1-7718-4817-8973-b3485bd82cd7", "value": "Swamp"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/014126d7-a6be-4a51-b8eb-821322e98b11">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
+    <dcterms:identifier xml:lang="en">{"id": "964db418-ff10-4c4d-842a-1bf3a21611dc", "value": "http://localhost:8000/014126d7-a6be-4a51-b8eb-821322e98b11"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d1ab7db2-664f-44cb-96ce-88b8221106bc", "value": "Lichen &amp; Mosses/Sparse Vegetation"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "4b9d0cc5-722a-4cb2-bd2a-e4713febab22", "value": "Areas with very little vegetation of any kind, or only lichen and mosses"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/82d694b7-5a88-4d44-b5f3-be603fb26f9d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "3d04f8f6-4858-4a5e-888c-89a4add03827", "value": "Mangroves"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/5c3c5fe4-660d-47c8-832e-fed09dfc4277"/>
+    <dcterms:identifier xml:lang="en">{"id": "33675ac1-de56-417a-9fcd-e122dd1ea882", "value": "http://localhost:8000/82d694b7-5a88-4d44-b5f3-be603fb26f9d"}</dcterms:identifier>
+  </rdf:Description>
 </rdf:RDF>

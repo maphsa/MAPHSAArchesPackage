@@ -1,120 +1,163 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-  <skos:Concept rdf:about="http://localhost:8000/26abc035-60e5-484c-8a6f-9a35f23b3627">
-    <skos:scopeNote xml:lang="en">{"id": "5e8c8cfa-290e-4be5-96da-0c5e86b3faca", "value": "Applications or websites where users share information online, often informally"}</skos:scopeNote>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c">
-        <dcterms:title xml:lang="en">{"id": "f0f61913-48a8-4532-97e4-1b5fb16d7de7", "value": "Information Resource Type"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/d163cb4a-43c3-4f46-8609-ec0f14e2f7ee"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/72024ade-c7f3-49dc-a693-d450f0e8a51c"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/d5159034-5595-496e-a946-371fc11b0587"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/2e5eac21-c5ee-47cc-a93d-62d5f072e70e"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/e9b0302b-f39b-443e-8a9f-0835e01ecd5c"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/567918f0-7b29-4cab-ad9f-9fa546d3c123"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/39f8ff51-b31d-43bb-9ff2-ce1dc7e11a9e"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/b69c3b3a-98cf-4e10-9d5e-bb77ce9ba6e5"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/2629c834-bfb5-44ce-ae0a-6fc89657ed05"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/768e643c-7f61-457e-a3a6-cc02e9f0d5ed"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/5dc741bb-492b-42b1-88ce-b9d58a332bc6"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/b14f6044-b809-4825-87d0-4b7b6888d269"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/26abc035-60e5-484c-8a6f-9a35f23b3627"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/85980781-e1a4-4fa0-9eaf-c60014ab74d6"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/40374087-4727-4095-9a43-69563441625b"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/9b4858c8-802e-486d-b300-4a1f8d5a2cbc"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/d215bfec-9aae-4484-a64f-25116dff77a3"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/1a09da83-71ac-405f-8597-1bd9a6a6591b"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/40edc272-2a3d-495a-acd9-90a4a691ec3b"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <skos:prefLabel xml:lang="en">{"id": "a673411d-0990-4272-93f0-c255807b3993", "value": "Social Media"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/72024ade-c7f3-49dc-a693-d450f0e8a51c">
-    <skos:prefLabel xml:lang="en">{"id": "c541fa5c-e929-4403-a497-d7450118a13a", "value": "Report"}</skos:prefLabel>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/9b4858c8-802e-486d-b300-4a1f8d5a2cbc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "7b8194cb-95a8-48b9-829d-4494d6e4533a", "value": "http://localhost:8000/9b4858c8-802e-486d-b300-4a1f8d5a2cbc"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a5dfb996-ea66-4a2d-bcd6-edc0fd167b0c", "value": "Aerial Photograph"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+    <skos:scopeNote xml:lang="en">{"id": "1183eb35-0b20-4dba-b2e2-5abb89dec1ff", "value": "A photograph of the earth's surface which has been taken from an airborne vehicle, such as airplane, kite, or UAV"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/72024ade-c7f3-49dc-a693-d450f0e8a51c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "b6352bad-d98f-41c3-9ae0-d85277b4fbc7", "value": "http://localhost:8000/72024ade-c7f3-49dc-a693-d450f0e8a51c"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
     <skos:scopeNote xml:lang="en">{"id": "9a80dc9c-6815-417b-893e-ea1f644bb54b", "value": "A written report about the activities of a project, group, etc."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/e9b0302b-f39b-443e-8a9f-0835e01ecd5c">
-    <skos:prefLabel xml:lang="en">{"id": "12cd971d-7da8-4832-b5c9-e889338ca5be", "value": "Map"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "e5adaa16-ca12-42b8-8260-48507b8e8693", "value": "A visual or symbolic representation of a geographical area, often showing the shape and position of physical features of the landscape"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "c541fa5c-e929-4403-a497-d7450118a13a", "value": "Report"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b69c3b3a-98cf-4e10-9d5e-bb77ce9ba6e5"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e9b0302b-f39b-443e-8a9f-0835e01ecd5c"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/39f8ff51-b31d-43bb-9ff2-ce1dc7e11a9e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1a09da83-71ac-405f-8597-1bd9a6a6591b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/2e5eac21-c5ee-47cc-a93d-62d5f072e70e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/768e643c-7f61-457e-a3a6-cc02e9f0d5ed"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/26abc035-60e5-484c-8a6f-9a35f23b3627"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/85980781-e1a4-4fa0-9eaf-c60014ab74d6"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/40374087-4727-4095-9a43-69563441625b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9b4858c8-802e-486d-b300-4a1f8d5a2cbc"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/40edc272-2a3d-495a-acd9-90a4a691ec3b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d5159034-5595-496e-a946-371fc11b0587"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/567918f0-7b29-4cab-ad9f-9fa546d3c123"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d215bfec-9aae-4484-a64f-25116dff77a3"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/2629c834-bfb5-44ce-ae0a-6fc89657ed05"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b14f6044-b809-4825-87d0-4b7b6888d269"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d163cb4a-43c3-4f46-8609-ec0f14e2f7ee"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/72024ade-c7f3-49dc-a693-d450f0e8a51c"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/5dc741bb-492b-42b1-88ce-b9d58a332bc6"/>
+    <dcterms:title xml:lang="en">{"id": "f0f61913-48a8-4532-97e4-1b5fb16d7de7", "value": "Information Resource Type"}</dcterms:title>
+    <dcterms:identifier xml:lang="en">{"id": "9f191b92-74dc-4b96-9364-3c97e0555f5f", "value": "http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/40374087-4727-4095-9a43-69563441625b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/85980781-e1a4-4fa0-9eaf-c60014ab74d6">
-    <skos:scopeNote xml:lang="en">{"id": "26d97bd0-cc41-4380-9b31-09112d070dea", "value": "A written or verbal exchange between two people, often informal"}</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">{"id": "0ae26271-6520-4342-9d1b-d15436655acd", "value": "A document produced by and/or for the government, for example, relating to laws and official regulations on the treatment of heritage"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "0a166d1c-5026-4451-beae-7da2b47d1646", "value": "http://localhost:8000/40374087-4727-4095-9a43-69563441625b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "b96a54d1-7337-43b3-bab7-913c232c1c04", "value": "Government Document"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1a09da83-71ac-405f-8597-1bd9a6a6591b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "07e1de58-9545-480f-a551-adbd5cad316c", "value": "Journal Article"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "c5f4d220-4ccc-4e2a-a0c0-ada98b49d64d", "value": "A written work which is published in an academic periodical, i.e. a publication which is produced and distributed at regular intervals and is normally peer-reviewed"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-    <skos:prefLabel xml:lang="en">{"id": "1e5f16d8-7d8e-49b6-9e40-bb5033c408da", "value": "Personal Communication"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/d215bfec-9aae-4484-a64f-25116dff77a3">
-    <skos:scopeNote xml:lang="en">{"id": "d31b8792-e5fa-4d98-b77a-2e3b2248d681", "value": "An organised collection of structured information or data, typically stored digitally"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "53053256-45a5-4105-ba67-b485b4704d27", "value": "Database"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "347df1e7-0e41-40aa-b81b-7723e54cffac", "value": "http://localhost:8000/1a09da83-71ac-405f-8597-1bd9a6a6591b"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/768e643c-7f61-457e-a3a6-cc02e9f0d5ed">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "932815ac-e148-40e6-978c-b25974d3d6c9", "value": "(e.g. LiDAR, predictive modelling)"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "cb92a504-745c-44a6-8b81-9103dea32d04", "value": "http://localhost:8000/768e643c-7f61-457e-a3a6-cc02e9f0d5ed"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2523bb83-25c0-4372-b5be-38df8c7830c4", "value": "Digital Model"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/d163cb4a-43c3-4f46-8609-ec0f14e2f7ee">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/40edc272-2a3d-495a-acd9-90a4a691ec3b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "1c3295ad-eb56-4870-ba2c-94c3976eefa5", "value": "Book"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "2e0d73d8-cf95-41a4-a0a6-8a9d7f06f35e", "value": "A self-contained, written work, which in physical form is bound with covers, and is normally edited and published for distribution"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+    <dcterms:identifier xml:lang="en">{"id": "635552ba-78dd-4c93-8a8e-835985410557", "value": "http://localhost:8000/40edc272-2a3d-495a-acd9-90a4a691ec3b"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/567918f0-7b29-4cab-ad9f-9fa546d3c123">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+    <dcterms:identifier xml:lang="en">{"id": "78b37ed7-661b-44e1-b27b-dc8fa59abe64", "value": "http://localhost:8000/567918f0-7b29-4cab-ad9f-9fa546d3c123"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2587c88c-926c-4a84-b705-e1c41c497d9c", "value": "Thesis/Dissertation"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/d163cb4a-43c3-4f46-8609-ec0f14e2f7ee">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:scopeNote xml:lang="en">{"id": "b5924b5a-02fb-42a3-9354-154911b2b6e2", "value": "A written work or audio-visual presentation which has been produced and perhaps presented to an audience but has not yet been published"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+    <dcterms:identifier xml:lang="en">{"id": "8535f9dd-fbc9-4474-81c6-44a36e45dea8", "value": "http://localhost:8000/d163cb4a-43c3-4f46-8609-ec0f14e2f7ee"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "3ce97431-43b3-4785-ae40-1aebada4addd", "value": "Unpublished Paper/Presentation"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/2e5eac21-c5ee-47cc-a93d-62d5f072e70e">
     <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/b14f6044-b809-4825-87d0-4b7b6888d269">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+    <dcterms:identifier xml:lang="en">{"id": "5433f59d-aeb0-4000-90d6-8cb32e25c9b9", "value": "http://localhost:8000/b14f6044-b809-4825-87d0-4b7b6888d269"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "3a8aa7d9-0b71-43e7-a81c-98a35bf5712b", "value": "Satellite Imagery"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "388f07c3-f0e7-499b-8ae1-076d2ba0d2b6", "value": "An image captured of the earth by an imaging system which operates from a satellite."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/2629c834-bfb5-44ce-ae0a-6fc89657ed05">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+    <skos:scopeNote xml:lang="en">{"id": "0820ee72-6868-4eff-8e6a-c0f2e9956275", "value": "A likeness, diagram, or representation of an object or scene, produced manually (e.g. pencil on paper) or digitally. Ruined or missing parts may be filled in, based on evidence, extrapolation, or imagination."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b392494d-f255-4a57-8321-1fda10ad492b", "value": "Drawing/Reconstruction"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "6d1f0146-b92d-4708-b55f-d1807fcbc25e", "value": "http://localhost:8000/2629c834-bfb5-44ce-ae0a-6fc89657ed05"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/d215bfec-9aae-4484-a64f-25116dff77a3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "36b0ddcb-350f-498c-a562-8fc57c40a38c", "value": "http://localhost:8000/d215bfec-9aae-4484-a64f-25116dff77a3"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+    <skos:prefLabel xml:lang="en">{"id": "53053256-45a5-4105-ba67-b485b4704d27", "value": "Database"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "d31b8792-e5fa-4d98-b77a-2e3b2248d681", "value": "An organised collection of structured information or data, typically stored digitally"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/26abc035-60e5-484c-8a6f-9a35f23b3627">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "a673411d-0990-4272-93f0-c255807b3993", "value": "Social Media"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "5e8c8cfa-290e-4be5-96da-0c5e86b3faca", "value": "Applications or websites where users share information online, often informally"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "b90b6378-25ec-4216-a02d-b1752492db70", "value": "http://localhost:8000/26abc035-60e5-484c-8a6f-9a35f23b3627"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/b69c3b3a-98cf-4e10-9d5e-bb77ce9ba6e5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+    <dcterms:identifier xml:lang="en">{"id": "0b61adc7-a638-492f-9330-0e68dfb2dd01", "value": "http://localhost:8000/b69c3b3a-98cf-4e10-9d5e-bb77ce9ba6e5"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a80c7108-ca36-41b9-ba43-ebd3d6202315", "value": "Film/Podcast"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "f7cdb9c5-e85c-44e6-936f-19b07144a58d", "value": "A video or audio work which has been deliberately produced and edited for distribution to an audience"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/2e5eac21-c5ee-47cc-a93d-62d5f072e70e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
+    <dcterms:identifier xml:lang="en">{"id": "75a9be16-cdbd-489b-b8d1-1560c3848314", "value": "http://localhost:8000/2e5eac21-c5ee-47cc-a93d-62d5f072e70e"}</dcterms:identifier>
     <skos:scopeNote xml:lang="en">{"id": "c29730ad-a2d1-4482-b2d4-395c7e81d653", "value": "An audio or video report produced and distributed to the public by a news organisation, on television, radio, or the internet"}</skos:scopeNote>
     <skos:prefLabel xml:lang="en">{"id": "6b1c8fb6-88a7-48bd-bebf-fdfa5c9f535c", "value": "News/Media Broadcast"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/d5159034-5595-496e-a946-371fc11b0587">
-    <skos:prefLabel xml:lang="en">{"id": "8c7a12c1-36e3-4fb0-a899-9d43835ebbda", "value": "Website"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-    <skos:scopeNote xml:lang="en">{"id": "b3d707c0-1555-4009-971f-e56c0e4fe115", "value": "Collected documents and information accessed through an internet browser"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/39f8ff51-b31d-43bb-9ff2-ce1dc7e11a9e">
-    <skos:prefLabel xml:lang="en">{"id": "c57a7cfe-55cb-490b-9648-762c92bc8eb3", "value": "Photograph"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-    <skos:scopeNote xml:lang="en">{"id": "72577450-b370-43f4-ac87-22ab94fbde12", "value": "An image captured directly by a camera onto a light-sensitive surface or digitally"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/5dc741bb-492b-42b1-88ce-b9d58a332bc6">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/5dc741bb-492b-42b1-88ce-b9d58a332bc6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "179eaa3c-4260-4d84-8aef-1f53037c518b", "value": "http://localhost:8000/5dc741bb-492b-42b1-88ce-b9d58a332bc6"}</dcterms:identifier>
     <skos:scopeNote xml:lang="en">{"id": "69f75a6c-7209-49f4-8bb3-85aab66a1d77", "value": "A group of documents or objects, often historical and related to a specific topic or from a specific source"}</skos:scopeNote>
     <skos:prefLabel xml:lang="en">{"id": "4d35779d-7f91-43a7-bc30-fd4b412c8fca", "value": "Archive/Collection"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/1a09da83-71ac-405f-8597-1bd9a6a6591b">
-    <skos:prefLabel xml:lang="en">{"id": "07e1de58-9545-480f-a551-adbd5cad316c", "value": "Journal Article"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/39f8ff51-b31d-43bb-9ff2-ce1dc7e11a9e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "4611abb4-424a-4c56-8973-c7f08fed306a", "value": "http://localhost:8000/39f8ff51-b31d-43bb-9ff2-ce1dc7e11a9e"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "c57a7cfe-55cb-490b-9648-762c92bc8eb3", "value": "Photograph"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "72577450-b370-43f4-ac87-22ab94fbde12", "value": "An image captured directly by a camera onto a light-sensitive surface or digitally"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-    <skos:scopeNote xml:lang="en">{"id": "c5f4d220-4ccc-4e2a-a0c0-ada98b49d64d", "value": "A written work which is published in an academic periodical, i.e. a publication which is produced and distributed at regular intervals and is normally peer-reviewed"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/9b4858c8-802e-486d-b300-4a1f8d5a2cbc">
-    <skos:prefLabel xml:lang="en">{"id": "a5dfb996-ea66-4a2d-bcd6-edc0fd167b0c", "value": "Aerial Photograph"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "1183eb35-0b20-4dba-b2e2-5abb89dec1ff", "value": "A photograph of the earth's surface which has been taken from an airborne vehicle, such as airplane, kite, or UAV"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/e9b0302b-f39b-443e-8a9f-0835e01ecd5c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "e5adaa16-ca12-42b8-8260-48507b8e8693", "value": "A visual or symbolic representation of a geographical area, often showing the shape and position of physical features of the landscape"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "12cd971d-7da8-4832-b5c9-e889338ca5be", "value": "Map"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "86308971-0465-43a0-8afa-098496e371ea", "value": "http://localhost:8000/e9b0302b-f39b-443e-8a9f-0835e01ecd5c"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/40374087-4727-4095-9a43-69563441625b">
-    <skos:scopeNote xml:lang="en">{"id": "0ae26271-6520-4342-9d1b-d15436655acd", "value": "A document produced by and/or for the government, for example, relating to laws and official regulations on the treatment of heritage"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/85980781-e1a4-4fa0-9eaf-c60014ab74d6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "1e5f16d8-7d8e-49b6-9e40-bb5033c408da", "value": "Personal Communication"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "26d97bd0-cc41-4380-9b31-09112d070dea", "value": "A written or verbal exchange between two people, often informal"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-    <skos:prefLabel xml:lang="en">{"id": "b96a54d1-7337-43b3-bab7-913c232c1c04", "value": "Government Document"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/2629c834-bfb5-44ce-ae0a-6fc89657ed05">
+    <dcterms:identifier xml:lang="en">{"id": "f1c2fdf8-8e97-4f73-afff-a013daef0b07", "value": "http://localhost:8000/85980781-e1a4-4fa0-9eaf-c60014ab74d6"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/d5159034-5595-496e-a946-371fc11b0587">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "b3d707c0-1555-4009-971f-e56c0e4fe115", "value": "Collected documents and information accessed through an internet browser"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "8c7a12c1-36e3-4fb0-a899-9d43835ebbda", "value": "Website"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-    <skos:prefLabel xml:lang="en">{"id": "b392494d-f255-4a57-8321-1fda10ad492b", "value": "Drawing/Reconstruction"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "0820ee72-6868-4eff-8e6a-c0f2e9956275", "value": "A likeness, diagram, or representation of an object or scene, produced manually (e.g. pencil on paper) or digitally. Ruined or missing parts may be filled in, based on evidence, extrapolation, or imagination."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/40edc272-2a3d-495a-acd9-90a4a691ec3b">
-    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-    <skos:scopeNote xml:lang="en">{"id": "2e0d73d8-cf95-41a4-a0a6-8a9d7f06f35e", "value": "A self-contained, written work, which in physical form is bound with covers, and is normally edited and published for distribution"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "1c3295ad-eb56-4870-ba2c-94c3976eefa5", "value": "Book"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/b69c3b3a-98cf-4e10-9d5e-bb77ce9ba6e5">
-    <skos:prefLabel xml:lang="en">{"id": "a80c7108-ca36-41b9-ba43-ebd3d6202315", "value": "Film/Podcast"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "f7cdb9c5-e85c-44e6-936f-19b07144a58d", "value": "A video or audio work which has been deliberately produced and edited for distribution to an audience"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/b14f6044-b809-4825-87d0-4b7b6888d269">
-    <skos:prefLabel xml:lang="en">{"id": "3a8aa7d9-0b71-43e7-a81c-98a35bf5712b", "value": "Satellite Imagery"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "388f07c3-f0e7-499b-8ae1-076d2ba0d2b6", "value": "An image captured of the earth by an imaging system which operates from a satellite."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/768e643c-7f61-457e-a3a6-cc02e9f0d5ed">
-    <skos:prefLabel xml:lang="en">{"id": "2523bb83-25c0-4372-b5be-38df8c7830c4", "value": "Digital Model"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "932815ac-e148-40e6-978c-b25974d3d6c9", "value": "(e.g. LiDAR, predictive modelling)"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/567918f0-7b29-4cab-ad9f-9fa546d3c123">
-    <skos:inScheme rdf:resource="http://localhost:8000/05d89d62-6c09-4e14-9ecf-26efd7e9458c"/>
-    <skos:prefLabel xml:lang="en">{"id": "2587c88c-926c-4a84-b705-e1c41c497d9c", "value": "Thesis/Dissertation"}</skos:prefLabel>
-  </skos:Concept>
+    <dcterms:identifier xml:lang="en">{"id": "4c9e7735-4a7c-4127-97e5-5b5fa8c3f12d", "value": "http://localhost:8000/d5159034-5595-496e-a946-371fc11b0587"}</dcterms:identifier>
+  </rdf:Description>
 </rdf:RDF>

@@ -1,48 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:Concept rdf:about="http://localhost:8000/91bbe3fa-2b3b-4f01-b514-2c5bdb1b5dcc">
-    <skos:prefLabel xml:lang="en">{"id": "eda90859-adb6-4d54-9b24-4c4c3e97b48b", "value": "Low"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "e3875378-fdde-459a-8669-09e134bdc9e9", "value": "The extent of site/feature has been mapped in the field however there may be some concern over the correspondence between the field and imagery extents OR The site/feature has a very clear boundary and is very similar on multiple images. The site, however, may not have been mapped in the field"}</skos:scopeNote>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f007f9dd-069a-467a-88e1-f73e0bb26264"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/91bbe3fa-2b3b-4f01-b514-2c5bdb1b5dcc"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/1c82a9a1-7c07-4dbd-ba15-aedbdafda01b"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/9342eb9d-d7d9-44cf-9553-f3523b61c571"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/cb5837d6-777e-4b0f-bb74-4a8a34291eda"/>
-        <dcterms:identifier xml:lang="en">{"id": "b6d495f5-9acb-4c36-9939-dd66781baf75", "value": "http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"}</dcterms:identifier>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/7c169642-b67c-42de-aa7f-9507ccc9873f"/>
-        <dcterms:title xml:lang="en">{"id": "1faece07-d555-487c-b140-5dccfd5a494e", "value": "Geometry Extent Certainty"}</dcterms:title>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <dcterms:identifier xml:lang="en">{"id": "cb168ea7-9093-4d1f-be28-1e4ed93e8725", "value": "http://localhost:8000/91bbe3fa-2b3b-4f01-b514-2c5bdb1b5dcc"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/1c82a9a1-7c07-4dbd-ba15-aedbdafda01b">
-    <skos:prefLabel xml:lang="en">{"id": "1c1d9c33-0b3b-47f1-869a-09d748fc28f6", "value": "Negligible"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "ec6e0e92-9389-4e10-9b18-fdac62aa14e2", "value": "http://localhost:8000/1c82a9a1-7c07-4dbd-ba15-aedbdafda01b"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
-    <skos:scopeNote xml:lang="en">{"id": "5dd43b06-f891-448a-a5dc-1881406f7292", "value": "The extent of site/feature has been mapped in the field (either primary or secondary sources)"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/7c169642-b67c-42de-aa7f-9507ccc9873f">
-    <skos:prefLabel xml:lang="en">{"id": "1abe9737-8a1f-42be-bd4e-9ae0e3ba6d04", "value": "Unknown"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f007f9dd-069a-467a-88e1-f73e0bb26264">
-    <dcterms:identifier xml:lang="en">{"id": "2e00efc3-4706-4698-be67-da57b8456cda", "value": "http://localhost:8000/f007f9dd-069a-467a-88e1-f73e0bb26264"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "e40c6608-c16a-46ff-8726-deab211cea77", "value": "Definite"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "07d6b02a-cff7-4a2f-832b-b3e9ea22bba1", "value": "The site/feature has a very diffuse boundary and/or appears to have a very different extent on different images, or alternatively is not visible on imagery. The site may also have no overall spatial information associated with it i.e. is only located by a broad scale map and/or by reference to a general region. In this case both the site location and site extent certainty will be negligible. This certainty level should also be used for polygons which are \"user-defined\" e.g. around a group of cairns which are not necessarily chronologically or functionally related."}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/9342eb9d-d7d9-44cf-9553-f3523b61c571">
-    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
-    <skos:prefLabel xml:lang="en">{"id": "39ddf380-b058-4165-9e49-4c170cef5f63", "value": "Medium"}</skos:prefLabel>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/9342eb9d-d7d9-44cf-9553-f3523b61c571">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:identifier xml:lang="en">{"id": "e1b3f969-4abb-4b84-bd1d-658c3bbd7af5", "value": "http://localhost:8000/9342eb9d-d7d9-44cf-9553-f3523b61c571"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
     <skos:scopeNote xml:lang="en">{"id": "f995a736-2d52-4067-ac6b-94d8f5e16915", "value": "The site/feature appears to have a fairly clear boundary and it is similar on multiple images. References to the site extent within published data may roughly correspond to what is identifiable via imagery."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/cb5837d6-777e-4b0f-bb74-4a8a34291eda">
+    <skos:prefLabel xml:lang="en">{"id": "39ddf380-b058-4165-9e49-4c170cef5f63", "value": "Medium"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1c82a9a1-7c07-4dbd-ba15-aedbdafda01b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "5dd43b06-f891-448a-a5dc-1881406f7292", "value": "The extent of site/feature has been mapped in the field (either primary or secondary sources)"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "1c1d9c33-0b3b-47f1-869a-09d748fc28f6", "value": "Negligible"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
+    <dcterms:identifier xml:lang="en">{"id": "ec6e0e92-9389-4e10-9b18-fdac62aa14e2", "value": "http://localhost:8000/1c82a9a1-7c07-4dbd-ba15-aedbdafda01b"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:title xml:lang="en">{"id": "1faece07-d555-487c-b140-5dccfd5a494e", "value": "Geometry Extent Certainty"}</dcterms:title>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/91bbe3fa-2b3b-4f01-b514-2c5bdb1b5dcc"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/cb5837d6-777e-4b0f-bb74-4a8a34291eda"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f007f9dd-069a-467a-88e1-f73e0bb26264"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1c82a9a1-7c07-4dbd-ba15-aedbdafda01b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9342eb9d-d7d9-44cf-9553-f3523b61c571"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7c169642-b67c-42de-aa7f-9507ccc9873f"/>
+    <dcterms:identifier xml:lang="en">{"id": "b6d495f5-9acb-4c36-9939-dd66781baf75", "value": "http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/91bbe3fa-2b3b-4f01-b514-2c5bdb1b5dcc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "eda90859-adb6-4d54-9b24-4c4c3e97b48b", "value": "Low"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "cb168ea7-9093-4d1f-be28-1e4ed93e8725", "value": "http://localhost:8000/91bbe3fa-2b3b-4f01-b514-2c5bdb1b5dcc"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "e3875378-fdde-459a-8669-09e134bdc9e9", "value": "The extent of site/feature has been mapped in the field however there may be some concern over the correspondence between the field and imagery extents OR The site/feature has a very clear boundary and is very similar on multiple images. The site, however, may not have been mapped in the field"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f007f9dd-069a-467a-88e1-f73e0bb26264">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "e40c6608-c16a-46ff-8726-deab211cea77", "value": "Definite"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
+    <dcterms:identifier xml:lang="en">{"id": "2e00efc3-4706-4698-be67-da57b8456cda", "value": "http://localhost:8000/f007f9dd-069a-467a-88e1-f73e0bb26264"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "07d6b02a-cff7-4a2f-832b-b3e9ea22bba1", "value": "The site/feature has a very diffuse boundary and/or appears to have a very different extent on different images, or alternatively is not visible on imagery. The site may also have no overall spatial information associated with it i.e. is only located by a broad scale map and/or by reference to a general region. In this case both the site location and site extent certainty will be negligible. This certainty level should also be used for polygons which are \"user-defined\" e.g. around a group of cairns which are not necessarily chronologically or functionally related."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/cb5837d6-777e-4b0f-bb74-4a8a34291eda">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
     <dcterms:identifier xml:lang="en">{"id": "ab5cc143-8cc5-42c0-96bd-d3bbeab400c0", "value": "http://localhost:8000/cb5837d6-777e-4b0f-bb74-4a8a34291eda"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "4b12557b-a709-4927-adb6-ffe801da47d7", "value": "High"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
     <skos:scopeNote xml:lang="en">{"id": "24af656f-75d4-42b8-9cb6-f0785dcd0fcc", "value": "The site/feature has a diffuse boundary (i.e. it is hard to identify from imagery where the site starts and ends). It appears to have a different extent on different images. Alternatively, if the site is listed by published sources it is only referred to using very broad size categories e.g. 0-5ha."}</skos:scopeNote>
-  </skos:Concept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/7c169642-b67c-42de-aa7f-9507ccc9873f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/ee774406-2307-45d3-8f5c-adf2822fa657"/>
+    <dcterms:identifier xml:lang="en">{"id": "353b414e-c0db-4613-86e9-2569bacea3a6", "value": "http://localhost:8000/7c169642-b67c-42de-aa7f-9507ccc9873f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "1abe9737-8a1f-42be-bd4e-9ae0e3ba6d04", "value": "Unknown"}</skos:prefLabel>
+  </rdf:Description>
 </rdf:RDF>

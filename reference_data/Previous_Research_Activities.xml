@@ -1,39 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:Concept rdf:about="http://localhost:8000/8456d6ca-c659-4937-98bf-9afeee37b694">
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de">
-        <dcterms:title xml:lang="en">{"id": "12b7e5d1-2f45-4d64-bd12-a545f7d23bd3", "value": "Previous Research Activities"}</dcterms:title>
-        <dcterms:identifier xml:lang="en">{"id": "5a97e3a2-3710-43f9-b112-5973ab065397", "value": "http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"}</dcterms:identifier>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/d0f7441e-69b5-47ab-bcf5-244e190bb3d8"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/ec9aac4d-0580-4bf2-b40d-845f634f6ea9"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/8456d6ca-c659-4937-98bf-9afeee37b694"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/988f8e83-6307-4223-b589-dfe4948eb9dc"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/fa9b332c-923c-4490-9d44-ae8511a8c2ce"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f64a9928-f6e6-4759-afbd-5cbd7cf5b0f4"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <skos:prefLabel xml:lang="en">{"id": "46b5985e-4ec1-4189-b34f-affb62b13631", "value": "Ground Survey"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "eab44758-1902-4bbd-b6d2-efba2798ad9b", "value": "An in-person and on-location survey which records information about the features, interpretation, and other details about an archaeological or heritage place"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/ec9aac4d-0580-4bf2-b40d-845f634f6ea9">
-    <skos:prefLabel xml:lang="en">{"id": "5dc68272-b328-4177-90f6-7fc750fc7544", "value": "Probing or Stratigraphic Section"}</skos:prefLabel>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d0f7441e-69b5-47ab-bcf5-244e190bb3d8"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ec9aac4d-0580-4bf2-b40d-845f634f6ea9"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/8456d6ca-c659-4937-98bf-9afeee37b694"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/988f8e83-6307-4223-b589-dfe4948eb9dc"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/fa9b332c-923c-4490-9d44-ae8511a8c2ce"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f64a9928-f6e6-4759-afbd-5cbd7cf5b0f4"/>
+    <dcterms:identifier xml:lang="en">{"id": "5a97e3a2-3710-43f9-b112-5973ab065397", "value": "http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"}</dcterms:identifier>
+    <dcterms:title xml:lang="en">{"id": "12b7e5d1-2f45-4d64-bd12-a545f7d23bd3", "value": "Previous Research Activities"}</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/ec9aac4d-0580-4bf2-b40d-845f634f6ea9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/d0f7441e-69b5-47ab-bcf5-244e190bb3d8">
+    <skos:prefLabel xml:lang="en">{"id": "5dc68272-b328-4177-90f6-7fc750fc7544", "value": "Probing or Stratigraphic Section"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "f7229c60-8845-439b-90d5-94f6cb8b729e", "value": "http://localhost:8000/ec9aac4d-0580-4bf2-b40d-845f634f6ea9"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/fa9b332c-923c-4490-9d44-ae8511a8c2ce">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"/>
+    <skos:prefLabel xml:lang="en">{"id": "a8921823-4572-46a5-b00b-d34b7e8c28b7", "value": "Rock Art Record"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "613345a3-7eb1-4219-9266-49978ae098b2", "value": "http://localhost:8000/fa9b332c-923c-4490-9d44-ae8511a8c2ce"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/8456d6ca-c659-4937-98bf-9afeee37b694">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"/>
+    <skos:scopeNote xml:lang="en">{"id": "eab44758-1902-4bbd-b6d2-efba2798ad9b", "value": "An in-person and on-location survey which records information about the features, interpretation, and other details about an archaeological or heritage place"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "46b5985e-4ec1-4189-b34f-affb62b13631", "value": "Ground Survey"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "dc4cea32-2dba-451c-b6e9-ede079501884", "value": "http://localhost:8000/8456d6ca-c659-4937-98bf-9afeee37b694"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f64a9928-f6e6-4759-afbd-5cbd7cf5b0f4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "9ce15dcd-229c-42eb-b39e-f96462a2685d", "value": "http://localhost:8000/f64a9928-f6e6-4759-afbd-5cbd7cf5b0f4"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "58b16ca8-6266-4496-9707-fc8ed4cb6224", "value": "Excavation"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/988f8e83-6307-4223-b589-dfe4948eb9dc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "6aa954c4-5c07-4c5c-91c7-62f0c884f1d2", "value": "Surface Collection"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "5a4bfefc-b170-4bb3-9064-4d927056ae98", "value": "http://localhost:8000/988f8e83-6307-4223-b589-dfe4948eb9dc"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/d0f7441e-69b5-47ab-bcf5-244e190bb3d8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"/>
     <skos:prefLabel xml:lang="en">{"id": "c8888a31-086b-4653-ab88-99a8382d0db9", "value": "Aerial Survey"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/988f8e83-6307-4223-b589-dfe4948eb9dc">
-    <skos:inScheme rdf:resource="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"/>
-    <skos:prefLabel xml:lang="en">{"id": "6aa954c4-5c07-4c5c-91c7-62f0c884f1d2", "value": "Surface Collection"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f64a9928-f6e6-4759-afbd-5cbd7cf5b0f4">
-    <skos:inScheme rdf:resource="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"/>
-    <skos:prefLabel xml:lang="en">{"id": "58b16ca8-6266-4496-9707-fc8ed4cb6224", "value": "Excavation"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/fa9b332c-923c-4490-9d44-ae8511a8c2ce">
-    <skos:prefLabel xml:lang="en">{"id": "a8921823-4572-46a5-b00b-d34b7e8c28b7", "value": "Rock Art Record"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/2eddd00a-a422-4855-8295-296ac1e633de"/>
-  </skos:Concept>
+    <dcterms:identifier xml:lang="en">{"id": "09bcf138-56d3-4cfb-98c4-1e8b0931a01d", "value": "http://localhost:8000/d0f7441e-69b5-47ab-bcf5-244e190bb3d8"}</dcterms:identifier>
+  </rdf:Description>
 </rdf:RDF>

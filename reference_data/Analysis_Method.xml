@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/782ef092-23af-44c4-84e8-c7832cc4f45d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/62fdc3b7-ca09-459e-9050-9bcab6812826"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9f141a76-36dc-4bef-a010-60e920b7b015"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e4ed7341-c984-4821-804a-7823269c6dd7"/>
+    <dcterms:title xml:lang="en">{"id": "0f49a9df-c1e2-4a32-afbd-24a17faab232", "value": "Analysis Method"}</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/e4ed7341-c984-4821-804a-7823269c6dd7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/782ef092-23af-44c4-84e8-c7832cc4f45d"/>
+    <skos:prefLabel xml:lang="en">{"id": "3665ab85-e128-41e9-a36b-1b739e820566", "value": "Liquid Scintillation Counting (LSC)"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/9f141a76-36dc-4bef-a010-60e920b7b015">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "eb89e00f-0377-4d59-bb91-3ec33956f7dd", "value": "Gas Proportional Counting (GPC)"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/782ef092-23af-44c4-84e8-c7832cc4f45d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/62fdc3b7-ca09-459e-9050-9bcab6812826">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "b0f364d6-69a1-447a-a14a-6871e0ee0689", "value": "Accelerator Mass Spectrometry (AMS)"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/782ef092-23af-44c4-84e8-c7832cc4f45d"/>
+  </rdf:Description>
+</rdf:RDF>

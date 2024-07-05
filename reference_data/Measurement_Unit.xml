@@ -1,48 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <skos:Concept rdf:about="http://localhost:8000/c387d4db-40ba-47b4-bf77-dbd051287358">
-    <dcterms:identifier xml:lang="en">{"id": "91b2564a-a9a5-4d24-9b23-bc665a2331f1", "value": "http://localhost:8000/c387d4db-40ba-47b4-bf77-dbd051287358"}</dcterms:identifier>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/8b26f5ce-5ef3-4bd5-8132-7e4a51493f14"/>
-        <dcterms:title xml:lang="en">{"id": "05217c19-abe9-4def-a08e-ccc273fc8e3a", "value": "Measurement Unit"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/a042ba7d-9ad0-411d-9d1e-c1d37b95672b"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/c387d4db-40ba-47b4-bf77-dbd051287358"/>
-        <dcterms:identifier xml:lang="en">{"id": "fe1092a6-a741-40da-882a-7ecec92e635d", "value": "http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e"}</dcterms:identifier>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f4b8fc10-6a8d-4bd9-80ff-a147fe34280c"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/00b07612-8021-4560-831b-b87fd15bfef9"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/de7e852a-4cdb-40d7-9ba6-87c3c4d451bf"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <skos:prefLabel xml:lang="en">{"id": "634f92a6-fa5f-4b92-afb3-9b3a36d0d983", "value": "Centimeters (cm)"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f4b8fc10-6a8d-4bd9-80ff-a147fe34280c">
-    <dcterms:identifier xml:lang="en">{"id": "475d6b77-25db-4d01-a02c-8d42cb4032c5", "value": "http://localhost:8000/f4b8fc10-6a8d-4bd9-80ff-a147fe34280c"}</dcterms:identifier>
+  <rdf:Description rdf:about="http://localhost:8000/de7e852a-4cdb-40d7-9ba6-87c3c4d451bf">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "c2d830a5-3059-46a0-bf01-a6d3d53a66d4", "value": "Square Meters (m2)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c76bbae8-3556-4d50-8e3b-08ad1504712a", "value": "http://localhost:8000/de7e852a-4cdb-40d7-9ba6-87c3c4d451bf"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e"/>
-    <skos:prefLabel xml:lang="en">{"id": "bd6b29bb-9727-4763-a51d-7050cf98ac4b", "value": "Square Kilometers (km2)"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/00b07612-8021-4560-831b-b87fd15bfef9">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/8b26f5ce-5ef3-4bd5-8132-7e4a51493f14">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e"/>
+    <skos:prefLabel xml:lang="en">{"id": "78b34b06-5ffd-49d7-bfdc-7b2abf757b23", "value": "Kilometers (km)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "2629bb11-04e2-474a-900e-33176993882a", "value": "http://localhost:8000/8b26f5ce-5ef3-4bd5-8132-7e4a51493f14"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:title xml:lang="en">{"id": "05217c19-abe9-4def-a08e-ccc273fc8e3a", "value": "Measurement Unit"}</dcterms:title>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/de7e852a-4cdb-40d7-9ba6-87c3c4d451bf"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/8b26f5ce-5ef3-4bd5-8132-7e4a51493f14"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/a042ba7d-9ad0-411d-9d1e-c1d37b95672b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/00b07612-8021-4560-831b-b87fd15bfef9"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f4b8fc10-6a8d-4bd9-80ff-a147fe34280c"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c387d4db-40ba-47b4-bf77-dbd051287358"/>
+    <dcterms:identifier xml:lang="en">{"id": "fe1092a6-a741-40da-882a-7ecec92e635d", "value": "http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/00b07612-8021-4560-831b-b87fd15bfef9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:identifier xml:lang="en">{"id": "aee9b600-2163-448f-8ab2-6cf41b5d53fe", "value": "http://localhost:8000/00b07612-8021-4560-831b-b87fd15bfef9"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e"/>
     <skos:prefLabel xml:lang="en">{"id": "2ccb27ce-3df4-4ab7-8cfb-ebc5b2ab1ea9", "value": "Hectares (ha)"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/a042ba7d-9ad0-411d-9d1e-c1d37b95672b">
+    <skos:inScheme rdf:resource="http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/a042ba7d-9ad0-411d-9d1e-c1d37b95672b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">{"id": "9b4ce3db-5a3c-4fb7-ae60-e4a653d1df5e", "value": "Meters (m)"}</skos:prefLabel>
     <dcterms:identifier xml:lang="en">{"id": "d7cd55a5-e098-4c13-b4d7-d7cb8f7f9b97", "value": "http://localhost:8000/a042ba7d-9ad0-411d-9d1e-c1d37b95672b"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/8b26f5ce-5ef3-4bd5-8132-7e4a51493f14">
-    <dcterms:identifier xml:lang="en">{"id": "2629bb11-04e2-474a-900e-33176993882a", "value": "http://localhost:8000/8b26f5ce-5ef3-4bd5-8132-7e4a51493f14"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "78b34b06-5ffd-49d7-bfdc-7b2abf757b23", "value": "Kilometers (km)"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/c387d4db-40ba-47b4-bf77-dbd051287358">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/de7e852a-4cdb-40d7-9ba6-87c3c4d451bf">
-    <skos:prefLabel xml:lang="en">{"id": "c2d830a5-3059-46a0-bf01-a6d3d53a66d4", "value": "Square Meters (m2)"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "91b2564a-a9a5-4d24-9b23-bc665a2331f1", "value": "http://localhost:8000/c387d4db-40ba-47b4-bf77-dbd051287358"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "634f92a6-fa5f-4b92-afb3-9b3a36d0d983", "value": "Centimeters (cm)"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f4b8fc10-6a8d-4bd9-80ff-a147fe34280c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/53289cb4-423f-4833-8e67-0cc847036d4e"/>
-    <dcterms:identifier xml:lang="en">{"id": "c76bbae8-3556-4d50-8e3b-08ad1504712a", "value": "http://localhost:8000/de7e852a-4cdb-40d7-9ba6-87c3c4d451bf"}</dcterms:identifier>
-  </skos:Concept>
+    <dcterms:identifier xml:lang="en">{"id": "475d6b77-25db-4d01-a02c-8d42cb4032c5", "value": "http://localhost:8000/f4b8fc10-6a8d-4bd9-80ff-a147fe34280c"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "bd6b29bb-9727-4763-a51d-7050cf98ac4b", "value": "Square Kilometers (km2)"}</skos:prefLabel>
+  </rdf:Description>
 </rdf:RDF>

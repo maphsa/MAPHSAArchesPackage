@@ -1,89 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
-  <skos:Concept rdf:about="http://localhost:8000/7faf54d1-111f-45ac-a81e-2085bf67c35f">
-    <skos:prefLabel xml:lang="en">{"id": "32c7aadc-9887-4f54-b14e-67dc43508c4d", "value": "Industrial"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "2819cd95-3549-4fbe-8139-0f069da08b01", "value": "http://localhost:8000/7faf54d1-111f-45ac-a81e-2085bf67c35f"}</dcterms:identifier>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/9bd44e16-3a40-43cc-954f-20bfb165508f"/>
-        <dcterms:identifier xml:lang="en">{"id": "472d4d4b-9f19-4d2c-a051-829afebab050", "value": "http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"}</dcterms:identifier>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/fb3d47ec-0eca-4986-aa14-2a6b8ebb84c5"/>
-        <dcterms:title xml:lang="en">{"id": "d87f786b-864a-4853-b7e3-df8e6b6ab74b", "value": "Land Use"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/02d06472-07fa-4646-b8a3-d80834bd9e50"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/7faf54d1-111f-45ac-a81e-2085bf67c35f"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/805d6501-2be7-400f-ad1e-2a6f713e5e71"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/938ba9a1-cd32-4226-8882-26a57d21f8b5"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/66fb5f70-0ac9-47e0-acff-c8227b1bbc88"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/ce1a690c-30d6-4b0d-a7b8-a5e733cae7a4"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/792e7602-df62-47da-bd66-40fc4499c69d"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/38883f67-e6d9-481b-ac26-87e25e6913af"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/4e6f0797-8807-42cf-ba2b-42ebd8639f2d"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/5ad5f135-0aac-4da8-8320-eb3624810768"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <skos:scopeNote xml:lang="en">{"id": "df10f48d-f939-4431-aea8-388b7e7e50de", "value": "Area in which the economy and human activity has historically transformed the landscape with the development of factories and other facilities. It is characteristic of populated areas."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/805d6501-2be7-400f-ad1e-2a6f713e5e71">
-    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
-    <dcterms:identifier xml:lang="en">{"id": "3189b658-e5be-421f-a607-3c3c59fbe676", "value": "http://localhost:8000/805d6501-2be7-400f-ad1e-2a6f713e5e71"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "88eab065-2fd4-4fc7-83a4-36b32bdded76", "value": "Settlement Urban"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "79ad0021-db81-4504-a1ce-0564039413b5", "value": "Anthropogenic environments influenced by social, economic and cultural transformations. Urban areas are depicted with physical features of a city."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/02d06472-07fa-4646-b8a3-d80834bd9e50">
-    <dcterms:identifier xml:lang="en">{"id": "1d384272-c8c5-4534-9a41-729612722f32", "value": "http://localhost:8000/02d06472-07fa-4646-b8a3-d80834bd9e50"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
-    <skos:scopeNote xml:lang="en">{"id": "4346613e-e88a-4a1b-aa55-d13ca45fa1e3", "value": "Anthropogenic environments in rural areas."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "70f1a0df-5be3-41a0-a236-46754c451282", "value": "Settlement Rural"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/66fb5f70-0ac9-47e0-acff-c8227b1bbc88">
-    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
-    <skos:scopeNote xml:lang="en">{"id": "cdc7f8e2-3d4d-4647-a9be-c6d91630bd69", "value": "Piece of land set apart within urban areas to use as a burial ground."}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "811143c1-b318-4b85-950a-f196389dc592", "value": "http://localhost:8000/66fb5f70-0ac9-47e0-acff-c8227b1bbc88"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "07c6980a-bc32-42d4-b74e-8191d3e90e9d", "value": "Cemetery"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/4e6f0797-8807-42cf-ba2b-42ebd8639f2d">
-    <skos:scopeNote xml:lang="en">{"id": "d9476e0e-0e6d-4983-a3f4-8277e3270a4e", "value": "Natural landscapes represent a collection of landforms including hills, deserts, lakes, plains or streams where human activity did not take place."}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "8c098831-1e53-49e4-94cc-115bddff399e", "value": "http://localhost:8000/4e6f0797-8807-42cf-ba2b-42ebd8639f2d"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
-    <skos:prefLabel xml:lang="en">{"id": "60ae3272-8195-41a9-85f7-c43aeb5c785b", "value": "Natural"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/938ba9a1-cd32-4226-8882-26a57d21f8b5">
-    <dcterms:identifier xml:lang="en">{"id": "378b6572-6a88-449e-b3e9-47bd8f29d703", "value": "http://localhost:8000/938ba9a1-cd32-4226-8882-26a57d21f8b5"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
-    <skos:prefLabel xml:lang="en">{"id": "73d10097-2199-435d-801d-494120be715b", "value": "Wasteland"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "10e53761-486b-4a47-b475-2b7272cd1a45", "value": "Land that has been ecologically devastated over time and it has been left completely bare."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/5ad5f135-0aac-4da8-8320-eb3624810768">
-    <dcterms:identifier xml:lang="en">{"id": "39ea7744-34f3-48c3-b660-e2005160bcf0", "value": "http://localhost:8000/5ad5f135-0aac-4da8-8320-eb3624810768"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "e2c558a8-f767-4f03-8f1b-0abe678ead36", "value": "Unknown"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/9bd44e16-3a40-43cc-954f-20bfb165508f">
-    <skos:prefLabel xml:lang="en">{"id": "b4cef379-ad35-42c1-bc04-1a05224c8b99", "value": "Cropland"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
-    <skos:scopeNote xml:lang="en">{"id": "cf1dc7c0-ac94-4ac8-a908-328caca35c28", "value": "Land on which agricultural crops are grown. These are usually deforested and square-shaped areas."}</skos:scopeNote>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/9bd44e16-3a40-43cc-954f-20bfb165508f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:identifier xml:lang="en">{"id": "8ebc71dc-7acf-4dc1-bb3f-7c5780e45c5d", "value": "http://localhost:8000/9bd44e16-3a40-43cc-954f-20bfb165508f"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/38883f67-e6d9-481b-ac26-87e25e6913af">
+    <skos:prefLabel xml:lang="en">{"id": "b4cef379-ad35-42c1-bc04-1a05224c8b99", "value": "Cropland"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "cf1dc7c0-ac94-4ac8-a908-328caca35c28", "value": "Land on which agricultural crops are grown. These are usually deforested and square-shaped areas."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/fb3d47ec-0eca-4986-aa14-2a6b8ebb84c5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "f01a6b19-e4c8-4dd2-ad23-5e0c52e07b09", "value": "Mining"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "e8121be0-cb65-41b2-96e1-ffad350e5f04", "value": "Landscape transformed as a result of the extraction of minerals by reaching deep underground. The substantial remains can adopt characteristic shapes and likely visible from satellite imagery."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "e50fdde3-5cf8-4981-90cc-5f4b4250cd28", "value": "http://localhost:8000/fb3d47ec-0eca-4986-aa14-2a6b8ebb84c5"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/38883f67-e6d9-481b-ac26-87e25e6913af">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">{"id": "764f4a69-ef18-40e6-9d9c-e757c33c7368", "value": "Deforested"}</skos:prefLabel>
     <dcterms:identifier xml:lang="en">{"id": "745f5e05-de2b-4816-98bc-2d885c08c087", "value": "http://localhost:8000/38883f67-e6d9-481b-ac26-87e25e6913af"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/ce1a690c-30d6-4b0d-a7b8-a5e733cae7a4">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/02d06472-07fa-4646-b8a3-d80834bd9e50">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "1d384272-c8c5-4534-9a41-729612722f32", "value": "http://localhost:8000/02d06472-07fa-4646-b8a3-d80834bd9e50"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "70f1a0df-5be3-41a0-a236-46754c451282", "value": "Settlement Rural"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "4346613e-e88a-4a1b-aa55-d13ca45fa1e3", "value": "Anthropogenic environments in rural areas."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/5ad5f135-0aac-4da8-8320-eb3624810768"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9bd44e16-3a40-43cc-954f-20bfb165508f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/792e7602-df62-47da-bd66-40fc4499c69d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/938ba9a1-cd32-4226-8882-26a57d21f8b5"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/805d6501-2be7-400f-ad1e-2a6f713e5e71"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4e6f0797-8807-42cf-ba2b-42ebd8639f2d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ce1a690c-30d6-4b0d-a7b8-a5e733cae7a4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/38883f67-e6d9-481b-ac26-87e25e6913af"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7faf54d1-111f-45ac-a81e-2085bf67c35f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/66fb5f70-0ac9-47e0-acff-c8227b1bbc88"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/02d06472-07fa-4646-b8a3-d80834bd9e50"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/fb3d47ec-0eca-4986-aa14-2a6b8ebb84c5"/>
+    <dcterms:title xml:lang="en">{"id": "d87f786b-864a-4853-b7e3-df8e6b6ab74b", "value": "Land Use"}</dcterms:title>
+    <dcterms:identifier xml:lang="en">{"id": "472d4d4b-9f19-4d2c-a051-829afebab050", "value": "http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/66fb5f70-0ac9-47e0-acff-c8227b1bbc88">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "811143c1-b318-4b85-950a-f196389dc592", "value": "http://localhost:8000/66fb5f70-0ac9-47e0-acff-c8227b1bbc88"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "07c6980a-bc32-42d4-b74e-8191d3e90e9d", "value": "Cemetery"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
+    <skos:scopeNote xml:lang="en">{"id": "cdc7f8e2-3d4d-4647-a9be-c6d91630bd69", "value": "Piece of land set apart within urban areas to use as a burial ground."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/805d6501-2be7-400f-ad1e-2a6f713e5e71">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
+    <skos:scopeNote xml:lang="en">{"id": "79ad0021-db81-4504-a1ce-0564039413b5", "value": "Anthropogenic environments influenced by social, economic and cultural transformations. Urban areas are depicted with physical features of a city."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "88eab065-2fd4-4fc7-83a4-36b32bdded76", "value": "Settlement Urban"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "3189b658-e5be-421f-a607-3c3c59fbe676", "value": "http://localhost:8000/805d6501-2be7-400f-ad1e-2a6f713e5e71"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/792e7602-df62-47da-bd66-40fc4499c69d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
+    <skos:prefLabel xml:lang="en">{"id": "58477aa9-a0ca-444a-8d02-ff6968f89a9e", "value": "Pastoralism"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "8aaaff7d-55dc-48c3-9aee-25e06488dfbf", "value": "http://localhost:8000/792e7602-df62-47da-bd66-40fc4499c69d"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "717aa345-0136-4f49-8378-56fbee05ca19", "value": "Dryland areas dedicated to the care and herd of large animals by herders."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/938ba9a1-cd32-4226-8882-26a57d21f8b5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "73d10097-2199-435d-801d-494120be715b", "value": "Wasteland"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
+    <dcterms:identifier xml:lang="en">{"id": "378b6572-6a88-449e-b3e9-47bd8f29d703", "value": "http://localhost:8000/938ba9a1-cd32-4226-8882-26a57d21f8b5"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "10e53761-486b-4a47-b475-2b7272cd1a45", "value": "Land that has been ecologically devastated over time and it has been left completely bare."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/5ad5f135-0aac-4da8-8320-eb3624810768">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "39ea7744-34f3-48c3-b660-e2005160bcf0", "value": "http://localhost:8000/5ad5f135-0aac-4da8-8320-eb3624810768"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "e2c558a8-f767-4f03-8f1b-0abe678ead36", "value": "Unknown"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/7faf54d1-111f-45ac-a81e-2085bf67c35f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "df10f48d-f939-4431-aea8-388b7e7e50de", "value": "Area in which the economy and human activity has historically transformed the landscape with the development of factories and other facilities. It is characteristic of populated areas."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "2819cd95-3549-4fbe-8139-0f069da08b01", "value": "http://localhost:8000/7faf54d1-111f-45ac-a81e-2085bf67c35f"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "32c7aadc-9887-4f54-b14e-67dc43508c4d", "value": "Industrial"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/4e6f0797-8807-42cf-ba2b-42ebd8639f2d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "d9476e0e-0e6d-4983-a3f4-8277e3270a4e", "value": "Natural landscapes represent a collection of landforms including hills, deserts, lakes, plains or streams where human activity did not take place."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "60ae3272-8195-41a9-85f7-c43aeb5c785b", "value": "Natural"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
+    <dcterms:identifier xml:lang="en">{"id": "8c098831-1e53-49e4-94cc-115bddff399e", "value": "http://localhost:8000/4e6f0797-8807-42cf-ba2b-42ebd8639f2d"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/ce1a690c-30d6-4b0d-a7b8-a5e733cae7a4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "f9354e1a-2a1f-4adb-b0ea-a6b5cad54e34", "value": "Not Defined"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
     <dcterms:identifier xml:lang="en">{"id": "9fc89927-a731-440d-9994-b5c487e433b0", "value": "http://localhost:8000/ce1a690c-30d6-4b0d-a7b8-a5e733cae7a4"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "f9354e1a-2a1f-4adb-b0ea-a6b5cad54e34", "value": "Not Defined"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/792e7602-df62-47da-bd66-40fc4499c69d">
-    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
-    <skos:scopeNote xml:lang="en">{"id": "717aa345-0136-4f49-8378-56fbee05ca19", "value": "Dryland areas dedicated to the care and herd of large animals by herders."}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "8aaaff7d-55dc-48c3-9aee-25e06488dfbf", "value": "http://localhost:8000/792e7602-df62-47da-bd66-40fc4499c69d"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "58477aa9-a0ca-444a-8d02-ff6968f89a9e", "value": "Pastoralism"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/fb3d47ec-0eca-4986-aa14-2a6b8ebb84c5">
-    <skos:inScheme rdf:resource="http://localhost:8000/8984d216-3922-465d-a4d1-2506eb553a9d"/>
-    <skos:prefLabel xml:lang="en">{"id": "f01a6b19-e4c8-4dd2-ad23-5e0c52e07b09", "value": "Mining"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "e50fdde3-5cf8-4981-90cc-5f4b4250cd28", "value": "http://localhost:8000/fb3d47ec-0eca-4986-aa14-2a6b8ebb84c5"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "e8121be0-cb65-41b2-96e1-ffad350e5f04", "value": "Landscape transformed as a result of the extraction of minerals by reaching deep underground. The substantial remains can adopt characteristic shapes and likely visible from satellite imagery."}</skos:scopeNote>
-  </skos:Concept>
+  </rdf:Description>
 </rdf:RDF>

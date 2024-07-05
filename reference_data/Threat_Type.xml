@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/56e77889-9805-4e10-a833-567990b32082">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "9f80580a-281b-497d-8d98-92cecd2c3115", "value": "http://localhost:8000/56e77889-9805-4e10-a833-567990b32082"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "1ea6879a-dffe-40bd-b510-3cd5b32e40bd", "value": "Volcanic"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/c5cf73f0-aa24-4879-ad17-05e710c744ce">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "db32e4c2-49c8-4199-a05c-f12d8f133e6b", "value": "http://localhost:8000/c5cf73f0-aa24-4879-ad17-05e710c744ce"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "3c610876-b4ca-462e-89aa-63183713e122", "value": "Tourism/Visitor Activities"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "3b983abd-b7ef-4af6-8bb9-3e9e9bef3cdc", "value": "Relating to the management, organization and specific use of archaeology/archaeological sites for educational/pleasure"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/086503b8-457e-461c-8aa4-fc7407d51744">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "49d60655-e263-4192-a8e9-faf05bd3386b", "value": "Relating to the production of goods or other commodities, at large or small scale"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <dcterms:identifier xml:lang="en">{"id": "84ca88c4-b2c9-4b41-a6f2-36955113a9d0", "value": "http://localhost:8000/086503b8-457e-461c-8aa4-fc7407d51744"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "ba1c571c-2b18-43e2-bd29-2fd1168e04bb", "value": "Industrial/Productive"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b0d80f1f-7370-49d8-936d-1b69bcf6d372"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/78f7812d-ec23-4a04-bc61-d055adacbd08"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/0e181cd4-8ef3-41ce-be15-a325d21794a7"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/72021be0-c896-46de-88ad-5c5d0c019f05"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/769b6102-9043-4572-a746-daf11194579e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/22071389-3159-4914-bb40-7659f8c9599b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/de1e2f51-ed07-47c0-a59b-3c804b6ee471"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ef519789-022d-498b-8f19-216cdda3db15"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c6df7bb6-fcbd-4700-baf8-a14b7d4a3332"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/94ce284b-9913-42b7-bb8b-3b63223c26c6"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c5cf73f0-aa24-4879-ad17-05e710c744ce"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/53047f67-7368-4cb2-8935-cd30e0ab946d"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/6c08e9e4-a380-4270-a2c3-fb5f2099fa97"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/108ffbf2-e655-4f08-8db6-6ffc9808fe0b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4f92030e-b813-482e-8dc8-86acbf1d2452"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/455d6a01-ffd3-407a-a696-bc17dd8a23d5"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/809afbe2-faeb-4008-88d6-f6aa70a4ce90"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/a34bb04d-ee06-49bd-ac97-ce3f9c4df97b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/5c4139aa-b933-4923-afb3-414613ae1361"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/086503b8-457e-461c-8aa4-fc7407d51744"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/582ab3ad-1147-4738-854a-9080bd71e3e5"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/13e2659a-0b0e-401c-89db-9b542dd6c4e4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f0d80802-18a3-4e3d-aece-d597fd85c9c3"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f995d2b3-305a-4cda-9f2c-9fbb8776e484"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/39c69fbf-33a3-4c4c-ac6f-96a6939ad4ba"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/56e77889-9805-4e10-a833-567990b32082"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/61eb014f-c45c-4ec9-b2c3-096162b07c38"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/67158da6-39b6-4a5d-910a-80384d17802a"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1bbd9c25-da23-4c1d-ace6-af904c1b251a"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b946b820-dd7e-4f7a-8a78-5fc1a77d5e12"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ed92e392-370b-4c3e-bd20-0bc2ad4870ae"/>
+    <dcterms:title xml:lang="en">{"id": "f3399db9-40ad-4ba4-b577-a6bbaf31a0e5", "value": "Threat Type"}</dcterms:title>
+    <dcterms:identifier xml:lang="en">{"id": "2daa28d2-289b-4b83-8ebe-9247c280d7dd", "value": "http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f0d80802-18a3-4e3d-aece-d597fd85c9c3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "c423614a-91a4-44aa-88a2-b19a8bce69c1", "value": "Relating to the expansion/enlargement/spread of activity, construction etc. Particularly in relation to urban expansion."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "093e896c-9914-4d79-bbca-17d176999c20", "value": "Building and Development"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "fb7b7b48-d391-4983-9d1f-2335ff67d731", "value": "http://localhost:8000/f0d80802-18a3-4e3d-aece-d597fd85c9c3"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/ef519789-022d-498b-8f19-216cdda3db15">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "b7c9dd9e-0dc1-4636-a808-c3c0d7a7579a", "value": "http://localhost:8000/ef519789-022d-498b-8f19-216cdda3db15"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "6033075a-d4ce-4c2f-a7d2-e26cf90a0aa1", "value": "Desertification"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/22071389-3159-4914-bb40-7659f8c9599b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "858a04f8-aec4-40fc-97aa-dec0df02c349", "value": "Relating to the organisation and provision of facilities and services, particularly those associated with the movement of people, animals and goods, which are necessary for a society to function"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <dcterms:identifier xml:lang="en">{"id": "b09f8778-7a91-4fbb-b2a8-39856aa5b8fd", "value": "http://localhost:8000/22071389-3159-4914-bb40-7659f8c9599b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "1086bd91-5116-4b79-9aaf-53d104e3d967", "value": "Infrastructure/Transport"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/13e2659a-0b0e-401c-89db-9b542dd6c4e4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "10438c44-ee87-419a-8d5f-9c351a3552e9", "value": "Maritime"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "62029b5b-5453-4e32-8b90-4cd91bedf592", "value": "Relating to the sea, in particular shipping and/or the exploitation of maritime resources where these resources cannot be further defined."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "c38c7ab0-bb23-4f31-b69a-2785f0cd67ed", "value": "http://localhost:8000/13e2659a-0b0e-401c-89db-9b542dd6c4e4"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1bbd9c25-da23-4c1d-ace6-af904c1b251a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "c25c0e98-f5f9-49ec-9d09-ad1b542c5b44", "value": "Utilities"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/ed92e392-370b-4c3e-bd20-0bc2ad4870ae">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <dcterms:identifier xml:lang="en">{"id": "6019cee2-b8a2-42e7-bc46-14c94756d6ac", "value": "http://localhost:8000/ed92e392-370b-4c3e-bd20-0bc2ad4870ae"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "3f9d27f4-3d6e-4fb7-a5c5-9135853d778b", "value": "Status/Display/Monumental"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "4a759ddb-4737-400d-a901-1556d660808f", "value": "Relating to structures which serve no functional purpose except to express a statement, usually relating to wealth, status, power etc."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/0e181cd4-8ef3-41ce-be15-a325d21794a7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "76e3c3bc-91af-4a5a-9a98-43e68a6dcd91", "value": "Relating to facilities and services which are intended for use by the community as a whole. Often, but not necessarily officially provided or sanctioned e.g. markets, courthouse, official/government etc."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "db465d6e-b3ef-43bc-89e3-a0cb56373352", "value": "Public/Institutional Use"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <dcterms:identifier xml:lang="en">{"id": "e2a41668-a5f8-4e8b-8e12-b385f7421ba9", "value": "http://localhost:8000/0e181cd4-8ef3-41ce-be15-a325d21794a7"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/61eb014f-c45c-4ec9-b2c3-096162b07c38">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "9ed693ba-9422-4e60-9240-f01861235462", "value": "http://localhost:8000/61eb014f-c45c-4ec9-b2c3-096162b07c38"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "43b90bdc-7296-472b-b173-3d647e21fecc", "value": "Military/Armed Conflict"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "68036703-b62d-4c2f-8e1e-82f30bee095c", "value": "Relating to an organised and/or official group of armed forces"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/b946b820-dd7e-4f7a-8a78-5fc1a77d5e12">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "d049bb37-034b-4dd1-b99e-196694e9f62d", "value": "Relating to the exploitation of (mostly) non-domesticated species"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "198c9b30-6eeb-404f-a4db-af6219c4e7f8", "value": "http://localhost:8000/b946b820-dd7e-4f7a-8a78-5fc1a77d5e12"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "3cef076f-4743-4085-b3a8-05af05435e8f", "value": "Hunting/Fishing"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/b0d80f1f-7370-49d8-936d-1b69bcf6d372">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <skos:prefLabel xml:lang="en">{"id": "29577fe1-c21f-4279-a378-c6a377a245b1", "value": "Seismic Activity"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ffc5e57c-1147-439a-a49f-3ace937d9fb0", "value": "http://localhost:8000/b0d80f1f-7370-49d8-936d-1b69bcf6d372"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/78f7812d-ec23-4a04-bc61-d055adacbd08">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "390eeac5-79e1-4c8f-9ede-96e66badb194", "value": "Relating to the management of heritage and heritage laws"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <dcterms:identifier xml:lang="en">{"id": "6e51e9f3-ab8f-4f43-8d1c-83cf0b4691b4", "value": "http://localhost:8000/78f7812d-ec23-4a04-bc61-d055adacbd08"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "19aed096-9e72-4678-9d78-b8fd275da907", "value": "Management and Institutional Factors"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/53047f67-7368-4cb2-8935-cd30e0ab946d">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "f34b31e0-5841-4875-8398-42fabfc9acf9", "value": "Not Applicable "}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "6f40cadc-6639-4604-bad3-2c46addf88fb", "value": "http://localhost:8000/53047f67-7368-4cb2-8935-cd30e0ab946d"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/94ce284b-9913-42b7-bb8b-3b63223c26c6">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "22ec5920-b3c7-423d-9c7e-dbf7664a21f3", "value": "Unknown"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <skos:scopeNote xml:lang="en">{"id": "91c6c5c9-87e6-496b-a2af-518ba3881e08", "value": "Unknown"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "5fefd0d8-f71a-4a52-a5d7-c12285d7a8e7", "value": "http://localhost:8000/94ce284b-9913-42b7-bb8b-3b63223c26c6"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/c6df7bb6-fcbd-4700-baf8-a14b7d4a3332">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "6d443e05-08ee-405e-9a16-24ef3f530d19", "value": "Relating to non-anthropogenic activities"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "3a0517ca-4b99-4c04-9ab5-432cf33ef7fd", "value": "Natural"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "3c121a98-8d92-48af-ac67-318fca7d9970", "value": "http://localhost:8000/c6df7bb6-fcbd-4700-baf8-a14b7d4a3332"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f995d2b3-305a-4cda-9f2c-9fbb8776e484">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <dcterms:identifier xml:lang="en">{"id": "d9954c48-7251-42a0-93c2-058a954ec461", "value": "http://localhost:8000/f995d2b3-305a-4cda-9f2c-9fbb8776e484"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "6639939a-893e-40ef-bf3c-e6014949fe3b", "value": "Erosion"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/39c69fbf-33a3-4c4c-ac6f-96a6939ad4ba">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <dcterms:identifier xml:lang="en">{"id": "6169f087-ee4f-4f82-ae38-9ec3a1de3b83", "value": "http://localhost:8000/39c69fbf-33a3-4c4c-ac6f-96a6939ad4ba"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "66dced73-c787-472a-8791-23f55009c0f8", "value": "Relating to facilities and or services which are predominantly economically orientated or mercantile in nature."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "620a6268-df50-4cc0-a54e-60297fb2ce67", "value": "Trade/Commercial Use"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/a34bb04d-ee06-49bd-ac97-ce3f9c4df97b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "fbed47b6-cc8c-4581-bb51-08631c59e5f6", "value": "http://localhost:8000/a34bb04d-ee06-49bd-ac97-ce3f9c4df97b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "9030eeda-4462-47c4-89a4-bb82e6070bea", "value": "Religious Activities"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "33c79479-34fa-4cc5-b72e-9053f6facd27", "value": "Relating to activities of a ritual nature"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/809afbe2-faeb-4008-88d6-f6aa70a4ce90">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "c8e542a1-0e08-4090-84d5-db2b9c67a026", "value": "http://localhost:8000/809afbe2-faeb-4008-88d6-f6aa70a4ce90"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <skos:prefLabel xml:lang="en">{"id": "b6d94cf4-6082-4dbb-883c-3c98d9f0437a", "value": "Flooding"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/108ffbf2-e655-4f08-8db6-6ffc9808fe0b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "079671eb-dae9-49e3-ae77-a58cb3c183e4", "value": "Relating to the scientific investigation of an area/site/object"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <skos:prefLabel xml:lang="en">{"id": "dfad85f8-bdd4-4962-a8f5-7c24c17ac277", "value": "Archaeological"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "fe387413-c30e-473f-94c3-f2630d394db8", "value": "http://localhost:8000/108ffbf2-e655-4f08-8db6-6ffc9808fe0b"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/769b6102-9043-4572-a746-daf11194579e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "7b9716d3-d372-4b82-b769-222b5e5b844c", "value": "Hydraulic Use"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <skos:scopeNote xml:lang="en">{"id": "413899d7-4715-46b7-8dd6-1ab7ad5357a8", "value": "Relating to the management and movement of water"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "99bfd48d-140b-44ee-ac4d-b7d67a6713b6", "value": "http://localhost:8000/769b6102-9043-4572-a746-daf11194579e"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/de1e2f51-ed07-47c0-a59b-3c804b6ee471">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "716dca3f-d52d-4603-9e6c-d8a3ba5ac06d", "value": "Animal/Pest Infestation"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "e21c73b3-cb76-4d43-acb4-6c44dc61c310", "value": "http://localhost:8000/de1e2f51-ed07-47c0-a59b-3c804b6ee471"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <skos:scopeNote xml:lang="en">{"id": "09272352-cf67-4e27-942d-9b934b90f0e0", "value": "Invasion/inhabitation by living organisms in numbers or quantities large enough to be harmful. This includes burrowing."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/67158da6-39b6-4a5d-910a-80384d17802a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "3be2150e-eefd-4a24-a762-fa8b8d52befa", "value": "Relating to activities which are largely for pleasure or enjoyment.  Social factors that contribute to deterioration processes of the fabric of heritage sites. Some uses might have a positive impact as they enhance certain values (e.g. ritual, religious) while others might compromise ascribed values and could lead to the deterioration of the heritage site."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "2b897872-ffcc-4fff-9839-dfe00043ebfc", "value": "Social/Cultural Uses of Heritage"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <dcterms:identifier xml:lang="en">{"id": "b8db78a1-b15f-4c93-af59-ae2fe094aea8", "value": "http://localhost:8000/67158da6-39b6-4a5d-910a-80384d17802a"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/6c08e9e4-a380-4270-a2c3-fb5f2099fa97">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <dcterms:identifier xml:lang="en">{"id": "6ede38e9-22d8-4c4a-8d22-3fdc19580d9d", "value": "http://localhost:8000/6c08e9e4-a380-4270-a2c3-fb5f2099fa97"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "6beba9d6-c07b-47e2-aa0c-b0a1ab59a33c", "value": "Relating to the farming of land and/or the rearing of animals"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "4a9dc6f5-8e7e-446d-8129-24d0a9134b8d", "value": "Agricultural/Pastoral"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/4f92030e-b813-482e-8dc8-86acbf1d2452">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "e70a4700-8645-4bec-8a5a-bfa32b4f5c01", "value": "http://localhost:8000/4f92030e-b813-482e-8dc8-86acbf1d2452"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "e5e67e1b-fe7f-4243-89bb-ad2bbc0dfd80", "value": "Relating to the security or protection of people or an area, but not military in nature"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <skos:prefLabel xml:lang="en">{"id": "6fa6ce97-80a2-4371-835f-995c99bbe2a2", "value": "Defensive/Fortification"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/72021be0-c896-46de-88ad-5c5d0c019f05">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "f09d7712-cd40-46a8-8f4e-26d7934fdf4b", "value": "Relating to the habitation of people"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "5493ba4f-93f3-4029-8c3f-7c4df06642e6", "value": "http://localhost:8000/72021be0-c896-46de-88ad-5c5d0c019f05"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "999c9051-d088-4218-8340-1f78c38f1812", "value": "Domestic Use"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/582ab3ad-1147-4738-854a-9080bd71e3e5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <dcterms:identifier xml:lang="en">{"id": "e79619a0-8009-497a-9e85-7cd4260092f0", "value": "http://localhost:8000/582ab3ad-1147-4738-854a-9080bd71e3e5"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "f8aed1fc-b8a8-4f2c-8ada-bfeb38c2e7fe", "value": "Vandalism "}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/455d6a01-ffd3-407a-a696-bc17dd8a23d5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "a1e96108-e926-4d9c-956c-25165fc6dca6", "value": "Relating to activities associated with ilicit removal of goods from archaeological sites and their possible sale"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <skos:prefLabel xml:lang="en">{"id": "ccacf72e-21e3-409a-8de1-c0e1e9ac8317", "value": "Looting/Illegal Activities"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "162bd104-f25f-4777-8726-43e0a0052912", "value": "http://localhost:8000/455d6a01-ffd3-407a-a696-bc17dd8a23d5"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/5c4139aa-b933-4923-afb3-414613ae1361">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "dc7027e1-7546-4e99-bccd-f65350a499b2", "value": "Funerary/Memorial"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "52789299-9a89-4bc4-9cba-703d19ce1cb2", "value": "http://localhost:8000/5c4139aa-b933-4923-afb3-414613ae1361"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/1a126a16-0d1a-4a0e-9644-de2983554163"/>
+    <skos:scopeNote xml:lang="en">{"id": "7462c3d8-ce59-4d89-b5d6-e841ce93a50a", "value": "Relating to activities concerning the memorialisation of individuals, events and/or the treatment of the dead"}</skos:scopeNote>
+  </rdf:Description>
+</rdf:RDF>

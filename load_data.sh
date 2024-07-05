@@ -14,25 +14,25 @@ source $ENVPATH
 # cd $A
 
 # Rebuild db
-python $ARCHESPATH/manage.py setup_db
+# python $ARCHESPATH/manage.py setup_db
 
 # Load ontology
-python $ARCHESPATH/manage.py load_ontology -s $PACKAGEPATH/ontology
+# python $ARCHESPATH/manage.py load_ontology -s $PACKAGEPATH/ontology
 
 # Load Concepts and collections
 for i in $PACKAGEPATH/reference_data/*.xml; do
-    [ -f "$i" ] || break
-    python $ARCHESPATH/manage.py packages -o import_reference_data -s $i
+ [ -f "$i" ] || break
+ python $ARCHESPATH/manage.py packages -o import_reference_data -s $i
 done
 
 for i in $PACKAGEPATH/reference_data/collections/*.xml; do
-    [ -f "$i" ] || break
-    python $ARCHESPATH/manage.py packages -o import_reference_data -s $i
+ [ -f "$i" ] || break
+ python $ARCHESPATH/manage.py packages -o import_reference_data -s $i
 done
 
 
 # Load Resource Models, Branches
-python $ARCHESPATH/manage.py packages -o import_graphs -s $PACKAGEPATH/resource_model
+# python $ARCHESPATH/manage.py packages -o import_graphs -s $PACKAGEPATH/resource_model
 
 # read -p "Publish all resource models and press key to proceed with business data import..."
 

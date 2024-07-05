@@ -1,53 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <skos:Concept rdf:about="http://localhost:8000/d6dc042b-3ba7-4b6a-b364-c9cc9b03b041">
-    <skos:prefLabel xml:lang="en">{"id": "ee8460ab-2e57-4b8b-831f-2352d7ffdf7c", "value": "1-10%"}</skos:prefLabel>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/16f893f1-f130-4230-b052-fa990749f466"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/403bb808-f09f-41c5-b7e5-e4a20b8ef432"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/693af19e-d2d8-42dc-b036-b6fec99e3c01"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/5a508121-e1fd-43f7-a9cf-2747f3e9f25a"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/d6dc042b-3ba7-4b6a-b364-c9cc9b03b041"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/64df2fd7-a8cc-435d-882f-d5ef77903415"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/5ab8968e-2444-4b69-a41c-b27c6e34020f"/>
-        <dcterms:title xml:lang="en">{"id": "a7046c02-b7ac-46c6-8e01-cb560ea5b346", "value": "Overall Damage Extent"}</dcterms:title>
-      </skos:ConceptScheme>
-    </skos:inScheme>
+  <rdf:Description rdf:about="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/693af19e-d2d8-42dc-b036-b6fec99e3c01"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/5ab8968e-2444-4b69-a41c-b27c6e34020f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/5a508121-e1fd-43f7-a9cf-2747f3e9f25a"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/64df2fd7-a8cc-435d-882f-d5ef77903415"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/16f893f1-f130-4230-b052-fa990749f466"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/403bb808-f09f-41c5-b7e5-e4a20b8ef432"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d6dc042b-3ba7-4b6a-b364-c9cc9b03b041"/>
+    <dcterms:title xml:lang="en">{"id": "a7046c02-b7ac-46c6-8e01-cb560ea5b346", "value": "Overall Damage Extent"}</dcterms:title>
+    <dcterms:identifier xml:lang="en">{"id": "58d28e78-a9d4-4511-8f29-d0d31d9e9515", "value": "http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/693af19e-d2d8-42dc-b036-b6fec99e3c01">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "4891d827-cdc4-418d-9c21-20038dec3e1f", "value": "No damage can be discerned from available resources"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "ac4bccfb-821e-42de-bb31-4e5697db2732", "value": "http://localhost:8000/693af19e-d2d8-42dc-b036-b6fec99e3c01"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"/>
+    <skos:prefLabel xml:lang="en">{"id": "31d7543d-b3f1-4c8c-84a0-959d75a0a009", "value": "No Visible/Known"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/403bb808-f09f-41c5-b7e5-e4a20b8ef432">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "fc989350-cdb6-483d-b1ff-8c7951d548e2", "value": "http://localhost:8000/403bb808-f09f-41c5-b7e5-e4a20b8ef432"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"/>
+    <skos:prefLabel xml:lang="en">{"id": "dbe32157-9f5c-4a30-ab93-e8988aef3c38", "value": "Unknown"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "a056ebad-f7d5-4e23-9ab9-5f78c94342e8", "value": "Unknown"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/5ab8968e-2444-4b69-a41c-b27c6e34020f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "040bf3f2-3b74-4262-8330-d9da77bf59b1", "value": "31-60%"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"/>
+    <skos:scopeNote xml:lang="en">{"id": "5e789351-1c1b-4468-b319-1f831a6a8cd1", "value": "A considerable proportion of the horizontal extent of the site has been visibly damaged"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "56011a2f-c464-4dff-b006-4f0eeaea7973", "value": "http://localhost:8000/5ab8968e-2444-4b69-a41c-b27c6e34020f"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/d6dc042b-3ba7-4b6a-b364-c9cc9b03b041">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:scopeNote xml:lang="en">{"id": "328135be-e086-4ec7-a125-d702b6034c30", "value": "A minimal proportion of the horiztonal extent of the site has been visibly damaged"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/16f893f1-f130-4230-b052-fa990749f466">
+    <skos:prefLabel xml:lang="en">{"id": "ee8460ab-2e57-4b8b-831f-2352d7ffdf7c", "value": "1-10%"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"/>
-    <skos:scopeNote xml:lang="en">{"id": "00dd688c-98f2-4c55-9b9a-55ab986f9ccd", "value": "A relatively small proportion of the horizontal extent of the site has been visibly damaged"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "c78369bc-3669-4bbf-8256-17d0a0376961", "value": "11-30%"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/5a508121-e1fd-43f7-a9cf-2747f3e9f25a">
+    <dcterms:identifier xml:lang="en">{"id": "26eb9b30-5fdf-4aa0-b6a7-c33b2f73cc6f", "value": "http://localhost:8000/d6dc042b-3ba7-4b6a-b364-c9cc9b03b041"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/5a508121-e1fd-43f7-a9cf-2747f3e9f25a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"/>
+    <dcterms:identifier xml:lang="en">{"id": "1d1bc1bd-c5e9-4cbe-8cf3-dd79424ee87a", "value": "http://localhost:8000/5a508121-e1fd-43f7-a9cf-2747f3e9f25a"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "f38706e0-b982-4a47-a170-3ca319052644", "value": "91-100%"}</skos:prefLabel>
     <skos:scopeNote xml:lang="en">{"id": "40006e78-65ba-4a74-a5e6-48867c29aaed", "value": "Nearly all of the horizontal extent of the site has been visibly damaged"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/693af19e-d2d8-42dc-b036-b6fec99e3c01">
-    <skos:scopeNote xml:lang="en">{"id": "4891d827-cdc4-418d-9c21-20038dec3e1f", "value": "No damage can be discerned from available resources"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "31d7543d-b3f1-4c8c-84a0-959d75a0a009", "value": "No Visible/Known"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/16f893f1-f130-4230-b052-fa990749f466">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "00dd688c-98f2-4c55-9b9a-55ab986f9ccd", "value": "A relatively small proportion of the horizontal extent of the site has been visibly damaged"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/403bb808-f09f-41c5-b7e5-e4a20b8ef432">
-    <skos:scopeNote xml:lang="en">{"id": "a056ebad-f7d5-4e23-9ab9-5f78c94342e8", "value": "Unknown"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "dbe32157-9f5c-4a30-ab93-e8988aef3c38", "value": "Unknown"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/5ab8968e-2444-4b69-a41c-b27c6e34020f">
-    <skos:inScheme rdf:resource="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"/>
-    <skos:prefLabel xml:lang="en">{"id": "040bf3f2-3b74-4262-8330-d9da77bf59b1", "value": "31-60%"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "5e789351-1c1b-4468-b319-1f831a6a8cd1", "value": "A considerable proportion of the horizontal extent of the site has been visibly damaged"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/64df2fd7-a8cc-435d-882f-d5ef77903415">
-    <skos:inScheme rdf:resource="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"/>
-    <skos:prefLabel xml:lang="en">{"id": "82304bff-2e1b-4ba2-9cea-b16b245b8549", "value": "61-90%"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "67d5e733-6236-49d1-a0f5-7c4464a54751", "value": "http://localhost:8000/16f893f1-f130-4230-b052-fa990749f466"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "c78369bc-3669-4bbf-8256-17d0a0376961", "value": "11-30%"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/64df2fd7-a8cc-435d-882f-d5ef77903415">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:scopeNote xml:lang="en">{"id": "c1c8f1f1-bf37-47ef-8977-7658f0d5f7b7", "value": "A substantial proportion of the horizontal extent of the site has been visibly damaged"}</skos:scopeNote>
-  </skos:Concept>
+    <skos:prefLabel xml:lang="en">{"id": "82304bff-2e1b-4ba2-9cea-b16b245b8549", "value": "61-90%"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/55f5d598-644c-4ca3-8e26-46cb3029b366"/>
+    <dcterms:identifier xml:lang="en">{"id": "e476e964-af3e-46ae-920d-b1fb8f2ea3fe", "value": "http://localhost:8000/64df2fd7-a8cc-435d-882f-d5ef77903415"}</dcterms:identifier>
+  </rdf:Description>
 </rdf:RDF>

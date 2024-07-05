@@ -1,41 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-  <skos:Concept rdf:about="http://localhost:8000/2d7e3394-3471-45c1-aedc-9de3057360c2">
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/3ea42fd9-407a-4e62-ab19-ce40a6e122ee"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/717d9081-e33c-45e7-a6d0-9ed19115265a"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/b828ebdf-8406-4b9f-86f7-d28de84d8c22"/>
-        <dcterms:title xml:lang="en">{"id": "d5c256c4-25e0-4d2f-b1a9-79d9f484a1ab", "value": "Land Ownership Type"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/2d7e3394-3471-45c1-aedc-9de3057360c2"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/b73322dc-4581-4185-9b30-bca4182af7d7"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/0f901efd-0426-43ce-8ad7-2b4e82c23251"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <skos:prefLabel xml:lang="en">{"id": "b6757074-8c06-4255-a20a-8a13eebddcbe", "value": "Private"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "27036533-1299-498a-9e0d-0c6856444af6", "value": "Land owned by private persons/organisations/entities"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/0f901efd-0426-43ce-8ad7-2b4e82c23251">
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/b828ebdf-8406-4b9f-86f7-d28de84d8c22">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb"/>
-    <skos:scopeNote xml:lang="en">{"id": "412dc0fd-16d1-46f3-a993-9715ead24e1c", "value": "Land that is owned collectively/publicly but over which certain traditional rights are in place for certain other people or the general public, for example grazing rights."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "f5e32bb8-d32a-4fe1-b794-e249718ffc1a", "value": "Common"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/717d9081-e33c-45e7-a6d0-9ed19115265a">
-    <skos:inScheme rdf:resource="http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb"/>
-    <skos:prefLabel xml:lang="en">{"id": "72e6996b-9b04-48d7-a6fe-3759377cf19f", "value": "Government"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "e73eeac9-a2f9-4d08-a665-2764f4a5790b", "value": "Land owned by governmental departments/organisations"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/b828ebdf-8406-4b9f-86f7-d28de84d8c22">
     <skos:prefLabel xml:lang="en">{"id": "8ea721ff-9935-4e51-a541-b6057358127f", "value": "Indigenous Land"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "6a022d13-16f8-4326-9b1e-285af9bac4ea", "value": "http://localhost:8000/b828ebdf-8406-4b9f-86f7-d28de84d8c22"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/b73322dc-4581-4185-9b30-bca4182af7d7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/3ea42fd9-407a-4e62-ab19-ce40a6e122ee">
-    <skos:prefLabel xml:lang="en">{"id": "5bab2261-f0a6-4e33-b812-88ea72f6f13c", "value": "Not Known"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "820119e9-207c-4b4c-b697-817ade320a7d", "value": "Unknown ownership"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/b73322dc-4581-4185-9b30-bca4182af7d7">
     <skos:prefLabel xml:lang="en">{"id": "eb16fa1b-a0f3-44c3-bbc4-08a3051b9fb6", "value": "State/Federal Reserve"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "459e6d73-21a7-4970-91c2-c6fa3470693c", "value": "http://localhost:8000/b73322dc-4581-4185-9b30-bca4182af7d7"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/3ea42fd9-407a-4e62-ab19-ce40a6e122ee">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "feacdc11-accc-4088-9d4c-2c6a6e38d437", "value": "http://localhost:8000/3ea42fd9-407a-4e62-ab19-ce40a6e122ee"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "5bab2261-f0a6-4e33-b812-88ea72f6f13c", "value": "Not Known"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb"/>
-  </skos:Concept>
+    <skos:scopeNote xml:lang="en">{"id": "820119e9-207c-4b4c-b697-817ade320a7d", "value": "Unknown ownership"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/0f901efd-0426-43ce-8ad7-2b4e82c23251">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "f5e32bb8-d32a-4fe1-b794-e249718ffc1a", "value": "Common"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb"/>
+    <dcterms:identifier xml:lang="en">{"id": "8ed83ea1-30d3-4b77-9079-fdbb820bd069", "value": "http://localhost:8000/0f901efd-0426-43ce-8ad7-2b4e82c23251"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "412dc0fd-16d1-46f3-a993-9715ead24e1c", "value": "Land that is owned collectively/publicly but over which certain traditional rights are in place for certain other people or the general public, for example grazing rights."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/717d9081-e33c-45e7-a6d0-9ed19115265a"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b73322dc-4581-4185-9b30-bca4182af7d7"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/3ea42fd9-407a-4e62-ab19-ce40a6e122ee"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/0f901efd-0426-43ce-8ad7-2b4e82c23251"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b828ebdf-8406-4b9f-86f7-d28de84d8c22"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/2d7e3394-3471-45c1-aedc-9de3057360c2"/>
+    <dcterms:identifier xml:lang="en">{"id": "7950087d-f8f9-4089-a222-93e1c22ad285", "value": "http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb"}</dcterms:identifier>
+    <dcterms:title xml:lang="en">{"id": "d5c256c4-25e0-4d2f-b1a9-79d9f484a1ab", "value": "Land Ownership Type"}</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/2d7e3394-3471-45c1-aedc-9de3057360c2">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "52032fb4-c3f5-4deb-975b-60116d249c92", "value": "http://localhost:8000/2d7e3394-3471-45c1-aedc-9de3057360c2"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "27036533-1299-498a-9e0d-0c6856444af6", "value": "Land owned by private persons/organisations/entities"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b6757074-8c06-4255-a20a-8a13eebddcbe", "value": "Private"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/717d9081-e33c-45e7-a6d0-9ed19115265a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/3421c35a-4a51-49e2-9520-546abebedadb"/>
+    <skos:scopeNote xml:lang="en">{"id": "e73eeac9-a2f9-4d08-a665-2764f4a5790b", "value": "Land owned by governmental departments/organisations"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "3b48d5e0-3ab2-4ab5-86f7-8fd2882d926f", "value": "http://localhost:8000/717d9081-e33c-45e7-a6d0-9ed19115265a"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "72e6996b-9b04-48d7-a6fe-3759377cf19f", "value": "Government"}</skos:prefLabel>
+  </rdf:Description>
 </rdf:RDF>

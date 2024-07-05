@@ -1,370 +1,431 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:Concept rdf:about="http://localhost:8000/0e57fa31-b64d-497a-a917-ebb83d535402">
-    <dcterms:identifier xml:lang="en">{"id": "32014f28-2e1c-427f-85dc-0b3fdccae737", "value": "http://localhost:8000/0e57fa31-b64d-497a-a917-ebb83d535402"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "bdb72087-f92b-4d2f-b185-2ab7df6f605e", "value": "Clay Tablet"}</skos:prefLabel>
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/1b28f9f1-b90b-4d74-85e7-bfa2478a9876"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f3818461-2b1a-464c-8d98-20bfdd507d9c"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/d279737b-d267-471d-a652-2e50c7b4653b"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/4a6fe7a1-81e0-4aa1-8881-6e62e0cccf48"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/6a6c3109-7065-4561-a557-7666efa975d4"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/7e23f90f-bb07-4b7a-92bf-6429ab4374cc"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/8cbe3a7a-3689-41bf-a858-5de8682e162e"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/9e2d253c-5097-46e6-be1a-393dc50437fd"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/088e00fa-7c3e-4d80-aa37-53abe3994379"/>
-        <dcterms:title xml:lang="en">{"id": "e2781cb9-daf4-4ab5-994b-57287b4b2bfb", "value": "Artefact Category"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/089ed77e-c93b-4463-882c-c7ab0172038c"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/1d33d47b-48f6-4bb8-9ddf-174e3e6110a4"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/65e86a3b-1b4e-4bef-8dc4-09f2b9d0dc04"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/6b7cbab2-5a01-4a61-accb-3d20859f5652"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/1b835179-c744-4c00-b4e1-2118f7412eb1"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/44713238-2586-4973-a768-a266894e4e59"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/62c9a52f-4f86-4b46-99e1-de4ac2d480eb"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/46a5cbfe-deea-4cbf-8c86-963b47f5d569"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/17810008-a251-4cc6-a753-c9e83815376f"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/ea0a02da-d3ca-4d66-befc-264e2b72f0fb"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/e7ff6738-7976-45d0-8767-bf539c6984cc"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/1d135212-123b-4f2a-912e-69897f84d541"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/719323a7-53fa-4ccc-b873-14f54e8021ac"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/5b63cc13-ddf0-49aa-a448-198b6ee61e13"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/27b955c2-0bd8-481c-ba81-458a34ddcb76"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/efa7a203-41fb-4da6-abe3-fc70af057ea7"/>
-        <dcterms:identifier xml:lang="en">{"id": "5196c32f-8740-48d3-be14-e63f83adfe16", "value": "http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"}</dcterms:identifier>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/6735376f-5881-47fd-b502-9bc35d3a2b80"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/c523ec0d-44ac-4ac8-8417-f03c45de4022"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/e8f0fbf0-f46f-46b4-a01e-d3c542c8d628"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/58bc5aa6-8064-4e32-bd13-1a831cbe4f2f"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/a6abd292-bcdc-4c4f-b775-54dfee02cdda"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/cc05151a-a950-478d-b68a-d90ef69378e0"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/0e57fa31-b64d-497a-a917-ebb83d535402"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f88186fb-8754-4bd1-b435-a61627a4f3e1"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/418b4ba6-e419-438a-b45e-94d10e17b5f9"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/0e085bad-c60a-4ffd-bd09-080233cdd504"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/1219a65b-0989-44e6-8b8b-5dae339d7c29"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/427ce1af-d3a5-4d6b-a999-1a177f53f656"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/7176bb80-0f2d-493f-ad18-68401372ad79"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/8c96f1f4-c412-4a5e-bc4f-6659c3fe0c8f"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/b89d1f73-72c9-4dd6-bfae-cae5fbcb7eb5"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/6a4d2726-4f7a-49cc-8cf9-e0261960a2f9"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/fb18d93d-90c6-4555-b7ad-0d45d26f7dd7"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/df728f22-aade-49ed-8cee-e9b8690ba7ac"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/92a4ab50-f81f-4d02-bece-d44a8c83884e"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/29c63acd-2843-4502-ad58-87e4ba6db7c7"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/3b3b9645-7f5c-45fd-9df9-dc948798d6cd"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/5faf1836-06f3-4101-bba9-632b0fc53290"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/e6ce4b35-948d-4357-9169-2c317aab91ef"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/8498a7ae-7357-4e84-9be7-c5382df3b5a3"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/b8c9c837-87fe-45c4-9029-f7385e8ae173"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/51dfb5bb-39e8-4cff-9c2a-06135714b8f1"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/9bad6e90-1747-4347-8047-0f86dd72df24"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/dd6361bb-ca45-45fd-a7cf-cc4f597f2ff4"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/f96ae70f-df0d-4901-a32e-eb2356e67a76"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
-    <skos:scopeNote xml:lang="en">{"id": "56cb324b-8e08-4718-9be9-4a7707d05abf", "value": "Flat clay surfaces or slabs, either portable or mounted on a wall or other structure, bearing or intended to bear inscriptions or pictures; also, thin, rigid slabs used as writing surfaces."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/9bad6e90-1747-4347-8047-0f86dd72df24">
-    <skos:prefLabel xml:lang="en">{"id": "15b53f4d-1af7-4619-b27e-d6d3db7ae124", "value": "Barley"}</skos:prefLabel>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/8498a7ae-7357-4e84-9be7-c5382df3b5a3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "960f6151-2631-49b2-ba18-2b77c2557ffd", "value": "Ground Stone"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "376f6808-cad4-4e70-a2bc-ffdc6739bf1a", "value": "http://localhost:8000/9bad6e90-1747-4347-8047-0f86dd72df24"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/dd6361bb-ca45-45fd-a7cf-cc4f597f2ff4">
+    <skos:scopeNote xml:lang="en">{"id": "8e128a26-2e2a-48c4-abf5-22cf3490036d", "value": "A stone implement that has been shaped by the action of grinding"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "b87a1531-cb79-43e8-afb4-b9f51bffad85", "value": "http://localhost:8000/8498a7ae-7357-4e84-9be7-c5382df3b5a3"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1219a65b-0989-44e6-8b8b-5dae339d7c29">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "261a1f01-02b1-4066-a527-a7b9b27dc67e", "value": "Brick - Ancient/Historic"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "64c71ba8-a067-440a-a8c7-83252dcaa91b", "value": "An oblong/rectangular mass of hardened clay or mud, used in ancient and heritage buildings"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "aa2a5982-be3e-4997-be9a-e1554a3f9b3e", "value": "http://localhost:8000/1219a65b-0989-44e6-8b8b-5dae339d7c29"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/0e085bad-c60a-4ffd-bd09-080233cdd504">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "2a9a889e-7ec6-4ef3-ad44-d8d56de44cfd", "value": "http://localhost:8000/0e085bad-c60a-4ffd-bd09-080233cdd504"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "ce88fc77-7464-4286-b4cd-2b3c9b1ccb70", "value": "Glass"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/cc05151a-a950-478d-b68a-d90ef69378e0">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "4b0257a2-cfec-4fa9-bd33-94c6d60db9b6", "value": "http://localhost:8000/cc05151a-a950-478d-b68a-d90ef69378e0"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "25f05ece-2443-4e87-a953-1a742266ee8e", "value": "The exoskeleton of salt-water mollusks, often used for jewelry or decorative objects."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "779830f6-5b40-4584-8e39-0406699bc8eb", "value": "Shell"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/efa7a203-41fb-4da6-abe3-fc70af057ea7"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/5faf1836-06f3-4101-bba9-632b0fc53290"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b8c9c837-87fe-45c4-9029-f7385e8ae173"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/dd6361bb-ca45-45fd-a7cf-cc4f597f2ff4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/65e86a3b-1b4e-4bef-8dc4-09f2b9d0dc04"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/62c9a52f-4f86-4b46-99e1-de4ac2d480eb"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/8498a7ae-7357-4e84-9be7-c5382df3b5a3"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/8c96f1f4-c412-4a5e-bc4f-6659c3fe0c8f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1d135212-123b-4f2a-912e-69897f84d541"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/6a4d2726-4f7a-49cc-8cf9-e0261960a2f9"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/a6abd292-bcdc-4c4f-b775-54dfee02cdda"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/51dfb5bb-39e8-4cff-9c2a-06135714b8f1"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/fb18d93d-90c6-4555-b7ad-0d45d26f7dd7"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/8cbe3a7a-3689-41bf-a858-5de8682e162e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/719323a7-53fa-4ccc-b873-14f54e8021ac"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/6a6c3109-7065-4561-a557-7666efa975d4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9e2d253c-5097-46e6-be1a-393dc50437fd"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/088e00fa-7c3e-4d80-aa37-53abe3994379"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/92a4ab50-f81f-4d02-bece-d44a8c83884e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1219a65b-0989-44e6-8b8b-5dae339d7c29"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/58bc5aa6-8064-4e32-bd13-1a831cbe4f2f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/427ce1af-d3a5-4d6b-a999-1a177f53f656"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/6735376f-5881-47fd-b502-9bc35d3a2b80"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/29c63acd-2843-4502-ad58-87e4ba6db7c7"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7e23f90f-bb07-4b7a-92bf-6429ab4374cc"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e6ce4b35-948d-4357-9169-2c317aab91ef"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/cc05151a-a950-478d-b68a-d90ef69378e0"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/0e57fa31-b64d-497a-a917-ebb83d535402"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1b835179-c744-4c00-b4e1-2118f7412eb1"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9bad6e90-1747-4347-8047-0f86dd72df24"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/44713238-2586-4973-a768-a266894e4e59"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/0e085bad-c60a-4ffd-bd09-080233cdd504"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/27b955c2-0bd8-481c-ba81-458a34ddcb76"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4a6fe7a1-81e0-4aa1-8881-6e62e0cccf48"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/418b4ba6-e419-438a-b45e-94d10e17b5f9"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e8f0fbf0-f46f-46b4-a01e-d3c542c8d628"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f88186fb-8754-4bd1-b435-a61627a4f3e1"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1b28f9f1-b90b-4d74-85e7-bfa2478a9876"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/7176bb80-0f2d-493f-ad18-68401372ad79"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/df728f22-aade-49ed-8cee-e9b8690ba7ac"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/6b7cbab2-5a01-4a61-accb-3d20859f5652"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/17810008-a251-4cc6-a753-c9e83815376f"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c523ec0d-44ac-4ac8-8417-f03c45de4022"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ea0a02da-d3ca-4d66-befc-264e2b72f0fb"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/d279737b-d267-471d-a652-2e50c7b4653b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e7ff6738-7976-45d0-8767-bf539c6984cc"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/1d33d47b-48f6-4bb8-9ddf-174e3e6110a4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/46a5cbfe-deea-4cbf-8c86-963b47f5d569"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/5b63cc13-ddf0-49aa-a448-198b6ee61e13"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/3b3b9645-7f5c-45fd-9df9-dc948798d6cd"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f3818461-2b1a-464c-8d98-20bfdd507d9c"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/f96ae70f-df0d-4901-a32e-eb2356e67a76"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/089ed77e-c93b-4463-882c-c7ab0172038c"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b89d1f73-72c9-4dd6-bfae-cae5fbcb7eb5"/>
+    <dcterms:identifier xml:lang="en">{"id": "5196c32f-8740-48d3-be14-e63f83adfe16", "value": "http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"}</dcterms:identifier>
+    <dcterms:title xml:lang="en">{"id": "e2781cb9-daf4-4ab5-994b-57287b4b2bfb", "value": "Artefact Category"}</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/46a5cbfe-deea-4cbf-8c86-963b47f5d569">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "50b46bec-61f1-4f6e-a789-8c0eb88f0c11", "value": "An rectangular mass of hardened clay or mud, used in modern buildings (i.e. post 1950s)"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "418085a5-0d70-472d-b5fb-177b845c2f47", "value": "Modern Brick"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "906e26bd-f6fa-44df-b2d5-dea164910a09", "value": "http://localhost:8000/46a5cbfe-deea-4cbf-8c86-963b47f5d569"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1d135212-123b-4f2a-912e-69897f84d541">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "b864171d-ceba-4e83-8c3c-b22fb5e16160", "value": "http://localhost:8000/1d135212-123b-4f2a-912e-69897f84d541"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "9fec0039-e6d4-4f1a-9dcf-502905c8b0df", "value": "A copper band worn on the finger/toe for ornamentation"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "f30a7585-af1e-4864-860a-aaa46009107e", "value": "Copper Ring"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/e6ce4b35-948d-4357-9169-2c317aab91ef">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "f0e7ec8f-8448-49c3-8adf-0ca7dd74d5bc", "value": "Knapped or ground stone/flint tool where the specific type is unknown. Use more specific type where known"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "60806ced-3f1f-4e92-bc0d-a0208aed8bb4", "value": "Lithic Implements/Stone Tools"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "1239887d-7b3a-41a5-8851-6b103cf20352", "value": "http://localhost:8000/e6ce4b35-948d-4357-9169-2c317aab91ef"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/418b4ba6-e419-438a-b45e-94d10e17b5f9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "8f2dd863-1dfa-4e17-9546-f7c7b26e2284", "value": "Bone"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:scopeNote xml:lang="en">{"id": "aa192bd6-1d1c-463e-8357-b982411208b6", "value": "Any of the pieces of hard tissue consisting largely of calcium phosphate that make up the skeleton of a vertebrate animal or human"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "9f94910b-4629-451b-bf5e-403b76ababcd", "value": "http://localhost:8000/418b4ba6-e419-438a-b45e-94d10e17b5f9"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/92a4ab50-f81f-4d02-bece-d44a8c83884e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "43c4ea67-0eb3-4092-a21e-57c32bbd609f", "value": "Lithic Debitage"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "cee0d051-6d05-43c0-b77e-9a141b2085e8", "value": "Waste flakes and cores produced in the manufacture of stone implements."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "4e664b66-e378-4210-a8cc-ad1959798d4d", "value": "http://localhost:8000/92a4ab50-f81f-4d02-bece-d44a8c83884e"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1b835179-c744-4c00-b4e1-2118f7412eb1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "f7df0d28-da80-4655-98bc-63e769b78f64", "value": "Any of the pieces of hard tissue consisting largely of calcium phosphate that make up the skeleton of a  human"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "243bcf6f-ba51-470d-bb99-a184e37d2b25", "value": "http://localhost:8000/1b835179-c744-4c00-b4e1-2118f7412eb1"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a0c43543-043f-4bc1-a913-1eba2f0ac553", "value": "Human Remains"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/dd6361bb-ca45-45fd-a7cf-cc4f597f2ff4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
     <skos:scopeNote xml:lang="en">{"id": "d767e545-e846-48bf-8919-d9d497c831fe", "value": "Objects which cannot be assigned to any one particular class, or the function of which is unknown"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:prefLabel xml:lang="en">{"id": "95396b14-55c9-43e5-8e07-779b0ed9c81f", "value": "Undefined Object"}</skos:prefLabel>
     <dcterms:identifier xml:lang="en">{"id": "c1245e70-4822-46ea-a767-8fa46051d016", "value": "http://localhost:8000/dd6361bb-ca45-45fd-a7cf-cc4f597f2ff4"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/44713238-2586-4973-a768-a266894e4e59">
-    <skos:scopeNote xml:lang="en">{"id": "0e26cf6e-8b8a-4519-bbf0-aa37d544d5db", "value": "An individual section of panelling. Can form fences, ceilings or an outer layer to a wall etc."}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "1edeac13-2b30-4f59-a387-8837d050bbba", "value": "http://localhost:8000/44713238-2586-4973-a768-a266894e4e59"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "9d4a8a0e-3b7c-41b6-a0b7-cf82ed5cbb2e", "value": "Panel"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "95396b14-55c9-43e5-8e07-779b0ed9c81f", "value": "Undefined Object"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/ea0a02da-d3ca-4d66-befc-264e2b72f0fb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "662c0846-a05f-4bf2-8255-c89c5daca795", "value": "Stone used as a building material, sometimes shaped/dressed"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "6c35408e-e0ac-413e-9199-d895d4bac6cb", "value": "Building Stone"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "7683f4c0-9fb9-411d-a6c3-c5cbf3688c18", "value": "http://localhost:8000/ea0a02da-d3ca-4d66-befc-264e2b72f0fb"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/d279737b-d267-471d-a652-2e50c7b4653b">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/b8c9c837-87fe-45c4-9029-f7385e8ae173">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "334ac461-533e-43e3-af60-1d5e8e10e9a3", "value": "http://localhost:8000/d279737b-d267-471d-a652-2e50c7b4653b"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "2c20b8e3-0abd-4a30-aaad-140ea06ba275", "value": "Bangle Fragment"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "95f2db17-b008-4690-8010-78498947bebc", "value": "Fragment of whole bangle/bracelet"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/1b28f9f1-b90b-4d74-85e7-bfa2478a9876">
-    <dcterms:identifier xml:lang="en">{"id": "0e87fde8-420f-4f6f-841d-830f18e38031", "value": "http://localhost:8000/1b28f9f1-b90b-4d74-85e7-bfa2478a9876"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "8b523152-1fed-433a-a27c-a65abe2714a5", "value": "A construction material made by the firing or baking of clay"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "7c40833d-54d0-44f6-a1d8-97df747b5ae0", "value": "http://localhost:8000/b8c9c837-87fe-45c4-9029-f7385e8ae173"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "f7361394-30c9-4714-98b1-c9b9ecdcf467", "value": "Ceramics"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/6735376f-5881-47fd-b502-9bc35d3a2b80">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "2af712c5-42c8-4c6c-829f-2f1c86d020e9", "value": "Kiln Fragment"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "92a5cc34-e53b-40d6-93f9-adf3747794b6", "value": "http://localhost:8000/6735376f-5881-47fd-b502-9bc35d3a2b80"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "6b103b55-593e-4272-8925-9a5db3c8815b", "value": "Fragment/pieces of furnaces, ovens, or heated enclosures for drying, charring, hardening, baking, or burning various materials."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/427ce1af-d3a5-4d6b-a999-1a177f53f656">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "f15697f8-d00d-4d40-be6f-c7a55c2b201f", "value": "Thin, flat pieces of stone intentionally removed from a tool or core during the process of stone tool manufacture."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "f8678c23-d89b-46ef-89d8-9c160c45d846", "value": "Chipped/Flaked Stone"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "d429c4ee-f1cd-488c-bf39-6792c197d719", "value": "http://localhost:8000/427ce1af-d3a5-4d6b-a999-1a177f53f656"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/9e2d253c-5097-46e6-be1a-393dc50437fd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "cce0c5c9-6a61-4c84-8618-b9b2499cce0d", "value": "Grinding/Quern Stone"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "21637d2f-2fd2-4955-a113-8685c1834f3c", "value": "http://localhost:8000/9e2d253c-5097-46e6-be1a-393dc50437fd"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "9769de66-a761-48df-869c-5599b907a0f9", "value": "Hand-operated mills typically consisting of a slab with a slightly concave upper surface and a smaller, smooth, rounded stone, used for grinding or pulverizing grains or other food materials."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/088e00fa-7c3e-4d80-aa37-53abe3994379">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "768b7581-1989-4bba-be1c-890bb88cfad0", "value": "An individual section of panelling. Can form fences, ceilings or an outer layer to a wall etc. Made of schist, a metamorphic rock containing a high amount of magnesium and used for carvings."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "050a222a-97d3-49dc-b969-cb99e35170c8", "value": "Schist Panel"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "4870d49b-69e4-4d3b-9b91-c84f35b1158b", "value": "http://localhost:8000/088e00fa-7c3e-4d80-aa37-53abe3994379"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/6a6c3109-7065-4561-a557-7666efa975d4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "03e6dea1-ffed-44d9-b28e-c2616dd42648", "value": "Animal Remains"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "b7ac2efc-d7e4-486e-942d-e24d80c2e04c", "value": "http://localhost:8000/6a6c3109-7065-4561-a557-7666efa975d4"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/0e57fa31-b64d-497a-a917-ebb83d535402">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "32014f28-2e1c-427f-85dc-0b3fdccae737", "value": "http://localhost:8000/0e57fa31-b64d-497a-a917-ebb83d535402"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "56cb324b-8e08-4718-9be9-4a7707d05abf", "value": "Flat clay surfaces or slabs, either portable or mounted on a wall or other structure, bearing or intended to bear inscriptions or pictures; also, thin, rigid slabs used as writing surfaces."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "bdb72087-f92b-4d2f-b185-2ab7df6f605e", "value": "Clay Tablet"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/8c96f1f4-c412-4a5e-bc4f-6659c3fe0c8f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "9213fcbb-f0ab-46da-afaf-a508d509f1e5", "value": "Gold Object"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "c10cb9ae-5b41-4c5f-bac5-13e8ee780b71", "value": "http://localhost:8000/8c96f1f4-c412-4a5e-bc4f-6659c3fe0c8f"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/17810008-a251-4cc6-a753-c9e83815376f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "58146a77-6e0e-4355-94e4-49e1fc9da2ad", "value": "Silver Ring"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "480abde1-c1c4-4ce3-a7d3-6466008b3420", "value": "http://localhost:8000/17810008-a251-4cc6-a753-c9e83815376f"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "b0f3729d-cec9-4ec1-83b1-2a9f6bd1ea73", "value": "A silver band worn on the finger/toe for ornamentation"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/58bc5aa6-8064-4e32-bd13-1a831cbe4f2f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "c35864a6-fff6-447c-afa3-563e048d55e0", "value": "http://localhost:8000/58bc5aa6-8064-4e32-bd13-1a831cbe4f2f"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "4056e4f6-535e-4097-9e6e-9d38ea16cf9d", "value": "Plant Remains (Unspecified/Unknown)"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/29c63acd-2843-4502-ad58-87e4ba6db7c7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "ebc2dcbc-26a8-4e98-bca1-001d0969f676", "value": "http://localhost:8000/29c63acd-2843-4502-ad58-87e4ba6db7c7"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "8d20007f-92b0-42d9-aa2d-3d43c916cf4e", "value": "Music Instrument"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f3818461-2b1a-464c-8d98-20bfdd507d9c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "92514616-3bf3-4cf9-ae6e-81f8a881e855", "value": "Debris"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "18d8fd90-daf3-4dd0-90e9-4f47d456546e", "value": "Material remains or byproducts of a manufacturing or other processes"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "20a445ee-7d4e-4513-a634-b3b3a8bc95ef", "value": "http://localhost:8000/f3818461-2b1a-464c-8d98-20bfdd507d9c"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/089ed77e-c93b-4463-882c-c7ab0172038c">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "b7b6963c-be1a-4452-95f5-9428ab58cad1", "value": "http://localhost:8000/089ed77e-c93b-4463-882c-c7ab0172038c"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "13de4008-d80c-487a-aa7f-6b8aa7ab8fb9", "value": "Sculpture"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "019ac2d7-4336-4310-9a82-51f9ba3a3576", "value": "A three dimensional representation of an object, person or animal"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/4a6fe7a1-81e0-4aa1-8881-6e62e0cccf48">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "e01a7d88-7156-456e-acfa-877308cfaaa4", "value": "http://localhost:8000/4a6fe7a1-81e0-4aa1-8881-6e62e0cccf48"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "15b65e1e-a49a-40b3-88bd-0ffafd1b1a17", "value": "Ring"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "c081888d-48d0-4cc3-9fab-41bc1ebcc517", "value": "A circular band, usually metal, worn on the finger or toe for ornamentation"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/5b63cc13-ddf0-49aa-a448-198b6ee61e13">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:scopeNote xml:lang="en">{"id": "81b2f429-38ea-4ec6-a497-64fcd646342d", "value": "Ornamental band or chain worn around the arm or wrist."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "6672da95-3e7a-4d52-9745-d6368b00ec8b", "value": "http://localhost:8000/5b63cc13-ddf0-49aa-a448-198b6ee61e13"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "3365fe09-13d1-44cd-83ff-c3224b6de620", "value": "Bangle/Bracelet"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/62c9a52f-4f86-4b46-99e1-de4ac2d480eb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "a25e8319-7cd0-498c-a496-1cebcd1db174", "value": "http://localhost:8000/62c9a52f-4f86-4b46-99e1-de4ac2d480eb"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "584f06f1-8d70-4bd6-a94c-a53378e98638", "value": "Thin, flat pieces of stone intentionally removed from a tool or core during the process of stone tool manufacture."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "aec3c2e8-328a-4ac3-a3a5-84750b87958b", "value": "Flaked Stone"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/7176bb80-0f2d-493f-ad18-68401372ad79">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "e3d550e9-b7e9-4b32-b376-2f3433c2b883", "value": "Shell Debris"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:scopeNote xml:lang="en">{"id": "de08f9b6-b983-42af-bec4-bab0994211ab", "value": "Fragments/byproducts of shell based objects and jewellry"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "0588826e-cdb0-426b-afb4-ca678d87a652", "value": "http://localhost:8000/7176bb80-0f2d-493f-ad18-68401372ad79"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1b28f9f1-b90b-4d74-85e7-bfa2478a9876">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
     <skos:scopeNote xml:lang="en">{"id": "19a56e5a-289f-4603-b4c7-ddfd6837427f", "value": "Accumulations of coins purposely buried or otherwise hidden as a group; may contain artifacts of any material or of different materials as well as different kinds of coins"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "0e87fde8-420f-4f6f-841d-830f18e38031", "value": "http://localhost:8000/1b28f9f1-b90b-4d74-85e7-bfa2478a9876"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "695f0c6f-c72d-484e-958e-199f6f1739bc", "value": "Coin Hoard"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/e7ff6738-7976-45d0-8767-bf539c6984cc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "d0c09660-813b-4c66-9de7-3b853ca8ebe1", "value": "Clay Model"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "83d0f8c1-e94a-427c-9ae3-1ead3c680551", "value": "http://localhost:8000/e7ff6738-7976-45d0-8767-bf539c6984cc"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "67a68ea5-b63f-47da-994f-a8cd5c577a15", "value": "Small sculpted object depicting another object or being, made of clay"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f88186fb-8754-4bd1-b435-a61627a4f3e1">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/df728f22-aade-49ed-8cee-e9b8690ba7ac">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "fca0f4de-c7cf-494a-90bd-4300e0959d60", "value": "http://localhost:8000/df728f22-aade-49ed-8cee-e9b8690ba7ac"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "329ec451-e33c-4ae4-a64c-4fac52ecbc44", "value": "Silver Object"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "90aac311-2ce6-4087-bf43-e9f917eecba4", "value": "Objects which cannot be assigned to any one particular class, or the function of which is unknown. Made of silver"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "cf61b8f7-d7d2-4677-a437-8fa2dd662097", "value": "http://localhost:8000/f88186fb-8754-4bd1-b435-a61627a4f3e1"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "b8c465d1-4fc6-4f93-b4f2-7c16e2d14549", "value": "A small, pierced, often spherical or cylindrical piece of glass, wood etc. which may be strung together with others to form a necklace"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "c80134bd-b9d1-4217-8d84-5a7197110a0a", "value": "Bead"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/8cbe3a7a-3689-41bf-a858-5de8682e162e">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/7e23f90f-bb07-4b7a-92bf-6429ab4374cc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "66354c52-5f54-4e4c-84b6-c3abca44242d", "value": "Cotton"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "29effb3b-bd48-446f-a363-15c2995d9c2a", "value": "http://localhost:8000/7e23f90f-bb07-4b7a-92bf-6429ab4374cc"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/6a4d2726-4f7a-49cc-8cf9-e0261960a2f9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "42ead793-ef47-44d0-87da-dd2ef2a04f43", "value": "http://localhost:8000/6a4d2726-4f7a-49cc-8cf9-e0261960a2f9"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d364726b-978e-4399-8621-ece21e0649d3", "value": "Other"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/3b3b9645-7f5c-45fd-9df9-dc948798d6cd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "12e9ed02-dc84-42b1-b471-9592fbe64277", "value": "Wheat"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c3d24807-aa97-4e3e-82a0-0e1aef650e0b", "value": "http://localhost:8000/3b3b9645-7f5c-45fd-9df9-dc948798d6cd"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/6b7cbab2-5a01-4a61-accb-3d20859f5652">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "0a53fdcc-32e0-410e-b570-7615ac9d5bfb", "value": "A piece of gold, usually cast, struck or stamped, with a definite value"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "406a0b41-3eb6-4f08-8bbc-2b79466d1f37", "value": "http://localhost:8000/6b7cbab2-5a01-4a61-accb-3d20859f5652"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "86ef536e-efae-4071-849a-54ceba18fb25", "value": "Gold Coin"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/27b955c2-0bd8-481c-ba81-458a34ddcb76">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "6a23b3b9-730b-49f8-8f12-da3bb49e7bba", "value": "http://localhost:8000/27b955c2-0bd8-481c-ba81-458a34ddcb76"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:scopeNote xml:lang="en">{"id": "8a9dfd49-8d9b-49e7-9955-6c3d23bc0f75", "value": "Ornamental band or chain worn around the arm or wrist made of hard, unglazed earthenware"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "02c5080d-a455-4d02-aa1f-661f52adc63e", "value": "Terracotta Bangle"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/65e86a3b-1b4e-4bef-8dc4-09f2b9d0dc04">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "d82a8749-e6bf-43d7-9f54-ace50a070648", "value": "http://localhost:8000/65e86a3b-1b4e-4bef-8dc4-09f2b9d0dc04"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "0fbb2c7b-dfc2-4b6d-b83a-b77fc15a29a3", "value": "Figurine"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "2c05b546-9da9-492e-82a7-ff8caee33f17", "value": "Statuette or small carved/sculpted figure, usually a depiction of human, animal, diety or anthropomorphic"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/c523ec0d-44ac-4ac8-8417-f03c45de4022">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "353d5dc0-e65d-46bf-a424-318742ff951d", "value": "http://localhost:8000/c523ec0d-44ac-4ac8-8417-f03c45de4022"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "54a6e8e7-c59c-439e-8266-0ef80b798fed", "value": "Architectural Fragment"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/d279737b-d267-471d-a652-2e50c7b4653b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "2c20b8e3-0abd-4a30-aaad-140ea06ba275", "value": "Bangle Fragment"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "334ac461-533e-43e3-af60-1d5e8e10e9a3", "value": "http://localhost:8000/d279737b-d267-471d-a652-2e50c7b4653b"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "95f2db17-b008-4690-8010-78498947bebc", "value": "Fragment of whole bangle/bracelet"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/9bad6e90-1747-4347-8047-0f86dd72df24">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "15b53f4d-1af7-4619-b27e-d6d3db7ae124", "value": "Barley"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "376f6808-cad4-4e70-a2bc-ffdc6739bf1a", "value": "http://localhost:8000/9bad6e90-1747-4347-8047-0f86dd72df24"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/1d33d47b-48f6-4bb8-9ddf-174e3e6110a4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "21211359-8023-40fa-869c-6a5a9ebec695", "value": "Metal Slag"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "46e585a1-8e12-45fb-b1ea-0df990c9fbcd", "value": "A by-product usually from the smelting process."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "6a5bac86-ab89-4403-9743-d818e678b600", "value": "http://localhost:8000/1d33d47b-48f6-4bb8-9ddf-174e3e6110a4"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/719323a7-53fa-4ccc-b873-14f54e8021ac">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "4c458a14-ccfd-4ffc-84b6-bc3b5929aefa", "value": "Raised Fields"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "857d9ce4-a5a6-4d65-b7f7-65a2e2a10cb1", "value": "http://localhost:8000/719323a7-53fa-4ccc-b873-14f54e8021ac"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/fb18d93d-90c6-4555-b7ad-0d45d26f7dd7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "873972af-097a-4ae8-88f1-4ad1fabe572b", "value": "Fragment/byproduct of steatite carvings and manufactured objects. A very soft rock composed primarily of hydrated magnesium silicate (soapstone). It is easily cut and has been used for carvings."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "55d06785-fb07-448f-b856-2afa03d9bdc2", "value": "Steatite Debris"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "f849db42-e67a-4c1e-ba54-3cf03fccd2d9", "value": "http://localhost:8000/fb18d93d-90c6-4555-b7ad-0d45d26f7dd7"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/8cbe3a7a-3689-41bf-a858-5de8682e162e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
     <dcterms:identifier xml:lang="en">{"id": "4bad2e24-5d1c-4139-8286-33832b761c1b", "value": "http://localhost:8000/8cbe3a7a-3689-41bf-a858-5de8682e162e"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "9fa36c0e-7e74-4e5a-98ce-9c423cf8ca64", "value": "Faience Debris or Slag"}</skos:prefLabel>
     <skos:scopeNote xml:lang="en">{"id": "db036bfa-457b-496c-b3b0-4e38d3d33234", "value": "A byproduct of the creation of faience objects"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f3818461-2b1a-464c-8d98-20bfdd507d9c">
-    <skos:prefLabel xml:lang="en">{"id": "92514616-3bf3-4cf9-ae6e-81f8a881e855", "value": "Debris"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "20a445ee-7d4e-4513-a634-b3b3a8bc95ef", "value": "http://localhost:8000/f3818461-2b1a-464c-8d98-20bfdd507d9c"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "18d8fd90-daf3-4dd0-90e9-4f47d456546e", "value": "Material remains or byproducts of a manufacturing or other processes"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/e7ff6738-7976-45d0-8767-bf539c6984cc">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "83d0f8c1-e94a-427c-9ae3-1ead3c680551", "value": "http://localhost:8000/e7ff6738-7976-45d0-8767-bf539c6984cc"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "d0c09660-813b-4c66-9de7-3b853ca8ebe1", "value": "Clay Model"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "67a68ea5-b63f-47da-994f-a8cd5c577a15", "value": "Small sculpted object depicting another object or being, made of clay"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/4a6fe7a1-81e0-4aa1-8881-6e62e0cccf48">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "e01a7d88-7156-456e-acfa-877308cfaaa4", "value": "http://localhost:8000/4a6fe7a1-81e0-4aa1-8881-6e62e0cccf48"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "c081888d-48d0-4cc3-9fab-41bc1ebcc517", "value": "A circular band, usually metal, worn on the finger or toe for ornamentation"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "15b65e1e-a49a-40b3-88bd-0ffafd1b1a17", "value": "Ring"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/f96ae70f-df0d-4901-a32e-eb2356e67a76">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "adb08e7d-7194-4751-abcb-a94bbdcede79", "value": "http://localhost:8000/f96ae70f-df0d-4901-a32e-eb2356e67a76"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "6e07ded2-3f05-4268-a5ba-d9c496a1e1a7", "value": "A piece of a larger faience object, a composite material consisting of a body of sintered quartz coupled with an alkaline glaze surface, and used for decorating beads, amulets, figurines, and other small objects."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "bd2607ca-fb26-48b3-b5bf-868bde3a16aa", "value": "Faience Fragment"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/9e2d253c-5097-46e6-be1a-393dc50437fd">
-    <skos:prefLabel xml:lang="en">{"id": "cce0c5c9-6a61-4c84-8618-b9b2499cce0d", "value": "Grinding/Quern Stone"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "21637d2f-2fd2-4955-a113-8685c1834f3c", "value": "http://localhost:8000/9e2d253c-5097-46e6-be1a-393dc50437fd"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "9769de66-a761-48df-869c-5599b907a0f9", "value": "Hand-operated mills typically consisting of a slab with a slightly concave upper surface and a smaller, smooth, rounded stone, used for grinding or pulverizing grains or other food materials."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/65e86a3b-1b4e-4bef-8dc4-09f2b9d0dc04">
-    <skos:scopeNote xml:lang="en">{"id": "2c05b546-9da9-492e-82a7-ff8caee33f17", "value": "Statuette or small carved/sculpted figure, usually a depiction of human, animal, diety or anthropomorphic"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:prefLabel xml:lang="en">{"id": "0fbb2c7b-dfc2-4b6d-b83a-b77fc15a29a3", "value": "Figurine"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "d82a8749-e6bf-43d7-9f54-ace50a070648", "value": "http://localhost:8000/65e86a3b-1b4e-4bef-8dc4-09f2b9d0dc04"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/df728f22-aade-49ed-8cee-e9b8690ba7ac">
-    <skos:prefLabel xml:lang="en">{"id": "329ec451-e33c-4ae4-a64c-4fac52ecbc44", "value": "Silver Object"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "90aac311-2ce6-4087-bf43-e9f917eecba4", "value": "Objects which cannot be assigned to any one particular class, or the function of which is unknown. Made of silver"}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "fca0f4de-c7cf-494a-90bd-4300e0959d60", "value": "http://localhost:8000/df728f22-aade-49ed-8cee-e9b8690ba7ac"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/17810008-a251-4cc6-a753-c9e83815376f">
-    <dcterms:identifier xml:lang="en">{"id": "480abde1-c1c4-4ce3-a7d3-6466008b3420", "value": "http://localhost:8000/17810008-a251-4cc6-a753-c9e83815376f"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:scopeNote xml:lang="en">{"id": "b0f3729d-cec9-4ec1-83b1-2a9f6bd1ea73", "value": "A silver band worn on the finger/toe for ornamentation"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "58146a77-6e0e-4355-94e4-49e1fc9da2ad", "value": "Silver Ring"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/427ce1af-d3a5-4d6b-a999-1a177f53f656">
-    <skos:prefLabel xml:lang="en">{"id": "f8678c23-d89b-46ef-89d8-9c160c45d846", "value": "Chipped/Flaked Stone"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "d429c4ee-f1cd-488c-bf39-6792c197d719", "value": "http://localhost:8000/427ce1af-d3a5-4d6b-a999-1a177f53f656"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "f15697f8-d00d-4d40-be6f-c7a55c2b201f", "value": "Thin, flat pieces of stone intentionally removed from a tool or core during the process of stone tool manufacture."}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/6a4d2726-4f7a-49cc-8cf9-e0261960a2f9">
-    <skos:prefLabel xml:lang="en">{"id": "d364726b-978e-4399-8621-ece21e0649d3", "value": "Other"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "42ead793-ef47-44d0-87da-dd2ef2a04f43", "value": "http://localhost:8000/6a4d2726-4f7a-49cc-8cf9-e0261960a2f9"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/ea0a02da-d3ca-4d66-befc-264e2b72f0fb">
-    <skos:scopeNote xml:lang="en">{"id": "662c0846-a05f-4bf2-8255-c89c5daca795", "value": "Stone used as a building material, sometimes shaped/dressed"}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "7683f4c0-9fb9-411d-a6c3-c5cbf3688c18", "value": "http://localhost:8000/ea0a02da-d3ca-4d66-befc-264e2b72f0fb"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:prefLabel xml:lang="en">{"id": "6c35408e-e0ac-413e-9199-d895d4bac6cb", "value": "Building Stone"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/92a4ab50-f81f-4d02-bece-d44a8c83884e">
-    <skos:prefLabel xml:lang="en">{"id": "43c4ea67-0eb3-4092-a21e-57c32bbd609f", "value": "Lithic Debitage"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "cee0d051-6d05-43c0-b77e-9a141b2085e8", "value": "Waste flakes and cores produced in the manufacture of stone implements."}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "4e664b66-e378-4210-a8cc-ad1959798d4d", "value": "http://localhost:8000/92a4ab50-f81f-4d02-bece-d44a8c83884e"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/46a5cbfe-deea-4cbf-8c86-963b47f5d569">
-    <dcterms:identifier xml:lang="en">{"id": "906e26bd-f6fa-44df-b2d5-dea164910a09", "value": "http://localhost:8000/46a5cbfe-deea-4cbf-8c86-963b47f5d569"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:prefLabel xml:lang="en">{"id": "418085a5-0d70-472d-b5fb-177b845c2f47", "value": "Modern Brick"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "50b46bec-61f1-4f6e-a789-8c0eb88f0c11", "value": "An rectangular mass of hardened clay or mud, used in modern buildings (i.e. post 1950s)"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/8498a7ae-7357-4e84-9be7-c5382df3b5a3">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:scopeNote xml:lang="en">{"id": "8e128a26-2e2a-48c4-abf5-22cf3490036d", "value": "A stone implement that has been shaped by the action of grinding"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "960f6151-2631-49b2-ba18-2b77c2557ffd", "value": "Ground Stone"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "b87a1531-cb79-43e8-afb4-b9f51bffad85", "value": "http://localhost:8000/8498a7ae-7357-4e84-9be7-c5382df3b5a3"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/089ed77e-c93b-4463-882c-c7ab0172038c">
-    <dcterms:identifier xml:lang="en">{"id": "b7b6963c-be1a-4452-95f5-9428ab58cad1", "value": "http://localhost:8000/089ed77e-c93b-4463-882c-c7ab0172038c"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:prefLabel xml:lang="en">{"id": "13de4008-d80c-487a-aa7f-6b8aa7ab8fb9", "value": "Sculpture"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "019ac2d7-4336-4310-9a82-51f9ba3a3576", "value": "A three dimensional representation of an object, person or animal"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/58bc5aa6-8064-4e32-bd13-1a831cbe4f2f">
-    <skos:prefLabel xml:lang="en">{"id": "4056e4f6-535e-4097-9e6e-9d38ea16cf9d", "value": "Plant Remains (Unspecified/Unknown)"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "c35864a6-fff6-447c-afa3-563e048d55e0", "value": "http://localhost:8000/58bc5aa6-8064-4e32-bd13-1a831cbe4f2f"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/1b835179-c744-4c00-b4e1-2118f7412eb1">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:prefLabel xml:lang="en">{"id": "a0c43543-043f-4bc1-a913-1eba2f0ac553", "value": "Human Remains"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "f7df0d28-da80-4655-98bc-63e769b78f64", "value": "Any of the pieces of hard tissue consisting largely of calcium phosphate that make up the skeleton of a  human"}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "243bcf6f-ba51-470d-bb99-a184e37d2b25", "value": "http://localhost:8000/1b835179-c744-4c00-b4e1-2118f7412eb1"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/efa7a203-41fb-4da6-abe3-fc70af057ea7">
-    <dcterms:identifier xml:lang="en">{"id": "7e2eea5d-d639-4c35-90ce-2ce5cfde1c84", "value": "http://localhost:8000/efa7a203-41fb-4da6-abe3-fc70af057ea7"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "62e2c456-6c1a-4520-bb01-6fcdf1d29643", "value": "Burnt Clay"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:scopeNote xml:lang="en">{"id": "41be5657-240a-461e-8eed-735b9fb44188", "value": "Clay that has undergone some kind of firing process, hardening it, whether as a byproduct or purposeful action. Clay being a naturally occurring sediments that are produced by chemical actions resulting during the weathering of rocks. Clays are composed of hydrated aluminum silicates, such as Kaolinite"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/1d33d47b-48f6-4bb8-9ddf-174e3e6110a4">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:prefLabel xml:lang="en">{"id": "21211359-8023-40fa-869c-6a5a9ebec695", "value": "Metal Slag"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "46e585a1-8e12-45fb-b1ea-0df990c9fbcd", "value": "A by-product usually from the smelting process."}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "6a5bac86-ab89-4403-9743-d818e678b600", "value": "http://localhost:8000/1d33d47b-48f6-4bb8-9ddf-174e3e6110a4"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/088e00fa-7c3e-4d80-aa37-53abe3994379">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:scopeNote xml:lang="en">{"id": "768b7581-1989-4bba-be1c-890bb88cfad0", "value": "An individual section of panelling. Can form fences, ceilings or an outer layer to a wall etc. Made of schist, a metamorphic rock containing a high amount of magnesium and used for carvings."}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "4870d49b-69e4-4d3b-9b91-c84f35b1158b", "value": "http://localhost:8000/088e00fa-7c3e-4d80-aa37-53abe3994379"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "050a222a-97d3-49dc-b969-cb99e35170c8", "value": "Schist Panel"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/6b7cbab2-5a01-4a61-accb-3d20859f5652">
-    <skos:prefLabel xml:lang="en">{"id": "86ef536e-efae-4071-849a-54ceba18fb25", "value": "Gold Coin"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "406a0b41-3eb6-4f08-8bbc-2b79466d1f37", "value": "http://localhost:8000/6b7cbab2-5a01-4a61-accb-3d20859f5652"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "0a53fdcc-32e0-410e-b570-7615ac9d5bfb", "value": "A piece of gold, usually cast, struck or stamped, with a definite value"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/51dfb5bb-39e8-4cff-9c2a-06135714b8f1">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:scopeNote xml:lang="en">{"id": "3c942166-218e-4bcc-98dd-f7af726b2a61", "value": "A piece of metal, usually cast, struck or stamped, with a definite value."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "b5d59b5e-4be9-4625-a681-fa17d563467e", "value": "Coin"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "7ce1ed3e-6613-42b7-9620-4978d3e33956", "value": "http://localhost:8000/51dfb5bb-39e8-4cff-9c2a-06135714b8f1"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/418b4ba6-e419-438a-b45e-94d10e17b5f9">
-    <skos:prefLabel xml:lang="en">{"id": "8f2dd863-1dfa-4e17-9546-f7c7b26e2284", "value": "Bone"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "aa192bd6-1d1c-463e-8357-b982411208b6", "value": "Any of the pieces of hard tissue consisting largely of calcium phosphate that make up the skeleton of a vertebrate animal or human"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "9f94910b-4629-451b-bf5e-403b76ababcd", "value": "http://localhost:8000/418b4ba6-e419-438a-b45e-94d10e17b5f9"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/719323a7-53fa-4ccc-b873-14f54e8021ac">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:prefLabel xml:lang="en">{"id": "4c458a14-ccfd-4ffc-84b6-bc3b5929aefa", "value": "Raised Fields"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/c523ec0d-44ac-4ac8-8417-f03c45de4022">
-    <skos:prefLabel xml:lang="en">{"id": "54a6e8e7-c59c-439e-8266-0ef80b798fed", "value": "Architectural Fragment"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "353d5dc0-e65d-46bf-a424-318742ff951d", "value": "http://localhost:8000/c523ec0d-44ac-4ac8-8417-f03c45de4022"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/a6abd292-bcdc-4c4f-b775-54dfee02cdda">
-    <skos:scopeNote xml:lang="en">{"id": "9369a17d-e163-4686-8829-dba3f2ad9240", "value": "Objects which cannot be assigned to any one particular class, or the function of which is unknown. Made of stone"}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "b3ef4ab7-4e40-49fe-998f-2b80ed14d8e9", "value": "http://localhost:8000/a6abd292-bcdc-4c4f-b775-54dfee02cdda"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:prefLabel xml:lang="en">{"id": "bc44721f-3454-4d9d-84e8-2a25d8fd3c7d", "value": "Stone Object"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/27b955c2-0bd8-481c-ba81-458a34ddcb76">
-    <skos:prefLabel xml:lang="en">{"id": "02c5080d-a455-4d02-aa1f-661f52adc63e", "value": "Terracotta Bangle"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "6a23b3b9-730b-49f8-8f12-da3bb49e7bba", "value": "http://localhost:8000/27b955c2-0bd8-481c-ba81-458a34ddcb76"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "8a9dfd49-8d9b-49e7-9955-6c3d23bc0f75", "value": "Ornamental band or chain worn around the arm or wrist made of hard, unglazed earthenware"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/b8c9c837-87fe-45c4-9029-f7385e8ae173">
-    <skos:prefLabel xml:lang="en">{"id": "f7361394-30c9-4714-98b1-c9b9ecdcf467", "value": "Ceramics"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "7c40833d-54d0-44f6-a1d8-97df747b5ae0", "value": "http://localhost:8000/b8c9c837-87fe-45c4-9029-f7385e8ae173"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:scopeNote xml:lang="en">{"id": "8b523152-1fed-433a-a27c-a65abe2714a5", "value": "A construction material made by the firing or baking of clay"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/cc05151a-a950-478d-b68a-d90ef69378e0">
-    <skos:scopeNote xml:lang="en">{"id": "25f05ece-2443-4e87-a953-1a742266ee8e", "value": "The exoskeleton of salt-water mollusks, often used for jewelry or decorative objects."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "779830f6-5b40-4584-8e39-0406699bc8eb", "value": "Shell"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "4b0257a2-cfec-4fa9-bd33-94c6d60db9b6", "value": "http://localhost:8000/cc05151a-a950-478d-b68a-d90ef69378e0"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/fb18d93d-90c6-4555-b7ad-0d45d26f7dd7">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "f849db42-e67a-4c1e-ba54-3cf03fccd2d9", "value": "http://localhost:8000/fb18d93d-90c6-4555-b7ad-0d45d26f7dd7"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "873972af-097a-4ae8-88f1-4ad1fabe572b", "value": "Fragment/byproduct of steatite carvings and manufactured objects. A very soft rock composed primarily of hydrated magnesium silicate (soapstone). It is easily cut and has been used for carvings."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "55d06785-fb07-448f-b856-2afa03d9bdc2", "value": "Steatite Debris"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/e6ce4b35-948d-4357-9169-2c317aab91ef">
-    <dcterms:identifier xml:lang="en">{"id": "1239887d-7b3a-41a5-8851-6b103cf20352", "value": "http://localhost:8000/e6ce4b35-948d-4357-9169-2c317aab91ef"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "f0e7ec8f-8448-49c3-8adf-0ca7dd74d5bc", "value": "Knapped or ground stone/flint tool where the specific type is unknown. Use more specific type where known"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "60806ced-3f1f-4e92-bc0d-a0208aed8bb4", "value": "Lithic Implements/Stone Tools"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/62c9a52f-4f86-4b46-99e1-de4ac2d480eb">
-    <skos:scopeNote xml:lang="en">{"id": "584f06f1-8d70-4bd6-a94c-a53378e98638", "value": "Thin, flat pieces of stone intentionally removed from a tool or core during the process of stone tool manufacture."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "aec3c2e8-328a-4ac3-a3a5-84750b87958b", "value": "Flaked Stone"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "a25e8319-7cd0-498c-a496-1cebcd1db174", "value": "http://localhost:8000/62c9a52f-4f86-4b46-99e1-de4ac2d480eb"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/29c63acd-2843-4502-ad58-87e4ba6db7c7">
-    <skos:prefLabel xml:lang="en">{"id": "8d20007f-92b0-42d9-aa2d-3d43c916cf4e", "value": "Music Instrument"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/6735376f-5881-47fd-b502-9bc35d3a2b80">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "92a5cc34-e53b-40d6-93f9-adf3747794b6", "value": "http://localhost:8000/6735376f-5881-47fd-b502-9bc35d3a2b80"}</dcterms:identifier>
-    <skos:scopeNote xml:lang="en">{"id": "6b103b55-593e-4272-8925-9a5db3c8815b", "value": "Fragment/pieces of furnaces, ovens, or heated enclosures for drying, charring, hardening, baking, or burning various materials."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "2af712c5-42c8-4c6c-829f-2f1c86d020e9", "value": "Kiln Fragment"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/1219a65b-0989-44e6-8b8b-5dae339d7c29">
-    <skos:scopeNote xml:lang="en">{"id": "64c71ba8-a067-440a-a8c7-83252dcaa91b", "value": "An oblong/rectangular mass of hardened clay or mud, used in ancient and heritage buildings"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "aa2a5982-be3e-4997-be9a-e1554a3f9b3e", "value": "http://localhost:8000/1219a65b-0989-44e6-8b8b-5dae339d7c29"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "261a1f01-02b1-4066-a527-a7b9b27dc67e", "value": "Brick - Ancient/Historic"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/6a6c3109-7065-4561-a557-7666efa975d4">
-    <dcterms:identifier xml:lang="en">{"id": "b7ac2efc-d7e4-486e-942d-e24d80c2e04c", "value": "http://localhost:8000/6a6c3109-7065-4561-a557-7666efa975d4"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "03e6dea1-ffed-44d9-b28e-c2616dd42648", "value": "Animal Remains"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/7e23f90f-bb07-4b7a-92bf-6429ab4374cc">
-    <dcterms:identifier xml:lang="en">{"id": "29effb3b-bd48-446f-a363-15c2995d9c2a", "value": "http://localhost:8000/7e23f90f-bb07-4b7a-92bf-6429ab4374cc"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "66354c52-5f54-4e4c-84b6-c3abca44242d", "value": "Cotton"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/5faf1836-06f3-4101-bba9-632b0fc53290">
-    <dcterms:identifier xml:lang="en">{"id": "75ea1d51-3ab8-4995-b435-025a70b8184e", "value": "http://localhost:8000/5faf1836-06f3-4101-bba9-632b0fc53290"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "836cbf98-a40f-411c-b03e-5884385f7e4e", "value": "Copper Coin"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "50320df9-4951-460a-85b2-774972efca27", "value": "A piece of copper, usually cast, struck or stamped, with a definite value"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/1d135212-123b-4f2a-912e-69897f84d541">
-    <skos:scopeNote xml:lang="en">{"id": "9fec0039-e6d4-4f1a-9dcf-502905c8b0df", "value": "A copper band worn on the finger/toe for ornamentation"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "b864171d-ceba-4e83-8c3c-b22fb5e16160", "value": "http://localhost:8000/1d135212-123b-4f2a-912e-69897f84d541"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "f30a7585-af1e-4864-860a-aaa46009107e", "value": "Copper Ring"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/8c96f1f4-c412-4a5e-bc4f-6659c3fe0c8f">
-    <skos:prefLabel xml:lang="en">{"id": "9213fcbb-f0ab-46da-afaf-a508d509f1e5", "value": "Gold Object"}</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/e8f0fbf0-f46f-46b4-a01e-d3c542c8d628">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/e8f0fbf0-f46f-46b4-a01e-d3c542c8d628">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:identifier xml:lang="en">{"id": "7b9fb0e1-980a-4c33-bbb6-2a6022e1bc3e", "value": "http://localhost:8000/e8f0fbf0-f46f-46b4-a01e-d3c542c8d628"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
     <skos:prefLabel xml:lang="en">{"id": "3f450721-b19c-426a-8419-59af28ea8f7a", "value": "Millet"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/44713238-2586-4973-a768-a266894e4e59">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "9d4a8a0e-3b7c-41b6-a0b7-cf82ed5cbb2e", "value": "Panel"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/5b63cc13-ddf0-49aa-a448-198b6ee61e13">
-    <skos:scopeNote xml:lang="en">{"id": "81b2f429-38ea-4ec6-a497-64fcd646342d", "value": "Ornamental band or chain worn around the arm or wrist."}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "3365fe09-13d1-44cd-83ff-c3224b6de620", "value": "Bangle/Bracelet"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "6672da95-3e7a-4d52-9745-d6368b00ec8b", "value": "http://localhost:8000/5b63cc13-ddf0-49aa-a448-198b6ee61e13"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/b89d1f73-72c9-4dd6-bfae-cae5fbcb7eb5">
-    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:scopeNote xml:lang="en">{"id": "0e26cf6e-8b8a-4519-bbf0-aa37d544d5db", "value": "An individual section of panelling. Can form fences, ceilings or an outer layer to a wall etc."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "1edeac13-2b30-4f59-a387-8837d050bbba", "value": "http://localhost:8000/44713238-2586-4973-a768-a266894e4e59"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/b89d1f73-72c9-4dd6-bfae-cae5fbcb7eb5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:identifier xml:lang="en">{"id": "dfe40cb5-7cae-4985-b442-cc051ff665a7", "value": "http://localhost:8000/b89d1f73-72c9-4dd6-bfae-cae5fbcb7eb5"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "1bbd56c3-1c07-474d-afb3-53dd172de98d", "value": "Pottery"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/0e085bad-c60a-4ffd-bd09-080233cdd504">
     <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <dcterms:identifier xml:lang="en">{"id": "2a9a889e-7ec6-4ef3-ad44-d8d56de44cfd", "value": "http://localhost:8000/0e085bad-c60a-4ffd-bd09-080233cdd504"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "ce88fc77-7464-4286-b4cd-2b3c9b1ccb70", "value": "Glass"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/3b3b9645-7f5c-45fd-9df9-dc948798d6cd">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/efa7a203-41fb-4da6-abe3-fc70af057ea7">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "41be5657-240a-461e-8eed-735b9fb44188", "value": "Clay that has undergone some kind of firing process, hardening it, whether as a byproduct or purposeful action. Clay being a naturally occurring sediments that are produced by chemical actions resulting during the weathering of rocks. Clays are composed of hydrated aluminum silicates, such as Kaolinite"}</skos:scopeNote>
     <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:prefLabel xml:lang="en">{"id": "12e9ed02-dc84-42b1-b471-9592fbe64277", "value": "Wheat"}</skos:prefLabel>
-    <dcterms:identifier xml:lang="en">{"id": "c3d24807-aa97-4e3e-82a0-0e1aef650e0b", "value": "http://localhost:8000/3b3b9645-7f5c-45fd-9df9-dc948798d6cd"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/7176bb80-0f2d-493f-ad18-68401372ad79">
+    <skos:prefLabel xml:lang="en">{"id": "62e2c456-6c1a-4520-bb01-6fcdf1d29643", "value": "Burnt Clay"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "7e2eea5d-d639-4c35-90ce-2ce5cfde1c84", "value": "http://localhost:8000/efa7a203-41fb-4da6-abe3-fc70af057ea7"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/51dfb5bb-39e8-4cff-9c2a-06135714b8f1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
-    <skos:scopeNote xml:lang="en">{"id": "de08f9b6-b983-42af-bec4-bab0994211ab", "value": "Fragments/byproducts of shell based objects and jewellry"}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "0588826e-cdb0-426b-afb4-ca678d87a652", "value": "http://localhost:8000/7176bb80-0f2d-493f-ad18-68401372ad79"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "e3d550e9-b7e9-4b32-b376-2f3433c2b883", "value": "Shell Debris"}</skos:prefLabel>
-  </skos:Concept>
+    <dcterms:identifier xml:lang="en">{"id": "7ce1ed3e-6613-42b7-9620-4978d3e33956", "value": "http://localhost:8000/51dfb5bb-39e8-4cff-9c2a-06135714b8f1"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "3c942166-218e-4bcc-98dd-f7af726b2a61", "value": "A piece of metal, usually cast, struck or stamped, with a definite value."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b5d59b5e-4be9-4625-a681-fa17d563467e", "value": "Coin"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f88186fb-8754-4bd1-b435-a61627a4f3e1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "cf61b8f7-d7d2-4677-a437-8fa2dd662097", "value": "http://localhost:8000/f88186fb-8754-4bd1-b435-a61627a4f3e1"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "c80134bd-b9d1-4217-8d84-5a7197110a0a", "value": "Bead"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:scopeNote xml:lang="en">{"id": "b8c465d1-4fc6-4f93-b4f2-7c16e2d14549", "value": "A small, pierced, often spherical or cylindrical piece of glass, wood etc. which may be strung together with others to form a necklace"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/a6abd292-bcdc-4c4f-b775-54dfee02cdda">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "b3ef4ab7-4e40-49fe-998f-2b80ed14d8e9", "value": "http://localhost:8000/a6abd292-bcdc-4c4f-b775-54dfee02cdda"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "9369a17d-e163-4686-8829-dba3f2ad9240", "value": "Objects which cannot be assigned to any one particular class, or the function of which is unknown. Made of stone"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "bc44721f-3454-4d9d-84e8-2a25d8fd3c7d", "value": "Stone Object"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/5faf1836-06f3-4101-bba9-632b0fc53290">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "50320df9-4951-460a-85b2-774972efca27", "value": "A piece of copper, usually cast, struck or stamped, with a definite value"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <skos:prefLabel xml:lang="en">{"id": "836cbf98-a40f-411c-b03e-5884385f7e4e", "value": "Copper Coin"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "75ea1d51-3ab8-4995-b435-025a70b8184e", "value": "http://localhost:8000/5faf1836-06f3-4101-bba9-632b0fc53290"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f96ae70f-df0d-4901-a32e-eb2356e67a76">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "6e07ded2-3f05-4268-a5ba-d9c496a1e1a7", "value": "A piece of a larger faience object, a composite material consisting of a body of sintered quartz coupled with an alkaline glaze surface, and used for decorating beads, amulets, figurines, and other small objects."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "bd2607ca-fb26-48b3-b5bf-868bde3a16aa", "value": "Faience Fragment"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/02549b4f-d343-4d79-a171-97c19ed246ab"/>
+    <dcterms:identifier xml:lang="en">{"id": "adb08e7d-7194-4751-abcb-a94bbdcede79", "value": "http://localhost:8000/f96ae70f-df0d-4901-a32e-eb2356e67a76"}</dcterms:identifier>
+  </rdf:Description>
 </rdf:RDF>

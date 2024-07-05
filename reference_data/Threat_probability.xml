@@ -1,50 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <skos:ConceptScheme rdf:about="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96">
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/0fd945dd-cb4f-4167-99f0-ce69aadfb707">
-        <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
-        <skos:prefLabel xml:lang="en">{"id": "2935e858-4809-4db8-93c9-c27e0d4b499f", "value": "Likely"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/353c6bdd-642c-4a30-b144-57506cdfeb62">
-        <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
-        <skos:prefLabel xml:lang="en">{"id": "8ed8a3d1-d23f-4301-8994-e49d21ce2076", "value": "Unlikely"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
+  <rdf:Description rdf:about="http://localhost:8000/e5d3d964-24f0-4394-abfa-a0aca28b1b3e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
+    <skos:prefLabel xml:lang="en">{"id": "3a557f20-f17d-40ea-a12a-e93e75b775ce", "value": "Certain/Planned"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "92af3909-ada2-44ea-bd8b-c3cd3758e95f", "value": "http://localhost:8000/e5d3d964-24f0-4394-abfa-a0aca28b1b3e"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "a966fa19-ea69-4d97-97d7-b91a22752eb9", "value": "It is certain that the identified threat will occur and harm the heritage; e.g. a planned road crossing through the site"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/9fc51713-48df-403a-bebf-9da814d8f02e">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "70067ba4-ac8a-4d96-9cb5-05685d9ae9fd", "value": "http://localhost:8000/9fc51713-48df-403a-bebf-9da814d8f02e"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "0dbd610c-d4e6-49be-a9f3-7e981c5cd7d7", "value": "Very likely"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "921cbe5c-2aaf-4f29-9e39-944cf7ca9c57", "value": "The investigator has considerable reason (e.g. proximity to archaeology, nature/source of threat etc.,) to suggest that the threat is likely to cause future disturbance to the site (within 3-5 years). For example, it would appear to be an ongoing process e.g. urban expansion, ploughing etc."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e5d3d964-24f0-4394-abfa-a0aca28b1b3e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/98b0f950-d3bb-4fb4-92d2-cff14de3ae1a"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/0fd945dd-cb4f-4167-99f0-ce69aadfb707"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/9fc51713-48df-403a-bebf-9da814d8f02e"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/353c6bdd-642c-4a30-b144-57506cdfeb62"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/b04d5491-adc6-4951-aa46-8f3cb72ed29a"/>
+    <dcterms:identifier xml:lang="en">{"id": "7fe46783-5205-4704-9b2c-e8c16654a93c", "value": "http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"}</dcterms:identifier>
     <dcterms:title xml:lang="en">{"id": "08b2c9dd-c434-4052-9385-5e048882bd03", "value": "Threat probability"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/e5d3d964-24f0-4394-abfa-a0aca28b1b3e">
-        <skos:prefLabel xml:lang="en">{"id": "3a557f20-f17d-40ea-a12a-e93e75b775ce", "value": "Certain/Planned"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
-        <skos:scopeNote xml:lang="en">{"id": "a966fa19-ea69-4d97-97d7-b91a22752eb9", "value": "It is certain that the identified threat will occur and harm the heritage; e.g. a planned road crossing through the site"}</skos:scopeNote>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/b04d5491-adc6-4951-aa46-8f3cb72ed29a">
-        <skos:scopeNote xml:lang="en">{"id": "fe6fa635-f061-4bb5-82e2-f2f16446a9e9", "value": "The investigator has entered 'No Visable/Known' or 'unknown' and certainty does not apply "}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
-        <skos:prefLabel xml:lang="en">{"id": "1535bce1-412f-4d80-9cb2-2ff0562488c9", "value": "Not Applicable"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/98b0f950-d3bb-4fb4-92d2-cff14de3ae1a">
-        <skos:scopeNote xml:lang="en">{"id": "42cd4104-2a5a-4407-9796-d4d14f43c70c", "value": "The investigator has limited reason (e.g. proximity to archaeology, nature/source of threat etc.,) to suggest that the threat is likely to cause future disturbance to the site (within 3-5 years). For example, the threat is relatively distant from the archaeology or appears to be related to a one-off, rather than ongoing, event."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
-        <skos:prefLabel xml:lang="en">{"id": "d6c5aa40-1c4e-4fb4-a26c-f571dbafeaa6", "value": "Possible"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="http://localhost:8000/9fc51713-48df-403a-bebf-9da814d8f02e">
-        <skos:scopeNote xml:lang="en">{"id": "921cbe5c-2aaf-4f29-9e39-944cf7ca9c57", "value": "The investigator has considerable reason (e.g. proximity to archaeology, nature/source of threat etc.,) to suggest that the threat is likely to cause future disturbance to the site (within 3-5 years). For example, it would appear to be an ongoing process e.g. urban expansion, ploughing etc."}</skos:scopeNote>
-        <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
-        <skos:prefLabel xml:lang="en">{"id": "0dbd610c-d4e6-49be-a9f3-7e981c5cd7d7", "value": "Very likely"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-  </skos:ConceptScheme>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/98b0f950-d3bb-4fb4-92d2-cff14de3ae1a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
+    <dcterms:identifier xml:lang="en">{"id": "342e5901-1478-47f0-9558-9f1285ec53ac", "value": "http://localhost:8000/98b0f950-d3bb-4fb4-92d2-cff14de3ae1a"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d6c5aa40-1c4e-4fb4-a26c-f571dbafeaa6", "value": "Possible"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "42cd4104-2a5a-4407-9796-d4d14f43c70c", "value": "The investigator has limited reason (e.g. proximity to archaeology, nature/source of threat etc.,) to suggest that the threat is likely to cause future disturbance to the site (within 3-5 years). For example, the threat is relatively distant from the archaeology or appears to be related to a one-off, rather than ongoing, event."}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/0fd945dd-cb4f-4167-99f0-ce69aadfb707">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
+    <skos:prefLabel xml:lang="en">{"id": "2935e858-4809-4db8-93c9-c27e0d4b499f", "value": "Likely"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "b9336779-9bc4-4a28-bc59-4fc6a8f49a6f", "value": "http://localhost:8000/0fd945dd-cb4f-4167-99f0-ce69aadfb707"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/353c6bdd-642c-4a30-b144-57506cdfeb62">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
+    <skos:prefLabel xml:lang="en">{"id": "8ed8a3d1-d23f-4301-8994-e49d21ce2076", "value": "Unlikely"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "a8373203-515f-4807-a9f4-3e93ef5c60a3", "value": "http://localhost:8000/353c6bdd-642c-4a30-b144-57506cdfeb62"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/b04d5491-adc6-4951-aa46-8f3cb72ed29a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "dfd7042b-3d0e-4d70-ab66-24df3ef1842d", "value": "http://localhost:8000/b04d5491-adc6-4951-aa46-8f3cb72ed29a"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "fe6fa635-f061-4bb5-82e2-f2f16446a9e9", "value": "The investigator has entered 'No Visable/Known' or 'unknown' and certainty does not apply "}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "1535bce1-412f-4d80-9cb2-2ff0562488c9", "value": "Not Applicable"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/f8776d0f-53fe-44c0-a445-140c2db30e96"/>
+  </rdf:Description>
 </rdf:RDF>

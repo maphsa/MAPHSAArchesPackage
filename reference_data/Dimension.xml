@@ -1,63 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
-  <skos:Concept rdf:about="http://localhost:8000/3647289d-00d3-4a3e-ae2c-1b43e8e921d4">
-    <skos:inScheme>
-      <skos:ConceptScheme rdf:about="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037">
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/25c9fa7d-decc-471d-9f03-790dedb39276"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/e4c6acb9-6fd3-41c6-9d4c-73bf8962aeaf"/>
-        <dcterms:title xml:lang="en">{"id": "2125853f-dcb9-45a7-ad7a-f86099e36e4b", "value": "Dimension"}</dcterms:title>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/37b57bee-ece3-4a9a-a7a5-1d058635f92a"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/82bf5952-0aba-47c8-a112-1ff0491f7732"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/3647289d-00d3-4a3e-ae2c-1b43e8e921d4"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/c428bbef-22be-4de8-a00a-6f39c21f639b"/>
-        <dcterms:identifier xml:lang="en">{"id": "f8c4ee33-7c56-4e72-b819-205db88efe69", "value": "http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"}</dcterms:identifier>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/17fa6547-4cc3-404b-b2c4-f45a4dead4d8"/>
-        <skos:hasTopConcept rdf:resource="http://localhost:8000/2acf22fe-51ae-47c6-a03d-90373b9ce336"/>
-      </skos:ConceptScheme>
-    </skos:inScheme>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/17fa6547-4cc3-404b-b2c4-f45a4dead4d8"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/3647289d-00d3-4a3e-ae2c-1b43e8e921d4"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/fa93a2ea-2a51-4e97-9475-99da3598a8fb"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/2acf22fe-51ae-47c6-a03d-90373b9ce336"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/25c9fa7d-decc-471d-9f03-790dedb39276"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/47b9bc88-35d1-4329-97dd-467a5f161baa"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/e4c6acb9-6fd3-41c6-9d4c-73bf8962aeaf"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/82bf5952-0aba-47c8-a112-1ff0491f7732"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c428bbef-22be-4de8-a00a-6f39c21f639b"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/37b57bee-ece3-4a9a-a7a5-1d058635f92a"/>
+    <dcterms:identifier xml:lang="en">{"id": "f8c4ee33-7c56-4e72-b819-205db88efe69", "value": "http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"}</dcterms:identifier>
+    <dcterms:title xml:lang="en">{"id": "2125853f-dcb9-45a7-ad7a-f86099e36e4b", "value": "Dimension"}</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/3647289d-00d3-4a3e-ae2c-1b43e8e921d4">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:scopeNote xml:lang="en">{"id": "d2a7d33b-ee16-453a-a6e6-82ee1ad2e494", "value": "The maximum distance across a circular area or feature"}</skos:scopeNote>
     <skos:prefLabel xml:lang="en">{"id": "7cade5a2-b6fb-4a5a-abf1-624ad84a9144", "value": "Diameter"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
     <dcterms:identifier xml:lang="en">{"id": "3fda33ef-9ed1-4e74-8161-dc61190b230e", "value": "http://localhost:8000/3647289d-00d3-4a3e-ae2c-1b43e8e921d4"}</dcterms:identifier>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/c428bbef-22be-4de8-a00a-6f39c21f639b">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/47b9bc88-35d1-4329-97dd-467a5f161baa">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "2130727a-4a90-40d7-bec8-a0081e37ef14", "value": "Other"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
-    <skos:scopeNote xml:lang="en">{"id": "02c1c8a4-2e1c-4640-bc7c-aafbbb191881", "value": "The height of the terrain above sea level (not the height of the archaeological features)"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "9093da4a-1b81-412a-a53a-47701eae5eed", "value": "Elevation"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/37b57bee-ece3-4a9a-a7a5-1d058635f92a">
-    <dcterms:identifier xml:lang="en">{"id": "3dfeb238-3cf3-4bef-845f-cad528819ae4", "value": "http://localhost:8000/37b57bee-ece3-4a9a-a7a5-1d058635f92a"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/17fa6547-4cc3-404b-b2c4-f45a4dead4d8">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">{"id": "6e28c093-f848-4c21-b210-65528efdcfe1", "value": "The extent or measurement of a surface or piece of land."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "fc26d707-11fc-4c7f-b4f8-2024dbcd52d9", "value": "Area"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c02881a2-5c1e-40bf-8444-5440ee765054", "value": "http://localhost:8000/17fa6547-4cc3-404b-b2c4-f45a4dead4d8"}</dcterms:identifier>
     <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
-    <skos:scopeNote xml:lang="en">{"id": "2cd72042-58e2-439c-80b2-0cccbafc5a24", "value": "The measurement of the longer horizontal side of an area or feature"}</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">{"id": "a0cd2c9d-7869-4c9f-ac96-1b364b5949fa", "value": "Length"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/2acf22fe-51ae-47c6-a03d-90373b9ce336">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/2acf22fe-51ae-47c6-a03d-90373b9ce336">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier xml:lang="en">{"id": "2b38bd94-3216-40c3-a69c-44a353e9a9f2", "value": "http://localhost:8000/2acf22fe-51ae-47c6-a03d-90373b9ce336"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "47720e7d-573e-47d8-91a1-4993e9444684", "value": "Depth"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
-    <dcterms:identifier xml:lang="en">{"id": "2b38bd94-3216-40c3-a69c-44a353e9a9f2", "value": "http://localhost:8000/2acf22fe-51ae-47c6-a03d-90373b9ce336"}</dcterms:identifier>
     <skos:scopeNote xml:lang="en">{"id": "9f80948b-5cd0-40b3-bb35-1227df23c95e", "value": "The vertical distance of a negative feature from its top to its bottom"}</skos:scopeNote>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/25c9fa7d-decc-471d-9f03-790dedb39276">
-    <skos:scopeNote xml:lang="en">{"id": "7905749f-bf9e-47a2-b032-f8b34bbdd9e5", "value": "The vertical distance of a feature or object"}</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
-    <dcterms:identifier xml:lang="en">{"id": "584b3dd2-83ff-4c1b-bdb0-d81c225cfbfe", "value": "http://localhost:8000/25c9fa7d-decc-471d-9f03-790dedb39276"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "b3509c75-b8de-4a4e-b9a1-1d2df83040c9", "value": "Height"}</skos:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/e4c6acb9-6fd3-41c6-9d4c-73bf8962aeaf">
-    <skos:prefLabel xml:lang="en">{"id": "716510a1-71de-4e66-aa93-819fbd6fa946", "value": "Unknown"}</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">{"id": "3b432eb5-0d4f-4138-9013-264f7e34e6d3", "value": "A measurement is available for a site or feature but it is not indicated or clear what it is measuring"}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "5b598de1-a59d-476d-b944-e07d247fc8d8", "value": "http://localhost:8000/e4c6acb9-6fd3-41c6-9d4c-73bf8962aeaf"}</dcterms:identifier>
-    <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/82bf5952-0aba-47c8-a112-1ff0491f7732">
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/82bf5952-0aba-47c8-a112-1ff0491f7732">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:scopeNote xml:lang="en">{"id": "21b48694-4f4c-432f-a318-3b2eeb459617", "value": "The measurement of the shorter horizontal side of an area or feature"}</skos:scopeNote>
-    <dcterms:identifier xml:lang="en">{"id": "31986f13-eee8-49cf-8613-baf9cb901f92", "value": "http://localhost:8000/82bf5952-0aba-47c8-a112-1ff0491f7732"}</dcterms:identifier>
     <skos:prefLabel xml:lang="en">{"id": "609cffd6-f8c1-4d3a-a39f-c483891aae09", "value": "Breadth/Width"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://localhost:8000/17fa6547-4cc3-404b-b2c4-f45a4dead4d8">
-    <dcterms:identifier xml:lang="en">{"id": "c02881a2-5c1e-40bf-8444-5440ee765054", "value": "http://localhost:8000/17fa6547-4cc3-404b-b2c4-f45a4dead4d8"}</dcterms:identifier>
-    <skos:prefLabel xml:lang="en">{"id": "fc26d707-11fc-4c7f-b4f8-2024dbcd52d9", "value": "Area"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "31986f13-eee8-49cf-8613-baf9cb901f92", "value": "http://localhost:8000/82bf5952-0aba-47c8-a112-1ff0491f7732"}</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/25c9fa7d-decc-471d-9f03-790dedb39276">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
-    <skos:scopeNote xml:lang="en">{"id": "6e28c093-f848-4c21-b210-65528efdcfe1", "value": "The extent or measurement of a surface or piece of land."}</skos:scopeNote>
-  </skos:Concept>
+    <dcterms:identifier xml:lang="en">{"id": "584b3dd2-83ff-4c1b-bdb0-d81c225cfbfe", "value": "http://localhost:8000/25c9fa7d-decc-471d-9f03-790dedb39276"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "7905749f-bf9e-47a2-b032-f8b34bbdd9e5", "value": "The vertical distance of a feature or object"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b3509c75-b8de-4a4e-b9a1-1d2df83040c9", "value": "Height"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/e4c6acb9-6fd3-41c6-9d4c-73bf8962aeaf">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
+    <skos:prefLabel xml:lang="en">{"id": "716510a1-71de-4e66-aa93-819fbd6fa946", "value": "Unknown"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "5b598de1-a59d-476d-b944-e07d247fc8d8", "value": "http://localhost:8000/e4c6acb9-6fd3-41c6-9d4c-73bf8962aeaf"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "3b432eb5-0d4f-4138-9013-264f7e34e6d3", "value": "A measurement is available for a site or feature but it is not indicated or clear what it is measuring"}</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/c428bbef-22be-4de8-a00a-6f39c21f639b">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
+    <skos:scopeNote xml:lang="en">{"id": "02c1c8a4-2e1c-4640-bc7c-aafbbb191881", "value": "The height of the terrain above sea level (not the height of the archaeological features)"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "15738cc4-dd3b-437b-a37b-fa418866386b", "value": "http://localhost:8000/c428bbef-22be-4de8-a00a-6f39c21f639b"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "9093da4a-1b81-412a-a53a-47701eae5eed", "value": "Elevation"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/fa93a2ea-2a51-4e97-9475-99da3598a8fb">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "50fe2c07-d900-4db8-b0a2-0a3a208f16d4", "value": "Not Defined"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/37b57bee-ece3-4a9a-a7a5-1d058635f92a">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/cc860b15-c919-4978-94e1-95a34c289037"/>
+    <skos:scopeNote xml:lang="en">{"id": "2cd72042-58e2-439c-80b2-0cccbafc5a24", "value": "The measurement of the longer horizontal side of an area or feature"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "3dfeb238-3cf3-4bef-845f-cad528819ae4", "value": "http://localhost:8000/37b57bee-ece3-4a9a-a7a5-1d058635f92a"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a0cd2c9d-7869-4c9f-ac96-1b364b5949fa", "value": "Length"}</skos:prefLabel>
+  </rdf:Description>
 </rdf:RDF>
