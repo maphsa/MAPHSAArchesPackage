@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://localhost:8000/c7d62de5-82b9-4979-bc17-6c9027ae51a1">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/7d27ea89-4cff-4a6b-b03e-636c5f5c99c3"/>
+    <skos:prefLabel xml:lang="en">{"id": "65abbe6d-f547-4cb9-9084-b7dede25ed47", "value": "Medium"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/7d27ea89-4cff-4a6b-b03e-636c5f5c99c3">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/c7d62de5-82b9-4979-bc17-6c9027ae51a1"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/63fe0bfb-1ee5-4a68-89ba-5f4e0b16d6b5"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/382acd93-ef65-420e-8abe-810e0e1960bc"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/12982c90-2b00-4578-83bb-eb78b010ad32"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/4dcb28a1-0976-4038-b2ca-a59a4b702ce9"/>
+    <skos:hasTopConcept rdf:resource="http://localhost:8000/ffa3ee46-8ccc-4eea-a9ff-0fe216087bdd"/>
+    <dcterms:title xml:lang="en">{"id": "9c2c1e67-f9c3-45c5-bed9-d5ea4db5ec6c", "value": "Reliability"}</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/12982c90-2b00-4578-83bb-eb78b010ad32">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "dc03665b-5022-4b23-9ac4-331857f6304d", "value": "Unknown"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/7d27ea89-4cff-4a6b-b03e-636c5f5c99c3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/382acd93-ef65-420e-8abe-810e0e1960bc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "bc73f322-d130-443f-8569-dd023620262a", "value": "High"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/7d27ea89-4cff-4a6b-b03e-636c5f5c99c3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/ffa3ee46-8ccc-4eea-a9ff-0fe216087bdd">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://localhost:8000/7d27ea89-4cff-4a6b-b03e-636c5f5c99c3"/>
+    <skos:prefLabel xml:lang="en">{"id": "06b68de6-9846-42b6-a6bd-4195f9a0701f", "value": "Negligible"}</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/4dcb28a1-0976-4038-b2ca-a59a4b702ce9">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "cb3cc7ac-079f-463e-9da2-7c34fe32f9c0", "value": "Definite"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/7d27ea89-4cff-4a6b-b03e-636c5f5c99c3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost:8000/63fe0bfb-1ee5-4a68-89ba-5f4e0b16d6b5">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">{"id": "0c75e1b4-78e0-4184-a36f-643c3fb6d10e", "value": "Low"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://localhost:8000/7d27ea89-4cff-4a6b-b03e-636c5f5c99c3"/>
+  </rdf:Description>
+</rdf:RDF>
