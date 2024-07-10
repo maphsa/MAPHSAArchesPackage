@@ -1,0 +1,1023 @@
+{
+    "graph": [
+        {
+            "author": " ",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "28d948fc-b7f7-4450-861f-50ede699962c",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Calibrated Age Measurement"
+                    },
+                    "nodegroup_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "396d7825-eb13-498a-bebf-f82d0bec0be1",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Radiocarbon Date Information Source"
+                    },
+                    "nodegroup_id": "5cab6a0c-3dda-11ef-ad06-5945cbceeba1",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "3f086387-8dd3-44bd-a872-cf08a2b8b145",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Laboratory Number"
+                    },
+                    "nodegroup_id": "6d470eda-3dd9-11ef-ad06-5945cbceeba1",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "4b969c23-8168-4a16-9c16-08e48ed1f596",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Material Dated"
+                    },
+                    "nodegroup_id": "a0f9f7a6-3dd9-11ef-ad06-5945cbceeba1",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "50c8ae5a-9c80-4ce1-b090-40927a7a8a5d",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Context Information"
+                    },
+                    "nodegroup_id": "861ef81e-3dd9-11ef-ad06-5945cbceeba1",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "59c8e2f6-d4a6-434a-8dad-fa4a02cc4b22",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Radiocarbon Date Reliability"
+                    },
+                    "nodegroup_id": "a6df01c4-3dda-11ef-ad06-5945cbceeba1",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "5d7bdd77-70b9-4164-97e7-8665f3c40da4",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Conventional Radiocarbon Age Measurement"
+                    },
+                    "nodegroup_id": "5b47d024-3dd5-11ef-ad06-5945cbceeba1",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "ee4ec160-a3ab-4d6c-9cc3-9b2ee6828705",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Analysis Method"
+                    },
+                    "nodegroup_id": "925681be-3dda-11ef-ad06-5945cbceeba1",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "4b969c23-8168-4a16-9c16-08e48ed1f596",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Material Dated",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "22bd2966-2e07-4f17-95d6-99fde05fcd61",
+                    "label": {
+                        "en": "Material Dated"
+                    },
+                    "node_id": "a0f9f7a6-3dd9-11ef-ad06-5945cbceeba1",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "50c8ae5a-9c80-4ce1-b090-40927a7a8a5d",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Context Information",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "79b43de5-b360-41bb-a29d-137d96a0ce49",
+                    "label": {
+                        "en": "Context Information"
+                    },
+                    "node_id": "861ef81e-3dd9-11ef-ad06-5945cbceeba1",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "396d7825-eb13-498a-bebf-f82d0bec0be1",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Radiocarbon Date Information Source",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "ad461236-ce78-4ff5-9abf-de622a36d4b1",
+                    "label": {
+                        "en": "Radiocarbon Date Information Source"
+                    },
+                    "node_id": "5cab6a0c-3dda-11ef-ad06-5945cbceeba1",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "ee4ec160-a3ab-4d6c-9cc3-9b2ee6828705",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Analysis Method",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "e8cf0ed5-ce8a-4872-b223-37dd543c2804",
+                    "label": {
+                        "en": "Analysis Method"
+                    },
+                    "node_id": "925681be-3dda-11ef-ad06-5945cbceeba1",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3f086387-8dd3-44bd-a872-cf08a2b8b145",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Laboratory Number",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "fcf8153a-f474-4211-828b-45d572c5b498",
+                    "label": {
+                        "en": "Laboratory Number"
+                    },
+                    "node_id": "6d470eda-3dd9-11ef-ad06-5945cbceeba1",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "4b8d468c-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "06d5c20e-1ad0-4ec8-991b-aa3ad70ef5ba",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "861ef81e-3dd9-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5b47d024-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "09791cfb-8903-4e73-aa15-5d1039eb5d2b",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+                    "rangenode_id": "6f049714-3dd5-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5b47d024-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "2ff64671-c9dc-444a-a34e-7682c7795dd2",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+                    "rangenode_id": "b6296f16-3dd5-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4b8d468c-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "3c0fcb9f-2b29-49fc-84fe-d8463bf8854f",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier",
+                    "rangenode_id": "6d470eda-3dd9-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "edgeid": "464adb1b-29cd-4e26-9886-dd298243664d",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "34d90df8-3dd6-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4b8d468c-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "4d765e92-fd2e-4e8c-bdb0-97548a4cd717",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "925681be-3dda-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "edgeid": "513ca0cb-4849-4762-a20f-22eb608af4f5",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "448d3802-3dd9-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4b8d468c-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "62bffca0-3423-4127-8311-f403db94211b",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension",
+                    "rangenode_id": "5b47d024-3dd5-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4b8d468c-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "6cd5b481-fc39-4ee6-ba75-5f1dc5ebb56a",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "5cab6a0c-3dda-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "34d90df8-3dd6-11ef-ad06-5945cbceeba1",
+                    "edgeid": "76079591-0ef2-436b-ab9a-9c94980550f0",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "b6c4c1a2-3dd8-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "edgeid": "935945d7-bdea-4774-a995-428e8854c860",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "280e191c-3dd9-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4b8d468c-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "a01f75dd-6a81-4be2-af93-ae69bbfa8f9d",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMsci/O24_measured",
+                    "rangenode_id": "a0f9f7a6-3dd9-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4b8d468c-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "a3aef9b2-1014-4ef9-9902-f974bd0681e0",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
+                    "rangenode_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "34d90df8-3dd6-11ef-ad06-5945cbceeba1",
+                    "edgeid": "b1c9cc35-b589-4e80-9154-c635c88fae40",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "977b9e6a-3dd8-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5b47d024-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "bcb3fbe2-bc16-4f36-88dd-c7753d39b8be",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+                    "rangenode_id": "d2f678be-3dd5-11ef-ad06-5945cbceeba1"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4b8d468c-3dd5-11ef-ad06-5945cbceeba1",
+                    "edgeid": "de722924-98fa-4690-aff8-10bf7c415fbc",
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "a6df01c4-3dda-11ef-ad06-5945cbceeba1"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "77cc086c-1770-4e35-ba27-8f322a00689b",
+            "iconclass": "",
+            "is_editable": true,
+            "isresource": true,
+            "jsonldcontext": null,
+            "name": {
+                "en": "MAPHSA Radiocarbon Date Resource Model v0.1"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "5b47d024-3dd5-11ef-ad06-5945cbceeba1",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "5cab6a0c-3dda-11ef-ad06-5945cbceeba1",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "6d470eda-3dd9-11ef-ad06-5945cbceeba1",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "861ef81e-3dd9-11ef-ad06-5945cbceeba1",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "925681be-3dda-11ef-ad06-5945cbceeba1",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "a0f9f7a6-3dd9-11ef-ad06-5945cbceeba1",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "a6df01c4-3dda-11ef-ad06-5945cbceeba1",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "calibrated_age_measurement",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Calibrated Age Measurement",
+                    "nodegroup_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "nodeid": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S5_Inference_Making",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "confidence_interval",
+                    "config": {
+                        "rdmCollection": "e2e56218-c6fd-40f1-abe4-03798222501f"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Confidence Interval",
+                    "nodegroup_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "nodeid": "280e191c-3dd9-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "calibrated_age",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Calibrated Age",
+                    "nodegroup_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "nodeid": "34d90df8-3dd6-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "calibration_curve",
+                    "config": {
+                        "rdmCollection": "7860db83-ffb3-42c3-a826-6bc13a4ff892"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Calibration Curve",
+                    "nodegroup_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "nodeid": "448d3802-3dd9-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": null,
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "MAPHSA Radiocarbon Date Resource Model v0.1",
+                    "nodegroup_id": null,
+                    "nodeid": "4b8d468c-3dd5-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S21_Measurement",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "conventional_radiocarbon_age_measurement",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Conventional Radiocarbon Age Measurement",
+                    "nodegroup_id": "5b47d024-3dd5-11ef-ad06-5945cbceeba1",
+                    "nodeid": "5b47d024-3dd5-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "radiocarbon_date_information_source",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "ee62b317-ee40-4a7b-aaa4-4115bb2120b9",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Information Resource Model v0.1",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Radiocarbon Date Information Source",
+                    "nodegroup_id": "5cab6a0c-3dda-11ef-ad06-5945cbceeba1",
+                    "nodeid": "5cab6a0c-3dda-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "laboratory_number",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Laboratory Number",
+                    "nodegroup_id": "6d470eda-3dd9-11ef-ad06-5945cbceeba1",
+                    "nodeid": "6d470eda-3dd9-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "conventional_radiocarbon_age",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Conventional Radiocarbon Age",
+                    "nodegroup_id": "5b47d024-3dd5-11ef-ad06-5945cbceeba1",
+                    "nodeid": "6f049714-3dd5-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E60_Number",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "context_information",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Context Information",
+                    "nodegroup_id": "861ef81e-3dd9-11ef-ad06-5945cbceeba1",
+                    "nodeid": "861ef81e-3dd9-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "analysis_method",
+                    "config": {
+                        "rdmCollection": "52c55e7d-9d24-44a2-a207-9b8a32482034"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Analysis Method",
+                    "nodegroup_id": "925681be-3dda-11ef-ad06-5945cbceeba1",
+                    "nodeid": "925681be-3dda-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "calibrated_age_from_date",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Calibrated Age From Date",
+                    "nodegroup_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "nodeid": "977b9e6a-3dd8-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "material_dated",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Material Dated",
+                    "nodegroup_id": "a0f9f7a6-3dd9-11ef-ad06-5945cbceeba1",
+                    "nodeid": "a0f9f7a6-3dd9-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O24_measured",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "radiocarbon_date_reliability",
+                    "config": {
+                        "rdmCollection": "951cb4c1-8901-46c5-889a-b50653536257"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Radiocarbon Date Reliability",
+                    "nodegroup_id": "a6df01c4-3dda-11ef-ad06-5945cbceeba1",
+                    "nodeid": "a6df01c4-3dda-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "standard_deviation",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Standard Deviation",
+                    "nodegroup_id": "5b47d024-3dd5-11ef-ad06-5945cbceeba1",
+                    "nodeid": "b6296f16-3dd5-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E60_Number",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "calibrated_age_to_date",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Calibrated Age To Date",
+                    "nodegroup_id": "16de5998-3dd6-11ef-ad06-5945cbceeba1",
+                    "nodeid": "b6c4c1a2-3dd8-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "d13c",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "d13C",
+                    "nodegroup_id": "5b47d024-3dd5-11ef-ad06-5945cbceeba1",
+                    "nodeid": "d2f678be-3dd5-11ef-ad06-5945cbceeba1",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E60_Number",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": null,
+                "config": {
+                    "en": ""
+                },
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "77cc086c-1770-4e35-ba27-8f322a00689b",
+                "hascustomalias": false,
+                "is_collector": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "MAPHSA Radiocarbon Date Resource Model v0.1",
+                "nodegroup_id": null,
+                "nodeid": "4b8d468c-3dd5-11ef-ad06-5945cbceeba1",
+                "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S21_Measurement",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.12 (Ubuntu 14.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "78d455707 2024-04-18 16:53:27 -0700",
+        "os": "Linux",
+        "os version": "6.5.0-35-generic"
+    }
+}

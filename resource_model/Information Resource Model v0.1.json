@@ -305,7 +305,7 @@
                     "edgeid": "2c4bfa79-fdca-4998-b2ec-626cdb4878d2",
                     "graph_id": "ee62b317-ee40-4a7b-aaa4-4115bb2120b9",
                     "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "eca00e9c-d6f1-11ee-9743-b5f1595c5346"
                 },
                 {
@@ -341,7 +341,7 @@
                     "edgeid": "49ded374-9136-4b5a-93f5-65972c31dbcb",
                     "graph_id": "ee62b317-ee40-4a7b-aaa4-4115bb2120b9",
                     "name": null,
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L33_has_maker",
                     "rangenode_id": "06639880-d6f2-11ee-9743-b5f1595c5346"
                 },
                 {
@@ -549,7 +549,7 @@
                     "nodegroup_id": "033cd624-d6ef-11ee-9743-b5f1595c5346",
                     "nodeid": "06639880-d6f2-11ee-9743-b5f1595c5346",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L33_has_maker",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
@@ -928,8 +928,8 @@
                     "name": "Place of Publication",
                     "nodegroup_id": "033cd624-d6ef-11ee-9743-b5f1595c5346",
                     "nodeid": "eca00e9c-d6f1-11ee-9743-b5f1595c5346",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
@@ -992,9 +992,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
-        "git hash": "6346ab34e 2023-07-27 16:38:13 -0700",
+        "db": "PostgreSQL 14.12 (Ubuntu 14.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "78d455707 2024-04-18 16:53:27 -0700",
         "os": "Linux",
-        "os version": "5.15.0-97-generic"
+        "os version": "6.5.0-35-generic"
     }
 }
